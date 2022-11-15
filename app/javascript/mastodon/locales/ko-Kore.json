@@ -530,7 +530,7 @@
     "upload_modal.applying": "適用中...",
     "upload_modal.choose_image": "이미지 選擇",
     "upload_modal.description_placeholder": "다람쥐 헌 쳇바퀴 타고파",
-    "upload_modal.detect_text": "이미지에서 텍스트 抽出",
+    "upload_modal.detect_text": "이미지에서 텍스트 찾기",
     "upload_modal.edit_media": "미디어 編輯",
     "upload_modal.hint": "미리보기를 클릭하거나 드래그 해서 焦點을 맞추세요. 이 點은 썸네일에 恒常 보여질 部分을 나타냅니다.",
     "upload_modal.preparing_ocr": "OCR 準備中…",
