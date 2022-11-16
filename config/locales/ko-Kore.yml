@@ -170,7 +170,7 @@ ko-Kore:
       previous_strikes: 以前의 處罰들
       previous_strikes_description_html:
         other: 이 計定은 <strong>%{count}</strong> 番의 處罰이 있었습니다.
-      promote: 昇給
+      promote: 昇級
       protocol: 프로토콜
       public: 公開
       push_subscription_expires: PuSH 구독 期間 滿了
