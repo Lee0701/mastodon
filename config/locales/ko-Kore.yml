@@ -1779,13 +1779,13 @@ ko-Kore:
       success: 保安 키가 成功的으로 追加되었습니다.
     delete: 削除
     delete_confirmation: 정말로 이 保安 키를 削除하시겠습니까?
-    description_html: "<strong>보안 키 인증</strong>을 활성화 하면, 로그인 시 보안 키 중 하나가 필요합니다."
+    description_html: "<strong>保安 키 認證</strong>을 活性化 하면, 로그인 時 保安 키 中 하나가 必要합니다."
     destroy:
-      error: 보안 키를 삭제하는데 문제가 발생했습니다. 다시 시도해보십시오.
-      success: 보안 키가 성공적으로 삭제되었습니다.
-    invalid_credential: 올바르지 않은 보안 키
-    nickname_hint: 새 보안 키의 별명을 입력해 주세요
-    not_enabled: 아직 WebAuthn을 활성화 하지 않았습니다.
+      error: 保安 키를 削除하는데 問題가 發生했습니다. 다시 試圖해보십시오.
+      success: 保安 키가 成功的으로 削除되었습니다.
+    invalid_credential: 올바르지 않은 保安 키
+    nickname_hint: 새 保安 키의 別名을 入力해 주세요
+    not_enabled: 아직 WebAuthn을 活性化 하지 않았습니다.
     not_supported: 이 브라우저는 보안 키를 지원하지 않습니다
-    otp_required: 보안 키를 사용하기 위해서는 2단계 인증을 먼저 활성화 해 주세요
-    registered_on: "%{date} 에 등록됨"
+    otp_required: 保安 키를 使用하기 爲해서는 2段階 認證을 먼저 活性化 해 주세요
+    registered_on: "%{date} 에 登錄됨"
