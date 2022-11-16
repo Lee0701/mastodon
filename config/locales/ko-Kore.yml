@@ -973,13 +973,13 @@ ko-Kore:
     forgot_password: 秘密番號를 잊어버리셨습니까?
     invalid_reset_password_token: 暗號 리셋 토큰이 올바르지 못하거나 期間이 滿了되었습니다. 다시 要請해주세요.
     link_to_otp: 휴대폰의 2차 코드 혹은 復舊 키를 入力해 주세요
-    link_to_webauth: 보안 키 장치 사용
+    link_to_webauth: 保安 키 裝置 使用
     log_in_with: 다음으로 로그인
     login: 로그인
     logout: 로그아웃
-    migrate_account: 계정 옮기기
-    migrate_account_html: 이 계정을 다른 계정으로 리디렉션 하길 원하는 경우 <a href="%{path}">여기</a>에서
-      설정할 수 있습니다.
+    migrate_account: 計定 옮기기
+    migrate_account_html: 이 計定을 다른 計定으로 리디렉션 하길 원하는 경우 <a href="%{path}">여기</a>에서
+      設定할 수 있습니다.
     or_log_in_with: 다른 방법으로 로그인 하려면
     providers:
       cas: CAS
