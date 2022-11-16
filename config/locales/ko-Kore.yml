@@ -833,20 +833,20 @@ ko-Kore:
         description_html: 當身의 서버에서 많은 링크가 共有되고 있는 도메인들입니다. 링크의 도메인이 承認되기 前까지는 링크들은
           公開的으로 트렌드에 揭示되지 않습니다. 當身의 承認(또는 拒絶)은 서브도메인까지 擴張됩니다.
         rejected: 이 出處의 링크는 遊行 目錄에 실릴 수 없습니다
-        title: 출처
-      rejected: 거부됨
+        title: 出處
+      rejected: 拒否됨
       statuses:
-        allow: 게시물 허용
-        allow_account: 작성자 허용
-        description_html: 당신의 서버가 알기로 현재 많은 수의 공유와 좋아요가 되고 있는 게시물들입니다. 새로운 사용자나 돌아오는
-          사용자들이 팔로우 할 사람들을 찾는 데 도움이 될 수 있습니다. 작성자를 승인하고, 작성자가 그들의 계정이 다른 계정에게 탐색되도록
-          설정하지 않는 한 게시물들은 공개적으로 표시되지 않습니다. 또한 각각의 게시물을 별개로 거절할 수도 있습니다.
-        disallow: 게시물 불허
-        disallow_account: 작성자 불허
-        not_discoverable: 작성자가 발견되기를 원치 않습니다
+        allow: 揭示物 許容
+        allow_account: 作成者 許容
+        description_html: 當身의 서버가 알기로 現在 많은 數의 共有와 좋아요가 되고 있는 揭示物들입니다. 새로운 使用者나 돌아오는
+          使用者들이 팔로우 할 사람들을 찾는 데 도움이 될 수 있습니다. 作成者를 承認하고, 作成者가 그들의 計定이 다른 計定에게 探索되도록
+          設定하지 않는 한 揭示物들은 公開的으로 表示되지 않습니다. 또한 각각의 揭示物을 別個로 拒絶할 數도 있습니다.
+        disallow: 揭示物 不許
+        disallow_account: 作成者 不許
+        not_discoverable: 作成者가 發見되기를 원치 않습니다
         shared_by:
-          other: "%{friendly_count} 번 공유되고 마음에 들어했습니다"
-        title: 유행하는 게시물
+          other: "%{friendly_count} 番 共有되고 마음에 들어했습니다"
+        title: 遊行하는 揭示物
       tags:
         current_score: 현재 %{score}점
         dashboard:
