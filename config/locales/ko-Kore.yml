@@ -914,7 +914,7 @@ ko-Kore:
         no_approved_tags: 現在 承認된 流行 中인 해시태그가 없습니다.
         requirements: '이 候補들 中 어떤 것이라도 #%{rank}位의 承認된 遊行 中인 해시태그를 앞지를 수 있으며, 이것은 現在
           #%{lowest_tag_name}이고 %{lowest_tag_score}點을 기록하고 있습니다.'
-        title: 유행하는 해시태그
+        title: 遊行하는 해시태그
       subject: 새 트렌드가 %{instance}에서 심사 대기 중입니다
   aliases:
     add_new: 별칭 만들기
