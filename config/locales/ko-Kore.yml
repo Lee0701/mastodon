@@ -865,10 +865,10 @@ ko-Kore:
         title: 流行하는 해시태그
         trendable: 流行 目綠에 나타날 수 있습니다
         trending_rank: "#%{rank}位로 流行 中"
-        usable: 사용 가능
-        usage_comparison: 오늘은 %{today}회 사용되었고, 어제는 %{yesterday}회 사용되었습니다
+        usable: 使用 可能
+        usage_comparison: 오늘은 %{today}回 使用되었고, 어제는 %{yesterday}回 使用되었습니다
         used_by_over_week:
-          other: 지난 주 동안 %{count} 명의 사람들이 사용했습니다
+          other: 지난 周 동안 %{count} 名의 사람들이 使用했습니다
       title: 유행
       trending: 유행중
     warning_presets:
