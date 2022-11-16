@@ -83,48 +83,48 @@ ko-Kore:
         title: 保安 키 非活性化 됨
       webauthn_enabled:
         explanation: 保安 키 認證이 當身의 計定에 對해 活性化 되어 있습니다. 保安 키를 通해 로그인 할 수 있습니다.
-        subject: '마스토돈: 보안 키 인증 활성화 됨'
-        title: 보안 키 활성화 됨
+        subject: '마스토돈: 保安 키 認證 活性化 됨'
+        title: 保安 키 活性化 됨
     omniauth_callbacks:
-      failure: '"%{reason}" 때문에 당신을 %{kind}에서 인증할 수 없습니다.'
-      success: 성공적으로 %{kind} 계정을 인증 했습니다.
+      failure: '"%{reason}" 때문에 當身을 %{kind}에서 認證할 수 없습니다.'
+      success: 成功的으로 %{kind} 計定을 認證 했습니다.
     passwords:
-      no_token: 패스워드 재설정 이메일을 거치지 않고는 여기에 올 수 없습니다. 만약 패스워드 재설정 메일에서 온 것이라면 URL이 맞는지
-        확인해 주세요.
-      send_instructions: 당신의 이메일 주소가 우리의 DB에 있다면 패스워드 복구 링크가 몇 분 이내에 메일로 발송 됩니다. 만약
-        메일을 받지 못 하신 경우 스팸 폴더를 확인해 주세요.
-      send_paranoid_instructions: 당신의 이메일 주소가 우리의 DB에 있다면 패스워드 복구 링크가 몇 분 이내에 메일로
-        발송 됩니다. 만약 메일을 받지 못 하신 경우 스팸 폴더를 확인해 주세요.
-      updated: 패스워드가 재설정 되었습니다. 로그인 되었습니다.
-      updated_not_active: 패스워드가 성공적으로 변경 되었습니다.
+      no_token: 패스워드 再設定 이메일을 거치지 않고는 여기에 올 수 없습니다. 萬若 패스워드 再設定 메일에서 온 것이라면 URL이 맞는지
+        確認해 주세요.
+      send_instructions: 當身의 이메일 住所가 우리의 DB에 있다면 패스워드 復舊 링크가 몇 分 以內에 메일로 發送 됩니다. 萬若
+        메일을 받지 못 하신 境遇 스팸 폴더를 確認해 주세요.
+      send_paranoid_instructions: 當身의 이메일 住所가 우리의 DB에 있다면 패스워드 復舊 링크가 몇 分 以內에 메일로
+        發送 됩니다. 만약 메일을 받지 못 하신 境遇 스팸 폴더를 確認해 주세요.
+      updated: 패스워드가 再設定 되었습니다. 로그인 되었습니다.
+      updated_not_active: 패스워드가 成功的으로 變更 되었습니다.
     registrations:
-      destroyed: 안녕히 가세요! 계정이 성공적으로 제거되었습니다. 다시 만나기를 희망합니다.
-      signed_up: 안녕하세요! 성공적으로 가입했습니다.
-      signed_up_but_inactive: 성공적으로 가입 했습니다. 그러나, 계정이 활성화 되지 않았기 때문에 아직 로그인 할 수 없습니다.
-      signed_up_but_locked: 성공적으로 가입 했습니다. 그러나, 계정이 잠겨있기 때문에 아직 로그인 할 수 없습니다.
-      signed_up_but_pending: 확인 링크를 포함한 메일이 발송 되었습니다. 링크를 클릭한 이후, 우리가 당신의 신청양식을 검토합니다.
-        승인이 되면 알림을 발송합니다.
-      signed_up_but_unconfirmed: 확인 링크를 포함한 메일이 발송 되었습니다. 링크를 클릭해 계정을 활성화 하세요. 메일을
-        받지 못 하신 경우 스팸 폴더를 확인해 주세요.
-      update_needs_confirmation: 계정 정보를 업데이트 했습니다. 하지만 새 이메일 주소에 대한 확인이 필요합니다. 이메일을
-        확인 한 후 링크를 통해 새 이메일을 확인 하세요. 메일을 받지 못 하신 경우 스팸 폴더를 확인해 주세요.
-      updated: 계정 정보가 성공적으로 업데이트 되었습니다.
+      destroyed: 安寧히 가세요! 計定이 成功的으로 除去되었습니다. 다시 만나기를 希望합니다.
+      signed_up: 安寧하세요! 成功的으로 加入했습니다.
+      signed_up_but_inactive: 成功的으로 加入 했습니다. 그러나, 計定이 活性化 되지 않았기 때문에 아직 로그인 할 수 없습니다.
+      signed_up_but_locked: 成功的으로 加入 했습니다. 그러나, 計定이 잠겨있기 때문에 아직 로그인 할 수 없습니다.
+      signed_up_but_pending: 確認 링크를 包含한 메일이 發送 되었습니다. 링크를 클릭한 以後, 우리가 當身의 申請樣式을 檢討합니다.
+        承認이 되면 알림을 發送합니다.
+      signed_up_but_unconfirmed: 確認 링크를 包含한 메일이 發送 되었습니다. 링크를 클릭해 計定을 活性化 하세요. 메일을
+        받지 못 하신 경우 스팸 폴더를 確認해 주세요.
+      update_needs_confirmation: 計定 情報를 업데이트 했습니다. 하지만 새 이메일 住所에 대한 確認이 必要합니다. 이메일을
+        確認 한 後 링크를 通해 새 이메일을 確認 하세요. 메일을 받지 못 하신 境遇 스팸 폴더를 確認해 주세요.
+      updated: 計定 情報가 成功的으로 업데이트 되었습니다.
     sessions:
-      already_signed_out: 성공적으로 로그아웃 되었습니다.
-      signed_in: 성공적으로 로그인 되었습니다.
-      signed_out: 성공적으로 로그아웃 되었습니다.
+      already_signed_out: 成功的으로 로그아웃 되었습니다.
+      signed_in: 成功的으로 로그인 되었습니다.
+      signed_out: 成功的으로 로그아웃 되었습니다.
     unlocks:
-      send_instructions: 몇 분 이내로 계정 잠금 해제에 대한 안내 메일이 발송 됩니다. 메일을 받지 못 하신 경우 스팸 폴더를
-        확인해 주세요.
-      send_paranoid_instructions: 계정이 존재한다면 몇 분 이내로 계정 잠금 해제에 대한 안내 메일이 발송 됩니다. 메일을
-        받지 못 하신 경우 스팸 폴더를 확인해 주세요.
-      unlocked: 계정이 성공적으로 잠금 해제 되었습니다. 계속 하려면 로그인 하세요.
+      send_instructions: 몇 分 以內로 計定 잠금 解除에 對한 案內 메일이 發送 됩니다. 메일을 받지 못 하신 境遇 스팸 폴더를
+        確認해 주세요.
+      send_paranoid_instructions: 計定이 存在한다면 몇 分 以內로 計定 잠금 解除에 對한 案內 메일이 發送 됩니다. 메일을
+        받지 못 하신 境遇 스팸 폴더를 確認해 주세요.
+      unlocked: 計定이 成功的으로 잠금 解除 되었습니다. 繼續 하려면 로그인 하세요.
   errors:
     messages:
-      already_confirmed: 이미 확인 되었습니다, 로그인 하세요
-      confirmation_period_expired: "%{period} 안에 확인을 해야 합니다, 새로 요청하세요"
-      expired: 만료되었습니다, 새로 요청하세요
+      already_confirmed: 이미 確認 되었습니다, 로그인 하세요
+      confirmation_period_expired: "%{period} 안에 確認을 해야 합니다, 새로 要請하세요"
+      expired: 滿了되었습니다, 새로 要請하세요
       not_found: 찾을 수 없습니다
       not_locked: 잠기지 않았습니다
       not_saved:
-        other: "%{count}의 에러로 인해 %{resource}가 저장 될 수 없습니다:"
+        other: "%{count}個의 에러로 인해 %{resource}가 貯藏 될 수 없습니다:"
