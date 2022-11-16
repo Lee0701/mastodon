@@ -1362,7 +1362,7 @@ ko-Kore:
   reactions:
     errors:
       limit_reached: 다른 리액션 制限에 到達했습니다
-      unrecognized_emoji: 認識 되지 않은 에모지입니다
+      unrecognized_emoji: 認識 되지 않은 繪文字입니다
   relationships:
     activity: 計定 活動
     dormant: 休眠
