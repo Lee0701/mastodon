@@ -1364,40 +1364,40 @@ ko-Kore:
       limit_reached: 다른 리액션 制限에 到達했습니다
       unrecognized_emoji: 認識 되지 않은 에모지입니다
   relationships:
-    activity: 계정 활동
-    dormant: 휴면
-    follow_selected_followers: 선택한 팔로워들을 팔로우
+    activity: 計定 活動
+    dormant: 休眠
+    follow_selected_followers: 選擇한 팔로워들을 팔로우
     followers: 팔로워
     following: 팔로잉
-    invited: 초대됨
-    last_active: 마지막 활동
-    most_recent: 가장 최근
-    moved: 이동함
-    mutual: 상호 팔로우
-    primary: 주 계정
-    relationship: 관계
-    remove_selected_domains: 선택한 도메인의 모든 팔로워 삭제
-    remove_selected_followers: 선택한 팔로워 삭제
-    remove_selected_follows: 선택한 사용자들을 팔로우 해제
-    status: 계정 상태
+    invited: 招待됨
+    last_active: 마지막 活動
+    most_recent: 가장 最近
+    moved: 移動함
+    mutual: 相互 팔로우
+    primary: 主 計定
+    relationship: 關係
+    remove_selected_domains: 選擇한 도메인의 모든 팔로워 削除
+    remove_selected_followers: 選擇한 팔로워 削除
+    remove_selected_follows: 選擇한 使用者들을 팔로우 解除
+    status: 計定 狀態
   remote_follow:
-    acct: 당신이 사용하는 아이디@도메인을 입력해 주십시오
-    missing_resource: 리디렉션 대상을 찾을 수 없습니다
-    no_account_html: 계정이 없나요? <a href='%{sign_up_path}' target='_blank'>여기에서 가입 할
+    acct: 當身이 使用하는 아이디@도메인을 入力해 주십시오
+    missing_resource: 리디렉션 對象을 찾을 수 없습니다
+    no_account_html: 計定이 없나요? <a href='%{sign_up_path}' target='_blank'>여기에서 加入 할
       수 있습니다</a>
     proceed: 팔로우 하기
     prompt: '팔로우 하려 하고 있습니다:'
-    reason_html: "<strong>왜 이 과정이 필요하죠?</strong><code>%{instance}</code>는 당신이 가입한\
+    reason_html: "<strong>왜 이 過程이 必要하죠?</strong><code>%{instance}</code>는 當身이 加入한\
       \ 서버가 아닐 것입니다, 당신의 홈 서버로 먼저 가야 합니다."
   remote_interaction:
     favourite:
-      proceed: 좋아요 진행
-      prompt: '이 게시물을 좋아요 하려고 합니다:'
+      proceed: 좋아요 進行
+      prompt: '이 揭示物을 좋아요 하려고 합니다:'
     reblog:
-      proceed: 부스트 진행
-      prompt: '이 게시물을 부스트 하려 합니다:'
+      proceed: 부스트 進行
+      prompt: '이 揭示物을 부스트 하려 합니다:'
     reply:
-      proceed: 답장 진행
+      proceed: 답장 進行
       prompt: '이 게시물에 답장을 하려 합니다:'
   reports:
     errors:
