@@ -496,7 +496,7 @@ ko-Kore:
         failures_recorded:
           other: 失敗한 傳達 試圖 總 %{count}日.
         no_failures_recorded: 失敗 記錄이 없습니다.
-        title: 可鎔性
+        title: 可用性
         warning: 이 서버에 對한 마지막 連結 試圖가 成功的이지 않았습니다
       back_to_all: 全體
       back_to_limited: 制限됨
