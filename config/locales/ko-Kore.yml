@@ -1009,7 +1009,7 @@ ko-Kore:
   authorize_follow:
     already_following: 이미 이 計定을 팔로우 하고 있습니다
     already_requested: 이미 이 計定에게 팔로우 要請을 보냈습니다
-    error: 리모트 計定을 確認하는 途中 오류가 發生했습니다
+    error: 리모트 計定을 確認하는 途中 誤謬가 發生했습니다
     follow: 팔로우
     follow_request: '當身은 다음 計定에 팔로우 申請을 했습니다:'
     following: '成功! 當身은 다음 計定을 팔로우 하고 있습니다:'
