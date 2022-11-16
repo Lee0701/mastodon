@@ -621,7 +621,7 @@ ko-Kore:
       actions_description_html: 이 報告書를 解決하기 爲해 취해야 할 措置를 指定해주세요. 申告된 計定에 對해 處罰 措置를
         취하면 <strong>스팸</strong> 카테고리가 選擇된 境遇를 除外하고 이메일 알림이 해당 計定으로 傳送됩니다.
       add_to_report: 申告에 더 追加하기
-      are_you_sure: 정말로 實行하시겠습니까?
+      are_you_sure: 正말로 實行하시겠습니까?
       assign_to_self: 나에게 割當하기
       assigned: 割當 된 仲裁者
       by_target_domain: 申告된 計定의 도메인
