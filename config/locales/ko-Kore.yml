@@ -848,18 +848,18 @@ ko-Kore:
           other: "%{friendly_count} 番 共有되고 마음에 들어했습니다"
         title: 遊行하는 揭示物
       tags:
-        current_score: 현재 %{score}점
+        current_score: 現在 %{score}點
         dashboard:
-          tag_accounts_measure: 고유한 사용
-          tag_languages_dimension: 상위 언어
-          tag_servers_dimension: 상위 서버
+          tag_accounts_measure: 固有한 使用
+          tag_languages_dimension: 上位 言語
+          tag_servers_dimension: 上位 서버
           tag_servers_measure: 다른 서버들
-          tag_uses_measure: 총 사용
-        description_html: 현재 서버에서 볼 수 있는 게시물에서 많이 공유되고 있는 해시태그들입니다. 현재 사람들이 무슨 이야기를
-          하고 있는지 사용자들이 파악할 수 있도록 도움이 됩니다. 승인하지 않는 한 해시태그는 공개적으로 게시되지 않습니다.
-        listable: 추천될 수 있습니다
-        not_listable: 추천될 수 없습니다
-        not_trendable: 유행 목록에 나타나지 않습니다
+          tag_uses_measure: 總 使用
+        description_html: 現在 서버에서 볼 수 있는 揭示物에서 많이 共有되고 있는 해시태그들입니다. 現在 사람들이 무슨 이야기를
+          하고 있는지 使用者들이 把握할 수 있도록 도움이 됩니다. 承認하지 않는 한 해시태그는 公開的으로 揭示되지 않습니다.
+        listable: 推薦될 수 있습니다
+        not_listable: 推薦될 수 없습니다
+        not_trendable: 遊行 目錄에 나타나지 않습니다
         not_usable: 사용불가
         peaked_on_and_decaying: "%{date}에 고점을 찍고, 떨어지고 있습니다"
         title: 유행하는 해시태그
