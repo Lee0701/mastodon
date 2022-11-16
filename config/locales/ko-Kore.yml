@@ -383,10 +383,10 @@ ko-Kore:
       listed: 目錄에 실림
       new:
         title: 새 커스텀 繪文字 追加
-      not_permitted: 이 작업을 수행할 권한이 없습니다
+      not_permitted: 이 作業을 遂行할 權限이 없습니다
       overwrite: 덮어쓰기
       shortcode: 짧은 코드
-      shortcode_hint: 최소 2글자, 영문자, 숫자, _만 사용 가능
+      shortcode_hint: 最小 2글字, 英文字, 數字, _만 使用 可能
       title: 커스텀 에모지
       uncategorized: 분류되지 않음
       unlist: 목록에서 제거
