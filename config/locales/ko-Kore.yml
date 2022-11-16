@@ -907,7 +907,7 @@ ko-Kore:
         title: 流行하는 링크
       new_trending_statuses:
         no_approved_statuses: 現在 承認된 流行 中인 揭示物이 없습니다.
-        requirements: '이 候補들 중 어떤 것이라도 #%{rank}位의 承認된 遊行 中인 揭示物을 앞지를 수 있으며, 이것은 現在
+        requirements: '이 候補들 중 어떤 것이라도 #%{rank}位의 承認된 流行 中인 揭示物을 앞지를 수 있으며, 이것은 現在
           %{lowest_status_url}이고 %{lowest_status_score}點을 記錄하고 있습니다.'
         title: 遊行하는 揭示物
       new_trending_tags:
