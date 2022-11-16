@@ -268,54 +268,54 @@ ko-Kore:
         enable_user: 使用者 活性化
         memorialize_account: 追慕計定으로 轉換
         promote_user: 使用者 昇給
-        reject_appeal: 이의제기 거절
-        reject_user: 사용자 거부
+        reject_appeal: 異議提起 拒絶
+        reject_user: 使用者 拒否
         remove_avatar_user: 아바타 지우기
-        reopen_report: 신고 다시 열기
-        reset_password_user: 암호 재설정
-        resolve_report: 신고 처리
-        sensitive_account: 당신의 계정의 미디어를 민감함으로 표시
-        silence_account: 계정 침묵
-        suspend_account: 계정 정지
-        unassigned_report: 신고 맡기 취소
-        unblock_email_account: 이메일 주소 차단 해제
-        unsensitive_account: 당신의 계정의 미디어를 민감함으로 표시하지 않음
-        unsilence_account: 계정 침묵 취소
+        reopen_report: 申告 다시 열기
+        reset_password_user: 暗號 再設定
+        resolve_report: 申告 處理
+        sensitive_account: 當身의 計定의 미디어를 敏感함으로 表示
+        silence_account: 計定 沈默
+        suspend_account: 計定 停止
+        unassigned_report: 申告 맡기 取消
+        unblock_email_account: 이메일 住所 遮斷 解除
+        unsensitive_account: 當身의 計定의 미디어를 敏感함으로 表示하지 않음
+        unsilence_account: 計定 沈默 取消
         unsuspend_account: 計定 停止 取消
-        update_announcement: 공지사항 업데이트
+        update_announcement: 公知事項 업데이트
         update_custom_emoji: 커스텀 에모지 업데이트
-        update_domain_block: 도메인 차단 갱신
-        update_status: 게시물 게시
+        update_domain_block: 도메인 遮斷 更新
+        update_status: 揭示物 揭示
       actions:
-        approve_appeal_html: "%{name} 님이 %{target}의 중재 결정에 대한 이의제기를 승인했습니다"
-        approve_user_html: "%{name} 님이 %{target}의 가입을 승인했습니다"
-        assigned_to_self_report_html: "%{name} 님이 신고 %{target}을 자신에게 할당했습니다"
-        change_email_user_html: "%{name} 님이 사용자 %{target}의 이메일 주소를 변경했습니다"
-        confirm_user_html: "%{name} 님이 사용자 %{target}의 이메일 주소를 승인했습니다"
-        create_account_warning_html: "%{name} 님이 %{target}에게 경고를 보냈습니다"
-        create_announcement_html: "%{name} 님이 새 공지 %{target}을 만들었습니다"
+        approve_appeal_html: "%{name} 님이 %{target}의 仲裁 決定에 對한 異議提起를 承認했습니다"
+        approve_user_html: "%{name} 님이 %{target}의 加入을 承認했습니다"
+        assigned_to_self_report_html: "%{name} 님이 申告 %{target}을 自身에게 割當했습니다"
+        change_email_user_html: "%{name} 님이 使用者 %{target}의 이메일 住所를 變更했습니다"
+        confirm_user_html: "%{name} 님이 使用者 %{target}의 이메일 住所를 承認했습니다"
+        create_account_warning_html: "%{name} 님이 %{target}에게 警告를 보냈습니다"
+        create_announcement_html: "%{name} 님이 새 公知 %{target}을 만들었습니다"
         create_custom_emoji_html: "%{name} 님이 새로운 에모지 %{target}를 업로드 했습니다"
-        create_domain_allow_html: "%{name} 님이 %{target} 도메인을 허용리스트에 넣었습니다"
-        create_domain_block_html: "%{name} 님이 도메인 %{target}를 차단했습니다"
-        create_email_domain_block_html: "%{name} 님이 이메일 도메인 %{target}를 차단했습니다"
-        create_ip_block_html: "%{name} 님이 IP 규칙 %{target}을 만들었습니다"
-        create_unavailable_domain_html: "%{name} 님이 도메인 %{target}에 대한 전달을 중지했습니다"
-        demote_user_html: "%{name} 님이 사용자 %{target} 님을 강등했습니다"
-        destroy_announcement_html: "%{name} 님이 공지 %{target}을 삭제했습니다"
-        destroy_custom_emoji_html: "%{name} 님이 %{target} 에모지를 삭제했습니다"
-        destroy_domain_allow_html: "%{name} 님이 %{target} 도메인과의 연합을 금지했습니다"
-        destroy_domain_block_html: "%{name} 님이 도메인 %{target}의 차단을 해제했습니다"
-        destroy_email_domain_block_html: "%{name} 님이 이메일 도메인 %{target}을 차단 해제하였습니다"
-        destroy_instance_html: "%{name} 님이 도메인 %{target}를 제거했습니다"
-        destroy_ip_block_html: "%{name} 님이 IP 규칙 %{target}을 삭제하였습니다"
-        destroy_status_html: "%{name} 님이 %{target}의 게시물을 삭제했습니다"
-        destroy_unavailable_domain_html: "%{name} 님이 도메인 %{target}에 대한 전달을 재개"
-        disable_2fa_user_html: "%{name} 님이 사용자 %{target}의 2FA를 비활성화 했습니다"
-        disable_custom_emoji_html: "%{name} 님이 에모지 %{target}를 비활성화 했습니다"
-        disable_sign_in_token_auth_user_html: "%{name} 님이 %{target} 님의 이메일 토큰 인증을\
-          \ 비활성화 했습니다"
-        disable_user_html: "%{name} 님이 사용자 %{target}의 로그인을 비활성화 했습니다"
-        enable_custom_emoji_html: "%{name} 님이 에모지 %{target}를 활성화 했습니다"
+        create_domain_allow_html: "%{name} 님이 %{target} 도메인을 許容리스트에 넣었습니다"
+        create_domain_block_html: "%{name} 님이 도메인 %{target}를 遮斷했습니다"
+        create_email_domain_block_html: "%{name} 님이 이메일 도메인 %{target}를 遮斷했습니다"
+        create_ip_block_html: "%{name} 님이 IP 規則 %{target}을 만들었습니다"
+        create_unavailable_domain_html: "%{name} 님이 도메인 %{target}에 對한 傳達을 中止했습니다"
+        demote_user_html: "%{name} 님이 使用者 %{target} 님을 降等했습니다"
+        destroy_announcement_html: "%{name} 님이 公知 %{target}을 削除했습니다"
+        destroy_custom_emoji_html: "%{name} 님이 %{target} 에모지를 削除했습니다"
+        destroy_domain_allow_html: "%{name} 님이 %{target} 도메인과의 聯合을 禁止했습니다"
+        destroy_domain_block_html: "%{name} 님이 도메인 %{target}의 遮斷을 解除했습니다"
+        destroy_email_domain_block_html: "%{name} 님이 이메일 도메인 %{target}을 遮斷 解除하였습니다"
+        destroy_instance_html: "%{name} 님이 도메인 %{target}를 除去했습니다"
+        destroy_ip_block_html: "%{name} 님이 IP 規則 %{target}을 削除하였습니다"
+        destroy_status_html: "%{name} 님이 %{target}의 揭示物을 削除했습니다"
+        destroy_unavailable_domain_html: "%{name} 님이 도메인 %{target}에 對한 傳達을 再開"
+        disable_2fa_user_html: "%{name} 님이 使用者 %{target}의 2FA를 非活性化 했습니다"
+        disable_custom_emoji_html: "%{name} 님이 에모지 %{target}를 非活性化 했습니다"
+        disable_sign_in_token_auth_user_html: "%{name} 님이 %{target} 님의 이메일 토큰 認證을\
+          \ 非活性化 했습니다"
+        disable_user_html: "%{name} 님이 使用者 %{target}의 로그인을 非活性化 했습니다"
+        enable_custom_emoji_html: "%{name} 님이 에모지 %{target}를 活性化 했습니다"
         enable_sign_in_token_auth_user_html: "%{name} 님이 %{target} 님의 이메일 토큰 인증을 활성화\
           \ 했습니다"
         enable_user_html: "%{name} 님이 사용자 %{target}의 로그인을 활성화 했습니다"
