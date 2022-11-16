@@ -546,44 +546,44 @@ ko-Kore:
       purge: 除去
       purge_description_html: 이 도메인이 永久的으로 오프라인 狀態라고 生角되면 스토리지에서 이 도메인의 모든 計定 레코드와
         關聯 데이터를 削除할 수 있습니다. 이 作業은 時間이 좀 걸릴 수 있습니다.
-      title: 연합
-      total_blocked_by_us: 우리에게 차단 됨
+      title: 聯合
+      total_blocked_by_us: 우리에게 遮斷 됨
       total_followed_by_them: 우리를 팔로우
       total_followed_by_us: 우리가 한 팔로우
-      total_reported: 이들에 대한 신고
-      total_storage: 미디어 첨부
-      totals_time_period_hint_html: 아래에 표시된 총계에는 모든 시간에 대한 데이터가 포함됩니다.
+      total_reported: 이들에 對한 申告
+      total_storage: 미디어 添附
+      totals_time_period_hint_html: 아래에 表示된 總計에는 모든 時間에 對한 데이터가 包含됩니다.
     invites:
-      deactivate_all: 전부 비활성화
+      deactivate_all: 全部 非活性化
       filter:
         all: 모두
-        available: 사용가능
-        expired: 만료됨
+        available: 使用可能
+        expired: 滿了됨
         title: 필터
-      title: 초대
+      title: 招待
     ip_blocks:
-      add_new: 규칙 만들기
-      created_msg: 성공적으로 새 IP 규칙을 만들었습니다
-      delete: 삭제
+      add_new: 規則 만들기
+      created_msg: 成功的으로 새 IP 規則을 만들었습니다
+      delete: 削除
       expires_in:
-        '1209600': 2 주
+        '1209600': 2 周
         '15778476': 6 달
         '2629746': 1 달
-        '31556952': 1 년
-        '86400': 1 일
-        '94670856': 3 년
+        '31556952': 1 年
+        '86400': 1 日
+        '94670856': 3 年
       new:
-        title: 새 IP 규칙 만들기
-      no_ip_block_selected: 아무 것도 선택 되지 않아 어떤 IP 규칙도 변경 되지 않았습니다
-      title: IP 규칙들
+        title: 새 IP 規則 만들기
+      no_ip_block_selected: 아무 것도 選擇 되지 않아 어떤 IP 規則도 變更 되지 않았습니다
+      title: IP 規則들
     relationships:
-      title: "%{acct}의 관계"
+      title: "%{acct}의 關係"
     relays:
-      add_new: 릴레이 추가
-      delete: 삭제
-      description_html: "<strong>연합 릴레이</strong>는 서버들 사이에서 많은 양의 공개 게시물을 구독하고 중개하는\
-        \ 서버입니다. <strong>이것은 중소 규모의 서버에서 연합우주를 발견하는 데에 도움을 줄 수 있습니다</strong>, 이제 로컬\
-        \ 사용자들이 다른 서버의 사용자들을 수동으로 팔로우 하지 않아도 됩니다."
+      add_new: 릴레이 追加
+      delete: 削除
+      description_html: "<strong>聯合 릴레이</strong>는 서버들 사이에서 많은 量의 公開 揭示物을 구독하고 仲介하는\
+        \ 서버입니다. <strong>이것은 中小 規摹의 서버에서 聯合宇宙를 發見하는 데에 도움을 줄 수 있습니다</strong>, 이제 로컬\
+        \ 使用者들이 다른 서버의 使用者들을 手動으로 팔로우 하지 않아도 됩니다."
       disable: 비활성화
       disabled: 비활성화 됨
       enable: 활성화
