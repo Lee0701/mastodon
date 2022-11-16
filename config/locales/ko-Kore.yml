@@ -86,10 +86,10 @@ ko-Kore:
     posts_tab_heading: 揭示物
     posts_with_replies: 揭示物과 答將
     roles:
-      admin: 관리자
+      admin: 管理者
       bot: 봇
       group: 그룹
-      moderator: 중재자
+      moderator: 仲裁者
     unavailable: 프로필 사용 불가
     unfollow: 팔로우 해제
   admin:
