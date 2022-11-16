@@ -260,7 +260,7 @@ ko-Kore:
         destroy_status: 揭示物 削除
         destroy_unavailable_domain: 使用 不可能한 도메인 除去
         disable_2fa_user: 2段階 認證 非活性化
-        disable_custom_emoji: 커스텀 에모지 非活性化
+        disable_custom_emoji: 커스텀 繪文字 非活性化
         disable_sign_in_token_auth_user: 使用者에 對한 이메일 토큰 認證 非活性化
         disable_user: 使用者 非活性化
         enable_custom_emoji: 커스텀 에모지 活性化
