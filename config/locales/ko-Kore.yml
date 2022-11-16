@@ -29,40 +29,40 @@ ko-Kore:
     instance_actor_flash: |-
       이 計定은 假象의 actor로서 個人 使用者가 아닌 서버 自體를 나타냅니다.
       이것은 페더레이션을 目的으로 使用 되며 인스턴스 全體를 遮斷하려 하지 않는 以上 遮斷하지 않아야 합니다, 그 境遇에는 도메인 遮斷을 使用하세요.
-    learn_more: 자세히
+    learn_more: 仔細히
     logged_in_as_html: 現在 %{username}으로 로그인 했습니다.
     logout_before_registering: 이미 로그인 했습니다.
-    privacy_policy: 개인정보 정책
-    rules: 서버 규칙
-    rules_html: '아래의 글은 이 마스토돈 서버에 계정이 있다면 따라야 할 규칙의 요약입니다:'
+    privacy_policy: 個人情報 政策
+    rules: 서버 規則
+    rules_html: '아래의 글은 이 마스토돈 서버에 計定이 있다면 따라야 할 規則의 要約입니다:'
     see_whats_happening: 무슨 일이 일어나는 지 보기
-    server_stats: '서버 통계:'
+    server_stats: '서버 統計:'
     source_code: 소스 코드
     status_count_after:
-      other: 개
+      other: 個
     status_count_before: 揭示物 數
     tagline: 親舊들을 팔로우하고 새로운 사람들도 만나기
-    terms: 이용약관
-    unavailable_content: 이용 불가능한 컨텐츠
+    terms: 利用約款
+    unavailable_content: 利用 不可能한 컨텐츠
     unavailable_content_description:
       domain: 서버
-      reason: 이유
-      rejecting_media: 이 서버의 미디어 파일들은 처리되지 않고 썸네일또한 보이지 않게 됩니다. 수동으로 클릭하여 해당 서버로 가게
+      reason: 理由
+      rejecting_media: 이 서버의 미디어 파일들은 處理되지 않고 썸네일또한 보이지 않게 됩니다. 手動으로 클릭하여 該當 서버로 가게
         됩니다.
       rejecting_media_title: 필터링 된 미디어
-      silenced: 이 서버의 게시물은 작성자를 팔로우 한 경우에만 홈 피드에 나타나며 이를 제외한 어디에도 나타나지 않습니다.
-      silenced_title: 침묵 된 서버들
-      suspended: 이 서버의 아무도 팔로우 할 수 없으며, 어떤 데이터도 처리되거나 저장 되지 않고 데이터가 교환 되지도 않습니다.
-      suspended_title: 금지된 서버들
-    unavailable_content_html: 마스토돈은 일반적으로 연합우주에 있는 어떤 서버의 사용자와도 게시물을 보고 응답을 할 수 있도록
-      허용합니다. 다음 항목들은 특정한 서버에 대해 만들어 진 예외사항입니다.
+      silenced: 이 서버의 揭示物은 作成者를 팔로우 한 境遇에만 홈 피드에 나타나며 이를 除外한 어디에도 나타나지 않습니다.
+      silenced_title: 沈默 된 서버들
+      suspended: 이 서버의 아무도 팔로우 할 수 없으며, 어떤 데이터도 處理되거나 貯藏 되지 않고 데이터가 交換 되지도 않습니다.
+      suspended_title: 禁止된 서버들
+    unavailable_content_html: 마스토돈은 一般的으로 聯合宇宙에 있는 어떤 서버의 使用者와도 揭示物을 보고 應答을 할 수 있도록
+      許容합니다. 다음 項目들은 特定한 서버에 對해 만들어 진 例外事項입니다.
     user_count_after:
-      other: 명
-    user_count_before: 사용자 수
+      other: 名
+    user_count_before: 使用者 數
     what_is_mastodon: 마스토돈이란?
   accounts:
-    choices_html: "%{name}의 추천:"
-    endorsements_hint: 내가 팔로우 하고 있는 사람들을 여기에 추천 할 수 있습니다.
+    choices_html: "%{name}의 推薦:"
+    endorsements_hint: 내가 팔로우 하고 있는 사람들을 여기에 推薦 할 수 있습니다.
     featured_tags_hint: 특정한 해시태그들을 여기에 표시되도록 할 수 있습니다.
     follow: 팔로우
     followers:
