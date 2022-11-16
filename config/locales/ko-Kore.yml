@@ -264,10 +264,10 @@ ko-Kore:
         disable_sign_in_token_auth_user: 使用者에 對한 이메일 토큰 認證 非活性化
         disable_user: 使用者 非活性化
         enable_custom_emoji: 커스텀 繪文字 活性化
-        enable_sign_in_token_auth_user: 사용자에 대한 이메일 토큰 인증 활성화
-        enable_user: 사용자 활성화
-        memorialize_account: 추모계정으로 전환
-        promote_user: 사용자 승급
+        enable_sign_in_token_auth_user: 使用者에 對한 이메일 토큰 認證 活性化
+        enable_user: 使用者 活性化
+        memorialize_account: 追慕計定으로 轉換
+        promote_user: 使用者 昇給
         reject_appeal: 이의제기 거절
         reject_user: 사용자 거부
         remove_avatar_user: 아바타 지우기
