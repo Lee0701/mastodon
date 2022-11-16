@@ -164,7 +164,7 @@ ko-Kore:
       most_recent_ip: 最近 IP
       no_account_selected: 아무 計定도 選擇 되지 않아 아무 것도 變更 되지 않았습니다
       no_limits_imposed: 制限 없음
-      not_subscribed: 구독하지 않음
+      not_subscribed: 購讀하지 않음
       pending: 審査 待機
       perform_full_suspension: 停止시키기
       previous_strikes: 以前의 處罰들
@@ -188,7 +188,7 @@ ko-Kore:
         success: 確認 이메일이 傳送되었습니다!
       reset: 初期化
       reset_password: 暗號 初期化
-      resubscribe: 다시 구독
+      resubscribe: 다시 購讀
       role: 權限
       roles:
         admin: 管理者
@@ -211,7 +211,7 @@ ko-Kore:
       silenced: 沈默 됨
       statuses: 揭示物
       strikes: 以前의 處罰들
-      subscribe: 구독하기
+      subscribe: 購讀하기
       suspend: 停止
       suspended: 停止 됨
       suspension_irreversible: 이 計定의 데이터는 復舊할 수 없도록 削除되었습니다. 計定을 停止 解除함으로서 計定을 다시
@@ -283,7 +283,7 @@ ko-Kore:
         unsilence_account: 計定 沈默 取消
         unsuspend_account: 計定 停止 取消
         update_announcement: 公知事項 업데이트
-        update_custom_emoji: 커스텀 에모지 업데이트
+        update_custom_emoji: 커스텀 繪文字 업데이트
         update_domain_block: 도메인 遮斷 更新
         update_status: 揭示物 揭示
       actions:
@@ -294,7 +294,7 @@ ko-Kore:
         confirm_user_html: "%{name} 님이 使用者 %{target}의 이메일 住所를 承認했습니다"
         create_account_warning_html: "%{name} 님이 %{target}에게 警告를 보냈습니다"
         create_announcement_html: "%{name} 님이 새 公知 %{target}을 만들었습니다"
-        create_custom_emoji_html: "%{name} 님이 새로운 에모지 %{target}를 업로드 했습니다"
+        create_custom_emoji_html: "%{name} 님이 새로운 繪文字 %{target}를 업로드 했습니다"
         create_domain_allow_html: "%{name} 님이 %{target} 도메인을 許容리스트에 넣었습니다"
         create_domain_block_html: "%{name} 님이 도메인 %{target}를 遮斷했습니다"
         create_email_domain_block_html: "%{name} 님이 이메일 도메인 %{target}를 遮斷했습니다"
@@ -336,7 +336,7 @@ ko-Kore:
         unsilence_account_html: "%{name} 님이 %{target}의 計定에 對한 沈默을 解除했습니다"
         unsuspend_account_html: "%{name} 님이 %{target}의 計定에 對한 停止를 解除했습니다"
         update_announcement_html: "%{name} 님이 公知事項 %{target}을 更新했습니다"
-        update_custom_emoji_html: "%{name} 님이 에모지 %{target}를 업데이트 했습니다"
+        update_custom_emoji_html: "%{name} 님이 繪文字 %{target}를 업데이트 했습니다"
         update_domain_block_html: "%{name} 님이 %{target}에 對한 도메인 遮斷을 更新했습니다"
         update_status_html: "%{name} 님이 %{target}의 揭示物을 업데이트 했습니다"
       deleted_status: "(削除된 揭示物)"
@@ -374,7 +374,7 @@ ko-Kore:
       disable: 非活性化
       disabled: 非活性
       disabled_msg: 成功的으로 非活性化하였습니다
-      emoji: 에모지
+      emoji: 繪文字
       enable: 活性化
       enabled: 活性됨
       enabled_msg: 成功的으로 活性化하였습니다
@@ -387,11 +387,11 @@ ko-Kore:
       overwrite: 덮어쓰기
       shortcode: 짧은 코드
       shortcode_hint: 最少 2글字, 英文字, 數字, _만 使用 可能
-      title: 커스텀 에모지
+      title: 커스텀 繪文字
       uncategorized: 分類되지 않음
       unlist: 目錄에서 除去
       unlisted: 目錄에 없음
-      update_failed_msg: 에모지를 업데이트 할 수 없습니다
+      update_failed_msg: 繪文字를 업데이트 할 수 없습니다
       updated_msg: 繪文字가 成功的으로 업데이트 되었습니다!
       upload: 업로드
     dashboard:
@@ -642,7 +642,7 @@ ko-Kore:
         create: 記錄 追加
         create_and_resolve: 記錄을 作成하고 解決됨으로 表示
         create_and_unresolve: 記錄 作成과 함께 未解決로 表示
-        delete: 삭제
+        delete: 削除
         placeholder: 이 리포트에 對한 措置, 其他 關聯 된 事項에 對해 說明합니다…
         title: 노트
       notes_description_html: 確認하고 다른 仲裁者나 未來의 自身을 爲해 記錄을 作成합니다
@@ -1111,7 +1111,7 @@ ko-Kore:
       title: 保安 認證 失敗
     '429': 要請 回數 制限에 到達했습니다
     '500':
-      content: 죄송합니다, 뭔가 잘못 되었습니다.
+      content: 罪悚합니다, 뭔가 잘못 되었습니다.
       title: 이 페이지는 잘못되었습니다
     '503': 이 페이지는 臨時的인 서버 問題로 인해 提供 될 수 없습니다.
     noscript_html: 마스토돈을 使用하기 爲해서는 자바스크립트를 켜 주십시오. 아니면 <a href="%{apps_path}">네이티브
@@ -1352,7 +1352,7 @@ ko-Kore:
       duration_too_short: 너무 가깝습니다
       expired: 投票가 이미 끝났습니다
       invalid_choice: 選擇한 投票 項目이 存在하지 않습니다
-      over_character_limit: 각각 %{max} 글자를 넘을 수 없습니다
+      over_character_limit: 各各 %{max} 글字를 넘을 수 없습니다
       too_few_options: 한가지 以上의 項目을 包含해야 합니다
       too_many_options: 項目은 %{max}個를 넘을 수 없습니다
   preferences:
@@ -1544,7 +1544,7 @@ ko-Kore:
     keep_self_fav: 마음에 들어한 揭示物 維持
     keep_self_fav_hint: 내 스스로 마음에  들어한 本人의 揭示物을 削除하지 않습니다
     min_age:
-      '1209600': 2 周
+      '1209600': 2 週
       '15778476': 6 개월
       '2629746': 1 개월
       '31556952': 1 년
@@ -1649,135 +1649,135 @@ ko-Kore:
       <p>이 문서는 CC-BY-SA 라이센스입니다. 마지막 업데이트는 2018년 3월 7일입니다.</p>
 
       <p>Originally adapted from the <a href="https://github.com/discourse/discourse">Discourse privacy policy</a>.</p>
-    title: "%{instance} 이용약관과 개인정보 취급 방침"
+    title: "%{instance} 利用約款과 個人情報 取扱 方針"
   themes:
-    contrast: 마스토돈 (고대비)
+    contrast: 마스토돈 (高對比)
     default: 마스토돈 (어두움)
     mastodon-light: 마스토돈 (밝음)
   time:
     formats:
-      default: "%Y년 %m월 %d일 %H:%M"
-      month: "%Y년 %b"
+      default: "%Y年 %m月 %d日 %H:%M"
+      month: "%Y年 %b"
       time: "%H:%M"
   two_factor_authentication:
-    add: 추가
-    disable: 비활성화
-    disabled_success: 2단계 인증이 비활성화 되었습니다.
-    edit: 편집
-    enabled: 2단계 인증이 활성화 되어 있습니다
-    enabled_success: 2단계 인증이 활성화 되었습니다
-    generate_recovery_codes: 복구 코드 생성
-    lost_recovery_codes: 복구 코드를 사용하면 휴대전화를 분실한 경우에도 계정에 접근할 수 있게 됩니다. 복구 코드를 분실한 경우에도
-      여기서 다시 생성할 수 있지만, 예전 복구 코드는 비활성화 됩니다.
-    methods: 2단계 인증
-    otp: 인증 앱
-    recovery_codes: 복구 코드
-    recovery_codes_regenerated: 복구 코드가 다시 생성되었습니다
-    recovery_instructions_html: 휴대전화를 분실한 경우, 아래 복구 코드 중 하나를 사용해 계정에 접근할 수 있습니다. <strong>복구
-      코드는 안전하게 보관해 주십시오.</strong> 이 코드를 인쇄해 중요한 서류와 함께 보관하는 것도 좋습니다.
-    webauthn: 보안 키
+    add: 追加
+    disable: 非活性化
+    disabled_success: 2段階 認證이 非活性化 되었습니다.
+    edit: 編輯
+    enabled: 2段階 認證이 活性化 되어 있습니다
+    enabled_success: 2段階 認證이 活性化 되었습니다
+    generate_recovery_codes: 復舊 코드 生成
+    lost_recovery_codes: 復舊 코드를 使用하면 携帶電話를 紛失한 境遇에도 計定에 接近할 수 있게 됩니다. 復舊 코드를 紛失한 境遇에도
+      여기서 다시 生成할 수 있지만, 예전 復舊 코드는 非活性化 됩니다.
+    methods: 2段階 認證
+    otp: 認證 앱
+    recovery_codes: 復舊 코드
+    recovery_codes_regenerated: 復舊 코드가 다시 生成되었습니다
+    recovery_instructions_html: 携帶電話를 紛失한 境遇, 아래 復舊 코드 中 하나를 使用해 計定에 接近할 수 있습니다. <strong>復舊
+      코드는 安全하게 保管해 주십시오.</strong> 이 코드를 印刷해 重要한 書類와 함께 保管하는 것도 좋습니다.
+    webauthn: 保安 키
   user_mailer:
     appeal_approved:
-      action: 내 계정으로 가기
-      explanation: "%{strike_date}에 일어난 중재결정에 대한 소명을 %{appeal_date}에 작성했으며 승낙되었습니다.\
-        \ 당신의 계정은 정상적인 상태로 돌아왔습니다."
-      subject: "%{date}에 작성한 소명이 승인되었습니다"
-      title: 소명이 받아들여짐
+      action: 내 計定으로 가기
+      explanation: "%{strike_date}에 일어난 仲裁決定에 對한 疏明을 %{appeal_date}에 作成했으며 承諾되었습니다.\
+        \ 當身의 計定은 正常的인 狀態로 돌아왔습니다."
+      subject: "%{date}에 作成한 疏明이 承認되었습니다"
+      title: 疏明이 받아들여짐
     appeal_rejected:
-      explanation: "%{strike_date}에 일어난 중재결정에 대한 소명을 %{appeal_date}에 작성했지만 거절되었습니다."
-      subject: "%{date}에 작성한 소명이 거절되었습니다"
-      title: 이의제기가 거절되었습니다
+      explanation: "%{strike_date}에 일어난 仲裁決定에 對한 疏明을 %{appeal_date}에 作成했지만 拒絶되었습니다."
+      subject: "%{date}에 作成한 疏明이 拒絶되었습니다"
+      title: 異議提起가 拒絶되었습니다
     backup_ready:
-      explanation: 당신이 요청한 계정의 풀 백업이 이제 다운로드 가능합니다!
-      subject: 당신의 아카이브를 다운로드 가능합니다
+      explanation: 當身이 要請한 計定의 풀 백업이 이제 다운로드 可能합니다!
+      subject: 當身의 아카이브를 다운로드 可能합니다
       title: 아카이브 테이크 아웃
     suspicious_sign_in:
-      change_password: 암호 변경
-      details: '로그인에 대한 상세 정보입니다:'
-      explanation: 새로운 IP 주소에서 내 계정에 로그인한 것을 감지했습니다.
-      further_actions_html: 직접 로그인한 것이 아니라면, 지금 바로 %{action}과 2단계 인증을 활성화하여 계정을 안전하게
-        보호하시길 권해드립니다.
-      subject: 계정이 새로운 IP에서 접근됨
+      change_password: 暗號 變更
+      details: '로그인에 對한 詳細 情報입니다:'
+      explanation: 새로운 IP 住所에서 내 計定에 로그인한 것을 感知했습니다.
+      further_actions_html: 直接 로그인한 것이 아니라면, 只今 바로 %{action}과 2段階 認證을 活性化하여 計定을 安全하게
+        保護하시길 勸해드립니다.
+      subject: 計定이 새로운 IP에서 接近됨
       title: 새로운 로그인
     warning:
-      appeal: 이의 제출하기
-      appeal_description: 이것이 오류라고 생각한다면, %{instance}의 중재자에게 이의신청을 할 수 있습니다.
+      appeal: 異議 提出하기
+      appeal_description: 이것이 誤謬라고 생각한다면, %{instance}의 仲裁者에게 異議申請을 할 수 있습니다.
       categories:
         spam: 스팸
-        violation: 컨텐츠가 다음의 커뮤니티 규정을 위반합니다
+        violation: 컨텐츠가 다음의 커뮤니티 規定을 違反합니다
       explanation:
-        delete_statuses: 귀하의 게시물 중 일부가 하나 이상의 커뮤니티 가이드라인을 위반한 것으로 확인되어 %{instance}
-          모더레이터에 의해 삭제되었습니다.
-        disable: 당신은 더이상 당신의 계정을 사용할 수 없습니다, 하지만 프로필과 다른 데이터들은 여전히 그대로 남아있습니다. 당신의
-          데이터에 대한 백업을 요청하거나, 계정 설정을 변경 또는 계정을 삭제할 수 있습니다.
-        mark_statuses_as_sensitive: 당신의 몇몇 게시물들은 %{instance}의 중재자에 의해 민감함으로 설정되었습니다.
-          이것은 사람들이 미리보기를 보기 전에 미디어를 한번 눌러야 함을 의미합니다. 당신은 스스로도 자신의 게시물을 작성할 때 미디어를
-          민감함으로 설정할 수 있습니다.
-        sensitive: 지금부터는, 당신이 업로드한 미디어 파일들은 민감함 표시가 뜨게 되고 클릭해야만 볼 수 있다는 경고문 뒤에 가려지게
+        delete_statuses: 귀하의 揭示物 중 一部가 하나 以上의 커뮤니티 가이드라인을 違反한 것으로 確認되어 %{instance}
+          모더레이터에 依해 削除되었습니다.
+        disable: 當身은 더以上 當身의 計定을 使用할 수 없습니다, 하지만 프로필과 다른 데이터들은 如前히 그대로 남아있습니다. 當身의
+          데이터에 對한 백업을 要請하거나, 計定 設定을 變更 또는 計定을 削除할 수 있습니다.
+        mark_statuses_as_sensitive: 當身의 몇몇 揭示物들은 %{instance}의 仲裁者에 依해 敏感함으로 設定되었습니다.
+          이것은 사람들이 미리보기를 보기 前에 미디어를 한番 눌러야 함을 意味합니다. 當身은 스스로도 自身의 揭示物을 作成할 때 미디어를
+          敏感함으로 設定할 수 있습니다.
+        sensitive: 只今부터는, 當身이 업로드한 미디어 파일들은 敏感함 標示가 뜨게 되고 클릭해야만 볼 수 있다는 警告文 뒤에 가려지게
           됩니다.
-        silence: 당신은 여전히 당신의 계정을 사용할 수 있지만 당신을 팔로우 하고 있는 사람들만 당신의 게시물을 볼 수 있으며, 여러가지
-          탐색 기능에서 제외됩니다. 하지만, 여전히 다른 사람들은 수동으로 당신을 팔로우 할 수 있습니다.
-        suspend: 당신은 더이상 당신의 계정을 사용할 수 없으며, 프로필과 데이터는 접근 불가능하게 됩니다. 데이터가 완전히 삭제되기
-          전인 30일동안은 여전히 백업을 요청하기 위해 로그인 할 수 있습니다, 하지만 계정 정지를 회피하는 것을 방지하기 위하여 몇 가지
-          정보는 유지됩니다.
-      reason: '사유:'
-      statuses: '인용된 게시물:'
+        silence: 當身은 如前히 當身의 計定을 使用할 수 있지만 當身을 팔로우 하고 있는 사람들만 當身의 揭示物을 볼 수 있으며, 여러가지
+          探索 機能에서 除外됩니다. 하지만, 如前히 다른 사람들은 手動으로 當身을 팔로우 할 수 있습니다.
+        suspend: 當身은 더以上 當身의 計定을 使用할 수 없으며, 프로필과 데이터는 接近 不可能하게 됩니다. 데이터가 完全히 削除되기
+          前인 30日동안은 如前히 백업을 要請하기 爲해 로그인 할 수 있습니다, 하지만 計定 停止를 回避하는 것을 防止하기 爲하여 몇 가지
+          情報는 維持됩니다.
+      reason: '事由:'
+      statuses: '引用된 揭示物:'
       subject:
-        delete_statuses: 당신의 계정 %{acct}에서 작성한 게시물이 삭제되었습니다
-        disable: 당신의 계정 %{acct}가 동결 되었습니다
-        mark_statuses_as_sensitive: "%{acct}로 작성한 당신의 게시물은 민감한 것으로 표시되었습니다"
-        none: "%{acct}에게의 경고"
-        sensitive: "%{acct}로 작성되는 당신의 게시물은 이제부터 민감한 것으로 표시됩니다"
-        silence: 당신의 계정 %{acct}가 제한 되었습니다
-        suspend: 당신의 계정 %{acct}가 정지 되었습니다
+        delete_statuses: 當身의 計定 %{acct}에서 作成한 揭示物이 削除되었습니다
+        disable: 當身의 計定 %{acct}가 凍結 되었습니다
+        mark_statuses_as_sensitive: "%{acct}로 作成한 當身의 揭示物은 敏感한 것으로 標示되었습니다"
+        none: "%{acct}에게의 警告"
+        sensitive: "%{acct}로 作成되는 當身의 揭示物은 이제부터 敏感한 것으로 標示됩니다"
+        silence: 當身의 計定 %{acct}가 制限 되었습니다
+        suspend: 當身의 計定 %{acct}가 停止 되었습니다
       title:
-        delete_statuses: 게시물 삭제됨
-        disable: 계정 동결 됨
-        mark_statuses_as_sensitive: 게시물이 민감함으로 표시됨
-        none: 경고
-        sensitive: 계정이 민감함으로 표시됨
-        silence: 계정 제한 됨
-        suspend: 계정 정지 됨
+        delete_statuses: 揭示物 削除됨
+        disable: 計定 凍結 됨
+        mark_statuses_as_sensitive: 揭示物이 敏感함으로 標示됨
+        none: 警告
+        sensitive: 計定이 敏感함으로 標示됨
+        silence: 計定 制限 됨
+        suspend: 計定 停止 됨
     welcome:
-      edit_profile_action: 프로필 설정
-      edit_profile_step: 아바타, 헤더를 업로드하고, 사람들에게 표시 될 이름을 바꾸는 것으로 당신의 프로필을 커스텀 할 수 있습니다.
-        사람들이 당신을 팔로우 하기 전에 리뷰를 거치게 하고 싶다면 계정을 잠그면 됩니다.
-      explanation: 시작하기 전에 몇가지 팁들을 준비했습니다
-      final_action: 포스팅 시작하기
-      final_step: '포스팅을 시작하세요! 팔로워가 없더라도 퍼블릭 메시지는 다른 사람들이 볼 수 있습니다, 예를 들면 로컬 타임라인이나
-        해시태그에서요. 사람들에게 자신을 소개하고 싶다면 #introductions 해시태그를 이용해보세요.'
-      full_handle: 당신의 풀 핸들
-      full_handle_hint: 이것을 당신의 친구들에게 알려주면 다른 서버에서 팔로우 하거나 메시지를 보낼 수 있습니다.
-      review_preferences_action: 설정 바꾸기
-      review_preferences_step: 당신의 설정을 확인하세요. 어떤 이메일로 알림을 받을 것인지, 기본적으로 어떤 프라이버시 설정을
-        사용할 것인지, 멀미가 없다면 GIF를 자동 재생하도록 설정할 수도 있습니다.
-      subject: 마스토돈에 오신 것을 환영합니다
-      tip_federated_timeline: 연합 타임라인은 마스토돈 네트워크의 소방호스입니다. 다만 여기엔 당신의 이웃들이 구독 중인 것만
+      edit_profile_action: 프로필 設定
+      edit_profile_step: 아바타, 헤더를 업로드하고, 사람들에게 表示 될 이름을 바꾸는 것으로 當身의 프로필을 커스텀 할 수 있습니다.
+        사람들이 當身을 팔로우 하기 前에 리뷰를 거치게 하고 싶다면 計定을 잠그면 됩니다.
+      explanation: 始作하기 前에 몇가지 팁들을 準備했습니다
+      final_action: 포스팅 始作하기
+      final_step: '포스팅을 始作하세요! 팔로워가 없더라도 퍼블릭 메시지는 다른 사람들이 볼 수 있습니다, 例를 들면 로컬 타임라인이나
+        해시태그에서요. 사람들에게 自身을 紹介하고 싶다면 #introductions 해시태그를 利用해보세요.'
+      full_handle: 當身의 풀 핸들
+      full_handle_hint: 이것을 當身의 親舊들에게 알려주면 다른 서버에서 팔로우 하거나 메시지를 보낼 수 있습니다.
+      review_preferences_action: 設定 바꾸기
+      review_preferences_step: 當身의 設定을 確認하세요. 어떤 이메일로 알림을 받을 것인지, 基本的으로 어떤 프라이버시 設定을
+        使用할 것인지, 멀미가 없다면 GIF를 自動 再生하도록 設定할 수도 있습니다.
+      subject: 마스토돈에 오신 것을 歡迎합니다
+      tip_federated_timeline: 聯合 타임라인은 마스토돈 네트워크의 消防호스입니다. 다만 여기엔 當身의 이웃들이 購讀 中인 것만
         뜹니다, 모든 것이 다 오는 것은 아니예요.
-      tip_following: 기본적으로 서버의 관리자를 팔로우 하도록 되어 있습니다. 흥미로운 사람들을 더 찾으려면 로컬과 연합 타임라인을
-        확인해 보세요.
-      tip_local_timeline: 로컬 타임라인은 %{instance}의 소방호스입니다. 여기 있는 사람들은 당신의 이웃들이에요!
-      tip_mobile_webapp: 모바일 브라우저가 홈 스크린에 바로가기를 추가해 줬다면 푸시 알림도 받을 수 있습니다. 이건 거의 네이티브
-        앱처럼 작동해요!
+      tip_following: 基本的으로 서버의 管理者를 팔로우 하도록 되어 있습니다. 興味로운 사람들을 더 찾으려면 로컬과 聯合 타임라인을
+        確認해 보세요.
+      tip_local_timeline: 로컬 타임라인은 %{instance}의 消防호스입니다. 여기 있는 사람들은 當身의 이웃들이에요!
+      tip_mobile_webapp: 모바일 브라우저가 홈 스크린에 바로가기를 追加해 줬다면 푸시 알림도 받을 수 있습니다. 이건 거의 네이티브
+        앱처럼 作動해요!
       tips: 팁
-      title: 환영합니다 %{name} 님!
+      title: 歡迎합니다 %{name} 님!
   users:
-    follow_limit_reached: 당신은 %{limit}명의 사람을 넘어서 팔로우 할 수 없습니다
-    invalid_otp_token: 2단계 인증 코드가 올바르지 않습니다
-    otp_lost_help_html: 만약 양쪽 모두를 잃어버렸다면 %{email}을 통해 복구할 수 있습니다
-    seamless_external_login: 외부 서비스를 이용해 로그인 했습니다, 패스워드와 이메일 설정을 할 수 없습니다.
-    signed_in_as: '다음과 같이 로그인 중:'
+    follow_limit_reached: 當身은 %{limit}名의 사람을 넘어서 팔로우 할 수 없습니다
+    invalid_otp_token: 2段階 認證 코드가 올바르지 않습니다
+    otp_lost_help_html: 만약 兩쪽 모두를 잃어버렸다면 %{email}을 통해 復舊할 수 있습니다
+    seamless_external_login: 外部 서비스를 利用해 로그인 했습니다, 패스워드와 이메일 設定을 할 수 없습니다.
+    signed_in_as: '다음과 같이 로그인 中:'
   verification:
-    explanation_html: '당신은 <strong>프로필 메타데이터의 링크 소유자임을 검증할 수 있습니다</strong>. 이것을 하기
-      위해서는, 링크 된 웹사이트에서 당신의 마스토돈 프로필을 역으로 링크해야 합니다. 역링크는 <strong>반드시</strong> <code>rel="me"</code>
-      속성을 가지고 있어야 합니다. 링크의 텍스트는 상관이 없습니다. 여기 예시가 있습니다:'
-    verification: 검증
+    explanation_html: '當身은 <strong>프로필 메타데이터의 링크 所有者임을 檢證할 수 있습니다</strong>. 이것을 하기
+      爲해서는, 링크 된 웹사이트에서 當身의 마스토돈 프로필을 逆으로 링크해야 합니다. 逆링크는 <strong>반드시</strong> <code>rel="me"</code>
+      屬性을 가지고 있어야 합니다. 링크의 텍스트는 相關이 없습니다. 여기 例示가 있습니다:'
+    verification: 檢證
   webauthn_credentials:
-    add: 보안 키 추가
+    add: 保安 키 追加
     create:
-      error: 보안 키를 추가하는데 문제가 발생했습니다. 다시 시도해보십시오.
-      success: 보안 키가 성공적으로 추가되었습니다.
-    delete: 삭제
+      error: 保安 키를 追加하는데 問題가 發生했습니다. 다시 試圖해보십시오.
+      success: 保安 키가 成功的으로 追加되었습니다.
+    delete: 削除
     delete_confirmation: 정말로 이 보안 키를 삭제하시겠습니까?
     description_html: "<strong>보안 키 인증</strong>을 활성화 하면, 로그인 시 보안 키 중 하나가 필요합니다."
     destroy:
