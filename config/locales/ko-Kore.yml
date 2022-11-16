@@ -821,7 +821,7 @@ ko-Kore:
           狀況을 把握하는 데 도움이 됩니다. 出處를 承認할 때까지 링크는 公開的으로 揭示되지 않습니다. 각각의 링크를 個別的으로 許容하거나
           拒否할 수도 있습니다.
         disallow: 링크 拒否하기
-        disallow_provider: 출처 拒否하기
+        disallow_provider: 出處 拒否하기
         shared_by_over_week:
           other: 지난 周 동안 %{count} 名의 사람들이 共有했습니다
         title: 遊行하는 링크
