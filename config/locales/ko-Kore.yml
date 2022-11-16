@@ -1011,40 +1011,40 @@ ko-Kore:
     already_requested: 이미 이 計定에게 팔로우 要請을 보냈습니다
     error: 리모트 計定을 確認하는 途中 오류가 發生했습니다
     follow: 팔로우
-    follow_request: '당신은 다음 계정에 팔로우 신청을 했습니다:'
-    following: '성공! 당신은 다음 계정을 팔로우 하고 있습니다:'
+    follow_request: '當身은 다음 計定에 팔로우 申請을 했습니다:'
+    following: '成功! 當身은 다음 計定을 팔로우 하고 있습니다:'
     post_follow:
-      close: 혹은, 당신은 이 윈도우를 닫을 수 있습니다.
-      return: 사용자 프로필 보기
+      close: 혹은, 當身은 이 윈도우를 닫을 수 있습니다.
+      return: 使用者 프로필 보기
       web: 웹으로 가기
     title: "%{acct} 를 팔로우"
   challenge:
-    confirm: 계속
-    hint_html: "<strong>팁:</strong> 한 시간 동안 다시 암호를 묻지 않을 것입니다."
-    invalid_password: 잘못된 암호
-    prompt: 계속하려면 암호 확인
+    confirm: 繼續
+    hint_html: "<strong>팁:</strong> 한 時間 동안 다시 暗號를 묻지 않을 것입니다."
+    invalid_password: 잘못된 暗號
+    prompt: 繼續하려면 暗號 確認
   crypto:
     errors:
-      invalid_key: 유효하지 않은 Ed25519 또는 Curve25519 키
-      invalid_signature: 유효하지 않은 Ed25519 서명
+      invalid_key: 有效하지 않은 Ed25519 또는 Curve25519 키
+      invalid_signature: 有效하지 않은 Ed25519 署名
   date:
     formats:
       default: "%Y-%m-%d"
-      with_month_name: "%Y년 %B %d일"
+      with_month_name: "%Y年 %B %d日"
   datetime:
     distance_in_words:
-      about_x_hours: "%{count}시간"
-      about_x_months: "%{count}월"
-      about_x_years: "%{count}년"
-      almost_x_years: "%{count}년"
-      half_a_minute: 지금
-      less_than_x_minutes: "%{count}분"
-      less_than_x_seconds: 지금
-      over_x_years: "%{count}년"
-      x_days: "%{count}일"
-      x_minutes: "%{count}분"
-      x_months: "%{count}월"
-      x_seconds: "%{count}초"
+      about_x_hours: "%{count}時間"
+      about_x_months: "%{count}月"
+      about_x_years: "%{count}年"
+      almost_x_years: "%{count}年"
+      half_a_minute: 只今
+      less_than_x_minutes: "%{count}分"
+      less_than_x_seconds: 只今
+      over_x_years: "%{count}年"
+      x_days: "%{count}日"
+      x_minutes: "%{count}分"
+      x_months: "%{count}月"
+      x_seconds: "%{count}超"
   deletes:
     challenge_not_passed: 입력한 정보가 올바르지 않습니다
     confirm_password: 본인 확인을 위해 현재 사용 중인 암호를 입력해 주십시오
