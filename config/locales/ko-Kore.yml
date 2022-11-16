@@ -1061,7 +1061,7 @@ ko-Kore:
       email_reconfirmation_html: 아직 確認 메일이 到着하지 않은 境遇, <a href="%{path}">다시 要請할 수
         있습니다</a>
       irreversible: 計定을 復舊하거나 다시 使用할 수 없게 됩니다
-      more_details_html: 더 姿勢한 情報는, <a href="%{terms_path}">個人情報 政策</a>을 參考하세요.
+      more_details_html: 더 仔細한 情報는, <a href="%{terms_path}">個人情報 政策</a>을 參考하세요.
       username_available: 當身의 計定名은 다시 使用할 수 있게 됩니다
       username_unavailable: 當身의 計定名은 앞으로 使用할 수 없습니다
   directories:
