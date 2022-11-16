@@ -863,7 +863,7 @@ ko-Kore:
         not_usable: 使用不可
         peaked_on_and_decaying: "%{date}에 高點을 찍고, 떨어지고 있습니다"
         title: 流行하는 해시태그
-        trendable: 유행 목록에 나타날 수 있습니다
+        trendable: 遊行 目綠에 나타날 수 있습니다
         trending_rank: "#%{rank}위로 유행 중"
         usable: 사용 가능
         usage_comparison: 오늘은 %{today}회 사용되었고, 어제는 %{yesterday}회 사용되었습니다
