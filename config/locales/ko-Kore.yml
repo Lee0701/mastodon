@@ -972,7 +972,7 @@ ko-Kore:
     dont_have_your_security_key: 保安 키가 없습니까?
     forgot_password: 秘密番號를 잊어버리셨습니까?
     invalid_reset_password_token: 暗號 리셋 토큰이 올바르지 못하거나 期間이 滿了되었습니다. 다시 要請해주세요.
-    link_to_otp: 휴대폰의 2차 코드 혹은 復舊 키를 入力해 주세요
+    link_to_otp: 携帶폰의 2차 코드 혹은 復舊 키를 入力해 주세요
     link_to_webauth: 保安 키 裝置 使用
     log_in_with: 다음으로 로그인
     login: 로그인
