@@ -869,7 +869,7 @@ ko-Kore:
         usage_comparison: 오늘은 %{today}回 使用되었고, 어제는 %{yesterday}回 使用되었습니다
         used_by_over_week:
           other: 지난 週 동안 %{count} 名의 사람들이 使用했습니다
-      title: 遊行
+      title: 流行
       trending: 유행중
     warning_presets:
       add_new: 새로 추가
