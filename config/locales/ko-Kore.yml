@@ -846,7 +846,7 @@ ko-Kore:
         not_discoverable: 作成者가 發見되기를 원치 않습니다
         shared_by:
           other: "%{friendly_count} 番 共有되고 마음에 들어했습니다"
-        title: 遊行하는 揭示物
+        title: 流行하는 揭示物
       tags:
         current_score: 現在 %{score}點
         dashboard:
