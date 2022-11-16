@@ -486,7 +486,7 @@ ko-Kore:
       suppress: 팔로우 推薦 숨기기
       suppressed: 숨겨짐
       title: 팔로우 推薦
-      unsuppress: 팔로우 推薦 伏願
+      unsuppress: 팔로우 推薦 復元
     instances:
       availability:
         description_html:
