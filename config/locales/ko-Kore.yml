@@ -962,7 +962,7 @@ ko-Kore:
       約款</a>에 同意합니다
     delete_account: 計定 削除
     delete_account_html: 計定을 削除하고 싶은 境遇, <a href="%{path}">여기서</a> 削除할 수 있습니다. 削除
-      전 確認 畵面이 表示됩니다.
+      前 確認 畵面이 表示됩니다.
     description:
       prefix_invited_by_user: "@%{name} 님이 當身을 이 마스토돈 서버로 招待했습니다!"
       prefix_sign_up: 마스토돈에 加入하세요!
