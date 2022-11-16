@@ -1397,7 +1397,7 @@ ko-Kore:
       proceed: 부스트 進行
       prompt: '이 揭示物을 부스트 하려 합니다:'
     reply:
-      proceed: 답장 進行
+      proceed: 答狀 進行
       prompt: '이 揭示物에 答狀을 하려 합니다:'
   reports:
     errors:
