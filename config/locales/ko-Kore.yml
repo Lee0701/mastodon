@@ -68,7 +68,7 @@ ko-Kore:
     followers:
       other: 팔로워
     following: 팔로잉
-    instance_actor_flash: 이 計定은 서버 自身을 나타내기 爲한 假象의 計定이며 個人 使用者가 아닙니다. 이 計定은 聯合을 爲해
+    instance_actor_flash: 이 計定은 서버 自身을 나타내기 爲한 假想의 計定이며 個人 使用者가 아닙니다. 이 計定은 聯合을 爲해
       使用되며 停止되지 않아야 합니다.
     joined: "%{date}에 加入함"
     last_active: 最近 活動
