@@ -544,7 +544,7 @@ ko-Kore:
       private_comment: 非公開 註釋
       public_comment: 公開 註釋
       purge: 除去
-      purge_description_html: 이 도메인이 永久的으로 오프라인 狀態라고 生角되면 스토리지에서 이 도메인의 모든 計定 레코드와
+      purge_description_html: 이 도메인이 永久的으로 오프라인 狀態라고 생각되면 스토리지에서 이 도메인의 모든 計定 레코드와
         關聯 데이터를 削除할 수 있습니다. 이 作業은 時間이 좀 걸릴 수 있습니다.
       title: 聯合
       total_blocked_by_us: 우리에게 遮斷 됨
