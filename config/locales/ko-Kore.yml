@@ -490,13 +490,13 @@ ko-Kore:
     instances:
       availability:
         description_html:
-          other: 도메인에 대한 전달이 성공 없이 <strong>%{count}</strong>일 실패한다면, 이후의 전달 시도는 해당
-            도메인<em>에서</em> 전달이 오기 전까지는 만들어지지 않습니다.
-        failure_threshold_reached: "%{date}에 실패 임계점에 도달했습니다."
+          other: 도메인에 對한 傳達이 成功 없이 <strong>%{count}</strong>日 失敗한다면, 以後의 傳達 試圖는 該當
+            도메인<em>에서</em> 傳達이 오기 前까지는 만들어지지 않습니다.
+        failure_threshold_reached: "%{date}에 失敗 臨界點에 到達했습니다."
         failures_recorded:
-          other: 실패한 전달 시도 총 %{count}일.
-        no_failures_recorded: 실패 기록이 없습니다.
-        title: 가용성
+          other: 失敗한 傳達 試圖 總 %{count}日.
+        no_failures_recorded: 失敗 記錄이 없습니다.
+        title: 可鎔性
         warning: 이 서버에 대한 마지막 연결 시도가 성공적이지 않았습니다
       back_to_all: 전체
       back_to_limited: 제한됨
