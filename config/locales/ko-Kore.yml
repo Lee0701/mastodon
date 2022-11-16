@@ -316,11 +316,11 @@ ko-Kore:
           \ 非活性化 했습니다"
         disable_user_html: "%{name} 님이 使用者 %{target}의 로그인을 非活性化 했습니다"
         enable_custom_emoji_html: "%{name} 님이 에모지 %{target}를 活性化 했습니다"
-        enable_sign_in_token_auth_user_html: "%{name} 님이 %{target} 님의 이메일 토큰 인증을 활성화\
+        enable_sign_in_token_auth_user_html: "%{name} 님이 %{target} 님의 이메일 토큰 認證을 活性化\
           \ 했습니다"
-        enable_user_html: "%{name} 님이 사용자 %{target}의 로그인을 활성화 했습니다"
-        memorialize_account_html: "%{name} 님이 %{target}의 계정을 추모비 페이지로 전환했습니다"
-        promote_user_html: "%{name} 님이 사용자 %{target}를 승급시켰습니다"
+        enable_user_html: "%{name} 님이 使用者 %{target}의 로그인을 活性化 했습니다"
+        memorialize_account_html: "%{name} 님이 %{target}의 計定을 追慕碑 페이지로 轉換했습니다"
+        promote_user_html: "%{name} 님이 使用者 %{target}를 昇給시켰습니다"
         reject_appeal_html: "%{name} 님이 %{target}의 중재 결정에 대한 이의제기를 거절했습니다"
         reject_user_html: "%{name} 님이 %{target}의 가입을 거부했습니다"
         remove_avatar_user_html: "%{name} 님이 %{target}의 아바타를 지웠습니다"
