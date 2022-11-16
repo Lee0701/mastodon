@@ -1062,69 +1062,69 @@ ko-Kore:
         있습니다</a>
       irreversible: 計定을 復舊하거나 다시 使用할 수 없게 됩니다
       more_details_html: 더 姿勢한 情報는, <a href="%{terms_path}">個人情報 政策</a>을 參考하세요.
-      username_available: 당신의 계정명은 다시 사용할 수 있게 됩니다
-      username_unavailable: 당신의 계정명은 앞으로 사용할 수 없습니다
+      username_available: 當身의 計定名은 다시 使用할 수 있게 됩니다
+      username_unavailable: 當身의 計定名은 앞으로 使用할 수 없습니다
   directories:
-    directory: 프로필 책자
-    explanation: 관심사에 대한 사용자들을 발견합니다
-    explore_mastodon: "%{title} 탐사하기"
+    directory: 프로필 冊子
+    explanation: 關心事에 對한 使用者들을 發見합니다
+    explore_mastodon: "%{title} 探査하기"
   disputes:
     strikes:
-      action_taken: 내려진 징계
-      appeal: 이의제기
-      appeal_approved: 이 중재기록은 소명이 받아들여졌으며 더이상 유효하지 않습니다
-      appeal_rejected: 소명이 기각되었습니다
-      appeal_submitted_at: 이의제기 접수됨
-      appealed_msg: 당신의 이의제기가 접수되었습니다. 만약 승인된다면, 알림을 받게 될 것입니다.
+      action_taken: 내려진 懲戒
+      appeal: 異議提起
+      appeal_approved: 이 仲裁記錄은 疏明이 받아들여졌으며 더以上 有效하지 않습니다
+      appeal_rejected: 疏明이 棄却되었습니다
+      appeal_submitted_at: 異議提起 接受됨
+      appealed_msg: 當身의 異議提起가 接受되었습니다. 萬若 承認된다면, 알림을 받게 될 것입니다.
       appeals:
-        submit: 이의 제출
-      approve_appeal: 이의제기 승인
-      associated_report: 관련된 신고
+        submit: 異議 提出
+      approve_appeal: 異議提起 承認
+      associated_report: 關聯된 申告
       created_at: 날짜
-      description_html: 이 결정사항들은 당신에 계정에 대해 행해졌고 %{instance}의 스태프에 의해 경고가 발송되었습니다.
-      recipient: 수신자
-      reject_appeal: 이의제기 거절
-      status: '게시물 #%{id}'
-      status_removed: 게시물이 이미 시스템에서 지워졌습니다
+      description_html: 이 決定事項들은 當身에 計定에 對해 行해졌고 %{instance}의 스태프에 의해 警告가 發送되었습니다.
+      recipient: 受信者
+      reject_appeal: 異議提起 拒絶
+      status: '揭示物 #%{id}'
+      status_removed: 揭示物이 이미 시스템에서 지워졌습니다
       title: "%{action} (%{date}에)"
       title_actions:
-        delete_statuses: 게시물 삭제
-        disable: 계정 동결
-        mark_statuses_as_sensitive: 게시물을 민감함으로 표시
-        none: 경고
-        sensitive: 계정을 민감함으로 표시
-        silence: 계정의 제한
-        suspend: 계정 정지
-      your_appeal_approved: 당신의 소명이 받아들여졌습니다
-      your_appeal_pending: 소명을 제출했습니다
-      your_appeal_rejected: 당신의 소명이 기각되었습니다
+        delete_statuses: 揭示物 削除
+        disable: 計定 凍結
+        mark_statuses_as_sensitive: 揭示物을 敏感함으로 表示
+        none: 警告
+        sensitive: 計定을 敏感함으로 表示
+        silence: 計定의 制限
+        suspend: 計定 停止
+      your_appeal_approved: 當身의 疏明이 받아들여졌습니다
+      your_appeal_pending: 疏明을 提出했습니다
+      your_appeal_rejected: 當身의 疏明이 棄却되었습니다
   domain_validator:
     invalid_domain: 올바른 도메인 네임이 아닙니다
   errors:
-    '400': 제출한 요청이 올바르지 않습니다.
-    '403': 이 페이지를 표시할 권한이 없습니다.
-    '404': 당신이 찾으려는 페이지는 존재하지 않습니다.
-    '406': 이 페이지는 요청한 자료형으로 제공되지 않습니다.
-    '410': 당신이 보려는 페이지는 더이상 여기에 존재하지 않습니다.
+    '400': 提出한 要請이 올바르지 않습니다.
+    '403': 이 페이지를 表示할 權限이 없습니다.
+    '404': 當身이 찾으려는 페이지는 存在하지 않습니다.
+    '406': 이 페이지는 要請한 資料形으로 提供되지 않습니다.
+    '410': 當身이 보려는 페이지는 더以上 여기에 存在하지 않습니다.
     '422':
-      content: 보안 인증에 실패했습니다. 쿠키를 차단하고 있진 않습니까?
-      title: 보안 인증 실패
-    '429': 요청 횟수 제한에 도달했습니다
+      content: 保安 認證에 失敗했습니다. 쿠키를 遮斷하고 있진 않습니까?
+      title: 保安 認證 失敗
+    '429': 要請 回數 制限에 到達했습니다
     '500':
       content: 죄송합니다, 뭔가 잘못 되었습니다.
       title: 이 페이지는 잘못되었습니다
-    '503': 이 페이지는 임시적인 서버 문제로 인해 제공 될 수 없습니다.
-    noscript_html: 마스토돈을 사용하기 위해서는 자바스크립트를 켜 주십시오. 아니면 <a href="%{apps_path}">네이티브
-      앱</a> 중 하나를 사용할 수 있습니다.
+    '503': 이 페이지는 臨時的인 서버 問題로 인해 提供 될 수 없습니다.
+    noscript_html: 마스토돈을 使用하기 爲해서는 자바스크립트를 켜 주십시오. 아니면 <a href="%{apps_path}">네이티브
+      앱</a> 중 하나를 使用할 수 있습니다.
   existing_username_validator:
-    not_found: 해당 사용자명에 대한 로컬 유저를 찾을 수 없습니다
+    not_found: 該當 使用者名에 對한 로컬 유저를 찾을 수 없습니다
     not_found_multiple: "%{usernames}를 찾을 수 없습니다"
   exports:
     archive_takeout:
       date: 날짜
       download: 아카이브 다운로드
-      hint_html: 당신의 <strong>게시물과 업로드 된 미디어</strong>의 아카이브를 요청할 수 있습니다. 내보내지는 데이터는
-        ActivityPub 포맷입니다. 호환 되는 모든 소프트웨어에서 읽을 수 있습니다. 7일마다 새로운 아카이브를 요청할 수 있습니다.
+      hint_html: 當身의 <strong>揭示物과 업로드 된 미디어</strong>의 아카이브를 要請할 수 있습니다. 내보내지는 데이터는
+        ActivityPub 포맷입니다. 互換 되는 모든 소프트웨어에서 읽을 수 있습니다. 7일마다 새로운 아카이브를 要請할 수 있습니다.
       in_progress: 당신의 아카이브를 컴파일 중입니다…
       request: 아카이브 요청하기
       size: 크기
