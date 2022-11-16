@@ -1545,28 +1545,28 @@ ko-Kore:
     keep_self_fav_hint: 내 스스로 마음에  들어한 本人의 揭示物을 削除하지 않습니다
     min_age:
       '1209600': 2 週
-      '15778476': 6 개월
-      '2629746': 1 개월
-      '31556952': 1 년
-      '5259492': 2 개월
-      '604800': 1주일
-      '63113904': 2 년
-      '7889238': 3 개월
-    min_age_label: 기한
-    min_favs: 해당 횟수 이상 좋아요된 게시물 유지
-    min_favs_hint: 이 횟수 이상의 좋아요가 된 게시물은 삭제하지 않습니다. 좋아요 수와 관계없이 게시물을 지우고 싶다면 공백으로 두세요
-    min_reblogs: 해당 횟수 이상 부스트된 게시물 유지
-    min_reblogs_hint: 이 횟수 이상의 부스트가 된 게시물은 삭제하지 않습니다. 부스트 수와 관계없이 게시물을 지우고 싶다면 공백으로
+      '15778476': 6 個月
+      '2629746': 1 個月
+      '31556952': 1 年
+      '5259492': 2 個月
+      '604800': 1週日
+      '63113904': 2 年
+      '7889238': 3 個月
+    min_age_label: 期限
+    min_favs: 該當 回數 以上 좋아요된 揭示物 維持
+    min_favs_hint: 이 回數 以上의 좋아요가 된 揭示物은 削除하지 않습니다. 좋아요 數와 關係없이 揭示物을 지우고 싶다면 空白으로 두세요
+    min_reblogs: 該當 回數 以上 부스트된 揭示物 維持
+    min_reblogs_hint: 이 回數 以上의 부스트가 된 揭示物은 削除하지 않습니다. 부스트 數와 關係없이 揭示物을 지우고 싶다면 空白으로
       두세요
   stream_entries:
-    pinned: 고정된 게시물
+    pinned: 固定된 揭示物
     reblogged: 님이 부스트 했습니다
-    sensitive_content: 민감한 컨텐츠
+    sensitive_content: 敏感한 컨텐츠
   strikes:
     errors:
-      too_late: 이의를 제기하기에 너무 늦었습니다
+      too_late: 異議를 提起하기에 너무 늦었습니다
   tags:
-    does_not_match_previous_name: 이전 이름과 맞지 않습니다
+    does_not_match_previous_name: 以前 이름과 맞지 않습니다
   terms:
     body_html: |
       <h2>개인정보 정책</h2>
@@ -1778,7 +1778,7 @@ ko-Kore:
       error: 保安 키를 追加하는데 問題가 發生했습니다. 다시 試圖해보십시오.
       success: 保安 키가 成功的으로 追加되었습니다.
     delete: 削除
-    delete_confirmation: 정말로 이 보안 키를 삭제하시겠습니까?
+    delete_confirmation: 정말로 이 保安 키를 削除하시겠습니까?
     description_html: "<strong>보안 키 인증</strong>을 활성화 하면, 로그인 시 보안 키 중 하나가 필요합니다."
     destroy:
       error: 보안 키를 삭제하는데 문제가 발생했습니다. 다시 시도해보십시오.
