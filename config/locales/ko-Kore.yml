@@ -364,7 +364,7 @@ ko-Kore:
     custom_emojis:
       assign_category: 分類 指定
       by_domain: 도메인
-      copied_msg: 成功的으로 에모지의 로컬 複寫本을 生成했습니다
+      copied_msg: 成功的으로 繪文字의 로컬 複寫本을 生成했습니다
       copy: 複寫
       copy_failed_msg: 에모지의 로컬 複寫本을 만드는 데 失敗하였습니다
       create_new_category: 分類 生成
