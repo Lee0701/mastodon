@@ -859,7 +859,7 @@ ko-Kore:
           하고 있는지 使用者들이 把握할 수 있도록 도움이 됩니다. 承認하지 않는 한 해시태그는 公開的으로 揭示되지 않습니다.
         listable: 推薦될 수 있습니다
         not_listable: 推薦될 수 없습니다
-        not_trendable: 遊行 目錄에 나타나지 않습니다
+        not_trendable: 流行 目錄에 나타나지 않습니다
         not_usable: 使用不可
         peaked_on_and_decaying: "%{date}에 高點을 찍고, 떨어지고 있습니다"
         title: 遊行하는 해시태그
