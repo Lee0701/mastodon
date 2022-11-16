@@ -876,32 +876,32 @@ ko-Kore:
       delete: 削除
       edit_preset: 警告 틀 修正
       empty: 아직 어떤 警告 틀도 正義되지 않았습니다.
-      title: 경고 틀 관리
+      title: 警告 틀 管理
   admin_mailer:
     new_appeal:
       actions:
-        delete_statuses: 게시물을 삭제하는 것
-        disable: 계정을 동결시키는 것
-        mark_statuses_as_sensitive: 게시물을 민감함으로 표시하는 것
-        none: 경고
-        sensitive: 계정을 민감함으로 표시하는 것
-        silence: 계정을 제한하는 것
-        suspend: 계정을 정지하는 것
-      body: "%{target} 님이 %{action_taken_by} 님에 의해 %{date}에 결정된 중재 결정에 대한 이의를 제기했습니다,\
-        \ 결정된 사항은 %{type}이었습니다. 작성내용은 다음과 같습니다:"
-      next_steps: 중재 결정사항을 되돌리기 위해서 상소를 승인하거나, 무시할 수 있습니다.
-      subject: "%{username} 님이 %{instance}에서 발생한 중재 결정에 대해 소명을 제출했습니다"
+        delete_statuses: 揭示物을 削除하는 것
+        disable: 計定을 凍結시키는 것
+        mark_statuses_as_sensitive: 揭示物을 敏感함으로 表示하는 것
+        none: 警告
+        sensitive: 計定을 敏感함으로 表示하는 것
+        silence: 計定을 制限하는 것
+        suspend: 計定을 停止하는 것
+      body: "%{target} 님이 %{action_taken_by} 님에 의해 %{date}에 決定된 仲裁 決定에 對한 異議를 提起했습니다,\
+        \ 決定된 事項은 %{type}이었습니다. 作成內容은 다음과 같습니다:"
+      next_steps: 仲裁 決定事項을 되돌리기 爲해서 上疏를 承認하거나, 無視할 수 있습니다.
+      subject: "%{username} 님이 %{instance}에서 發生한 仲裁 決定에 對해 疏明을 提出했습니다"
     new_pending_account:
-      body: 아래에 새 계정에 대한 상세정보가 있습니다. 이 가입을 승인하거나 거부할 수 있습니다.
-      subject: "%{instance}의 새 계정(%{username})에 대한 심사가 대기중입니다"
+      body: 아래에 새 計定에 對한 詳細情報가 있습니다. 이 加入을 承認하거나 拒否할 수 있습니다.
+      subject: "%{instance}의 새 計定(%{username})에 對한 審査가 待機中입니다"
     new_report:
-      body: "%{reporter} 가 %{target} 를 신고했습니다"
-      body_remote: "%{domain}의 누군가가 %{target}을 신고했습니다"
-      subject: "%{instance} 에 새 신고 등록됨 (#%{id})"
+      body: "%{reporter} 가 %{target} 를 申告했습니다"
+      body_remote: "%{domain}의 누군가가 %{target}을 申告했습니다"
+      subject: "%{instance} 에 새 申告 登錄됨 (#%{id})"
     new_trends:
-      body: '아래에 있는 항목들은 공개적으로 보여지기 전에 검토를 거쳐야 합니다:'
+      body: '아래에 있는 項目들은 公開的으로 보여지기 前에 檢討를 거쳐야 합니다:'
       new_trending_links:
-        no_approved_links: 현재 승인된 유행 중인 링크가 없습니다.
+        no_approved_links: 現在 承認된 遊行 中인 링크가 없습니다.
         requirements: '이 후보들 중 어떤 것이라도 #%{rank}위의 승인된 유행 중인 링크를 앞지를 수 있으며, 이것은 현재
           "%{lowest_link_title}"이고 %{lowest_link_score}점을 기록하고 있습니다.'
         title: 유행하는 링크
