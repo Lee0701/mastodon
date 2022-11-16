@@ -626,7 +626,7 @@ ko-Kore:
       assigned: 割當 된 仲裁者
       by_target_domain: 申告된 計定의 도메인
       category: 카테고리
-      category_description_html: 이 計定 또는 ，揭示物이 申告된 理由는 申告된 計定과의 意思疏通 過程에 引用됩니다
+      category_description_html: 이 計定 또는 揭示物이 申告된 理由는 申告된 計定과의 意思疏通 過程에 引用됩니다
       comment:
         none: 없음
       comment_description_html: '더 많은 情報를 爲해, %{name} 님이 作成했습니다:'
