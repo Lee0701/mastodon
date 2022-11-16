@@ -1053,15 +1053,15 @@ ko-Kore:
     success_msg: 計定이 成功的으로 削除되었습니다
     warning:
       before: '進行하기 前, 主義事項을 꼼꼼히 읽어보세요:'
-      caches: 다른 서버에 캐싱 된 정보들은 남아있을 수 있습니다
-      data_removal: 당신의 게시물과 다른 정보들은 영구적으로 삭제 됩니다
-      email_change_html: 계정을 지우지 않고도 <a href="%{path}">이메일 주소를 수정할 수 있습니다</a>
-      email_contact_html: 아직 도착하지 않았다면, <a href="mailto:%{email}">%{email}</a>에 메일을
-        보내 도움을 요청할 수 있습니다
-      email_reconfirmation_html: 아직 확인 메일이 도착하지 않은 경우, <a href="%{path}">다시 요청할 수
+      caches: 다른 서버에 캐싱 된 情報들은 남아있을 수 있습니다
+      data_removal: 當身의 揭示物과 다른 情報들은 永久的으로 削除 됩니다
+      email_change_html: 計定을 지우지 않고도 <a href="%{path}">이메일 住所를 修正할 수 있습니다</a>
+      email_contact_html: 아직 到着하지 않았다면, <a href="mailto:%{email}">%{email}</a>에 메일을
+        보내 도움을 要請할 수 있습니다
+      email_reconfirmation_html: 아직 確認 메일이 到着하지 않은 境遇, <a href="%{path}">다시 要請할 수
         있습니다</a>
-      irreversible: 계정을 복구하거나 다시 사용할 수 없게 됩니다
-      more_details_html: 더 자세한 정보는, <a href="%{terms_path}">개인정보 정책</a>을 참고하세요.
+      irreversible: 計定을 復舊하거나 다시 使用할 수 없게 됩니다
+      more_details_html: 더 姿勢한 情報는, <a href="%{terms_path}">個人情報 政策</a>을 參考하세요.
       username_available: 당신의 계정명은 다시 사용할 수 있게 됩니다
       username_unavailable: 당신의 계정명은 앞으로 사용할 수 없습니다
   directories:
