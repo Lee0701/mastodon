@@ -90,87 +90,87 @@ ko-Kore:
       bot: 봇
       group: 그룹
       moderator: 仲裁者
-    unavailable: 프로필 사용 불가
-    unfollow: 팔로우 해제
+    unavailable: 프로필 使用 不可
+    unfollow: 팔로우 解除
   admin:
     account_actions:
-      action: 조치 취하기
-      title: "%{acct} 계정에 중재 취하기"
+      action: 措置 취하기
+      title: "%{acct} 計定에 仲裁 취하기"
     account_moderation_notes:
-      create: 중재 기록 작성하기
-      created_msg: 중재 기록이 성공적으로 작성되었습니다!
-      destroyed_msg: 중재 기록이 성공적으로 삭제되었습니다!
+      create: 仲裁 記錄 作成하기
+      created_msg: 仲裁 記錄이 成功的으로 作成되었습니다!
+      destroyed_msg: 仲裁 記錄이 成功的으로 削除되었습니다!
     accounts:
-      add_email_domain_block: 이 이메일 도메인을 차단하기
-      approve: 승인
-      approved_msg: 성공적으로 %{username}의 가입 신청서를 승인했습니다
-      are_you_sure: 정말로 실행하시겠습니까?
+      add_email_domain_block: 이 이메일 도메인을 遮斷하기
+      approve: 承認
+      approved_msg: 成功的으로 %{username}의 加入 申請書를 承認했습니다
+      are_you_sure: 정말로 實行하시겠습니까?
       avatar: 아바타
       by_domain: 도메인
       change_email:
-        changed_msg: 이메일이 성공적으로 바뀌었습니다!
-        current_email: 현재 이메일 주소
-        label: 이메일 주소 변경
-        new_email: 새 이메일 주소
-        submit: 이메일 주소 변경
-        title: "%{username}의 이메일 주소 변경"
-      confirm: 확인
-      confirmed: 확인됨
-      confirming: 확인 중
-      custom: 사용자 지정
-      delete: 데이터 삭제
-      deleted: 삭제됨
-      demote: 강등
-      destroyed_msg: "%{username}의 데이터는 곧 삭제되도록 대기열에 들어갔습니다"
-      disable: 비활성화
-      disable_sign_in_token_auth: 이메일 토큰 인증 비활성화
-      disable_two_factor_authentication: 2단계 인증을 비활성화
-      disabled: 비활성화된
+        changed_msg: 이메일이 成功的으로 바뀌었습니다!
+        current_email: 現在 이메일 住所
+        label: 이메일 住所 變更
+        new_email: 새 이메일 住所
+        submit: 이메일 住所 變更
+        title: "%{username}의 이메일 住所 變更"
+      confirm: 確認
+      confirmed: 確認됨
+      confirming: 確認 中
+      custom: 使用者 指定
+      delete: 데이터 削除
+      deleted: 削除됨
+      demote: 降等
+      destroyed_msg: "%{username}의 데이터는 곧 削除되도록 待機列에 들어갔습니다"
+      disable: 非活性化
+      disable_sign_in_token_auth: 이메일 토큰 認證 非活性化
+      disable_two_factor_authentication: 2段階 認證을 非活性化
+      disabled: 非活性化된
       display_name: 이름
       domain: 도메인
-      edit: 편집
+      edit: 編輯
       email: 이메일
-      email_status: 이메일 상태
-      enable: 활성화
-      enable_sign_in_token_auth: 이메일 토큰 인증 활성화
-      enabled: 활성
-      enabled_msg: "%{username}의 계정을 성공적으로 얼리기 해제하였습니다"
+      email_status: 이메일 狀態
+      enable: 活性化
+      enable_sign_in_token_auth: 이메일 토큰 認證 活性化
+      enabled: 活性
+      enabled_msg: "%{username}의 計定을 成功的으로 얼리기 解除하였습니다"
       followers: 팔로워
       follows: 팔로잉
       header: 헤더
-      inbox_url: 수신함 URL
-      invite_request_text: 가입 하려는 이유
-      invited_by: 초대자
+      inbox_url: 受信函 URL
+      invite_request_text: 加入 하려는 理由
+      invited_by: 招待者
       ip: IP
-      joined: 가입
+      joined: 加入
       location:
-        all: 전체
+        all: 全體
         local: 로컬
         remote: 리모트
-        title: 위치
-      login_status: 로그인 상태
-      media_attachments: 첨부된 미디어
-      memorialize: 추모비로 전환
-      memorialized: 추모비화 됨
-      memorialized_msg: 성공적으로 %{username}를 추모비 계정으로 전환하였습니다
+        title: 位置
+      login_status: 로그인 狀態
+      media_attachments: 添附된 미디어
+      memorialize: 追慕碑로 轉換
+      memorialized: 追慕碑化 됨
+      memorialized_msg: 成功的으로 %{username}를 追慕碑 計定으로 轉換하였습니다
       moderation:
-        active: 활동
-        all: 전체
-        pending: 대기중
-        suspended: 정지 중
-        title: 중재
-      moderation_notes: 중재 기록
-      most_recent_activity: 최근 활동
-      most_recent_ip: 최근 IP
-      no_account_selected: 아무 계정도 선택 되지 않아 아무 것도 변경 되지 않았습니다
-      no_limits_imposed: 제한 없음
+        active: 活動
+        all: 全體
+        pending: 待機中
+        suspended: 停止 中
+        title: 仲裁
+      moderation_notes: 仲裁 記錄
+      most_recent_activity: 最近 活動
+      most_recent_ip: 最近 IP
+      no_account_selected: 아무 計定도 選擇 되지 않아 아무 것도 變更 되지 않았습니다
+      no_limits_imposed: 制限 없음
       not_subscribed: 구독하지 않음
-      pending: 심사 대기
-      perform_full_suspension: 정지시키기
-      previous_strikes: 이전의 처벌들
+      pending: 審査 待機
+      perform_full_suspension: 停止시키기
+      previous_strikes: 以前의 處罰들
       previous_strikes_description_html:
-        other: 이 계정은 <strong>%{count}</strong> 번의 처벌이 있었습니다.
-      promote: 승급
+        other: 이 計定은 <strong>%{count}</strong> 番의 處罰이 있었습니다.
+      promote: 昇給
       protocol: 프로토콜
       public: 공개
       push_subscription_expires: PuSH 구독 기간 만료
