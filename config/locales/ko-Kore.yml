@@ -675,7 +675,7 @@ ko-Kore:
       title: 서버 規則
     settings:
       activity_api_enabled:
-        desc_html: 周別 로컬에 揭示 된 글, 活性 使用者 및 새로운 加入者 數
+        desc_html: 週別 로컬에 揭示된 글, 活性 使用者 및 새로운 加入者 數
         title: 사용자 활동에 대한 통계 발행
       bootstrap_timeline_accounts:
         desc_html: 콤마로 여러 사용자명을 구분. 이 계정들은 팔로우 추천에 반드시 나타나게 됩니다
