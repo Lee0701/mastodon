@@ -267,7 +267,7 @@ ko-Kore:
         enable_sign_in_token_auth_user: 使用者에 對한 이메일 토큰 認證 活性化
         enable_user: 使用者 活性化
         memorialize_account: 追慕計定으로 轉換
-        promote_user: 使用者 昇給
+        promote_user: 使用者 昇級
         reject_appeal: 異議提起 拒絶
         reject_user: 使用者 拒否
         remove_avatar_user: 아바타 지우기
