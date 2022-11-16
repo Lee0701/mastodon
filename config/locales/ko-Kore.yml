@@ -622,11 +622,11 @@ ko-Kore:
         취하면 <strong>스팸</strong> 카테고리가 選擇된 境遇를 除外하고 이메일 알림이 해당 計定으로 傳送됩니다.
       add_to_report: 申告에 더 追加하기
       are_you_sure: 정말로 實行하시겠습니까?
-      assign_to_self: 나에게 할당하기
-      assigned: 할당 된 중재자
-      by_target_domain: 신고된 계정의 도메인
+      assign_to_self: 나에게 割當하기
+      assigned: 割當 된 仲裁者
+      by_target_domain: 申告된 計定의 도메인
       category: 카테고리
-      category_description_html: 이 계정 또는 게시물이 신고된 이유는 신고된 계정과의 의사소통 과정에 인용됩니다
+      category_description_html: 이 計定 또는 ，揭示物이 申告된 理由는 申告된 計定과의 意思疏通 過程에 引用됩니다
       comment:
         none: 없음
       comment_description_html: '더 많은 정보를 위해, %{name} 님이 작성했습니다:'
