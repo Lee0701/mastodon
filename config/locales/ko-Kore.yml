@@ -1044,7 +1044,7 @@ ko-Kore:
       x_days: "%{count}日"
       x_minutes: "%{count}分"
       x_months: "%{count}月"
-      x_seconds: "%{count}超"
+      x_seconds: "%{count}秒"
   deletes:
     challenge_not_passed: 入力한 情報가 올바르지 않습니다
     confirm_password: 本人 確認을 爲해 現在 使用 中인 暗號를 入力해 주십시오
