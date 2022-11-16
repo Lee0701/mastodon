@@ -472,21 +472,21 @@ ko-Kore:
         resolve: 도메인 解決
         title: 새 이메일 도메인 遮斷
       no_email_domain_block_selected: 아무 것도 選擇 되지 않아 어떤 이메일 도메인 遮斷도 變更되지 않았습니다
-      resolved_dns_records_hint_html: 도메인 네임은 다음의 MX 도메인으로 연결되어 있으며, 이메일을 받는데 필수적입니다.
-        MX 도메인을 차단하면 같은 MX 도메인을 사용하는 어떤 이메일이라도 가입할 수 없게 되며, 보여지는 도메인이 다르더라도 적용됩니다.
-        <strong>주요 이메일 제공자를 차단하지 않도록 조심하세요.</strong>
-      resolved_through_html: "%{domain}을 통해 해결됨"
-      title: Email 도메인 차단
+      resolved_dns_records_hint_html: 도메인 네임은 다음의 MX 도메인으로 連結되어 있으며, 이메일을 받는데 必須的입니다.
+        MX 도메인을 遮斷하면 같은 MX 도메인을 使用하는 어떤 이메일이라도 加入할 수 없게 되며, 보여지는 도메인이 다르더라도 適用됩니다.
+        <strong>主要 이메일 提供者를 遮斷하지 않도록 操心하세요.</strong>
+      resolved_through_html: "%{domain}을 通해 解決됨"
+      title: Email 도메인 遮斷
     follow_recommendations:
-      description_html: "<strong>팔로우 추천은 새 사용자들이 관심 가는 콘텐트를 빠르게 찾을 수 있도록 도와줍니다</strong>.\
-        \ 사용자가 개인화 된 팔로우 추천이 만들어지기 위한 충분한 상호작용을 하지 않은 경우, 이 계정들이 대신 추천 됩니다. 이들은 해당\
-        \ 언어에 대해 많은 관심을 갖거나 많은 로컬 팔로워를 가지고 있는 계정들을 섞어서 날마다 다시 계산 됩니다."
-      language: 언어 필터
-      status: 상태
-      suppress: 팔로우 추천 숨기기
+      description_html: "<strong>팔로우 推薦은 새 使用者들이 關心 가는 콘텐트를 빠르게 찾을 수 있도록 도와줍니다</strong>.\
+        \ 使用者가 個人化 된 팔로우 推薦이 만들어지기 위한 充分한 相互作用을 하지 않은 境遇, 이 計定들이 代身 推薦 됩니다. 이들은 該當\
+        \ 言語에 對해 많은 關心을 갖거나 많은 로컬 팔로워를 가지고 있는 計定들을 섞어서 날마다 다시 計算 됩니다."
+      language: 言語 필터
+      status: 狀態
+      suppress: 팔로우 推薦 숨기기
       suppressed: 숨겨짐
-      title: 팔로우 추천
-      unsuppress: 팔로우 추천 복원
+      title: 팔로우 推薦
+      unsuppress: 팔로우 推薦 伏願
     instances:
       availability:
         description_html:
