@@ -1398,12 +1398,12 @@ ko-Kore:
       prompt: '이 揭示物을 부스트 하려 합니다:'
     reply:
       proceed: 답장 進行
-      prompt: '이 게시물에 답장을 하려 합니다:'
+      prompt: '이 揭示物에 答狀을 하려 합니다:'
   reports:
     errors:
-      invalid_rules: 올바른 규칙을 포함하지 않습니다
+      invalid_rules: 올바른 規則을 包含하지 않습니다
   rss:
-    content_warning: '열람 주의:'
+    content_warning: '閱覽 主義:'
     descriptions:
       account: "@%{acct}의 공개 게시물"
       tag: "#%{hashtag} 해시태그가 붙은 공개 게시물"
