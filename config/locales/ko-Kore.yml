@@ -765,7 +765,7 @@ ko-Kore:
         title: 해시태그가 事前 리뷰 없이 트렌드에 올라갈 수 있도록 許容
       trends:
         desc_html: 리뷰를 거친 해시태그를 流行하는 해시태그에 公開的으로 보여줍니다
-        title: 유행하는 해시태그
+        title: 遊行하는 해시태그
     site_uploads:
       delete: 업로드한 파일 삭제
       destroyed_msg: 사이트 업로드를 성공적으로 삭제했습니다!
