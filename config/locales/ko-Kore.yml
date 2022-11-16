@@ -1505,46 +1505,46 @@ ko-Kore:
         other: "%{count}名"
       total_votes:
         other: "%{count}名 投票函"
-      vote: 투표
+      vote: 投票
     show_more: 더 보기
-    show_newer: 새로운 것 표시
-    show_older: 오래된 것 표시
+    show_newer: 새로운 것 表示
+    show_older: 오래된 것 表示
     show_thread: 글타래 보기
-    sign_in_to_participate: 로그인 하여 이 대화에 참여하기
+    sign_in_to_participate: 로그인 하여 이 對話에 參與하기
     title: '%{name}: "%{quote}"'
     visibilities:
       direct: 다이렉트
-      private: 비공개
-      private_long: 팔로워에게만 공개됩니다
-      public: 공개
-      public_long: 누구나 볼 수 있으며, 공개 타임라인에 표시됩니다
-      unlisted: 공개 타임라인 비공개
-      unlisted_long: 누구나 볼 수 있지만, 공개 타임라인에는 표시되지 않습니다
+      private: 非公開
+      private_long: 팔로워에게만 公開됩니다
+      public: 公開
+      public_long: 누구나 볼 수 있으며, 公開 타임라인에 表示됩니다
+      unlisted: 公開 타임라인 非公開
+      unlisted_long: 누구나 볼 수 있지만, 公開 타임라인에는 表示되지 않습니다
   statuses_cleanup:
-    enabled: 오래된 게시물 자동 삭제
-    enabled_hint: 아래의 예외 목록에 해당하지 않는다면, 명시된 기한 이후 당신의 게시물을 자동으로 삭제합니다
-    exceptions: 예외
-    explanation: 게시물 삭제는 많은 성능이 필요하기 때문에, 서버에서 바쁘지 않을 때 시간을 들여서 천천히 진행합니다. 이런 이유로,
-      당신의 게시물은 아마도 정해진 기간보다 좀 더 시간이 지난 이후에 삭제될 것입니다.
-    ignore_favs: 좋아요 무시
-    ignore_reblogs: 부스트 무시
-    interaction_exceptions: 상호작용에 기반한 예외들
-    interaction_exceptions_explanation: 좋아요나 부스트 수가 설정한 값을 넘은 후 다시 낮아진 경우에는 게시물이 삭제되는
-      것을 보장하지 못합니다.
-    keep_direct: 다이렉트 메시지 유지
-    keep_direct_hint: 다이렉트 메시지를 삭제하지 않습니다
-    keep_media: 미디어가 있는 게시물 유지
-    keep_media_hint: 미디어가 첨부된 게시물을 삭제하지 않습니다
-    keep_pinned: 고정된 게시물 유지
-    keep_pinned_hint: 고정 게시물을 삭제하지 않습니다
-    keep_polls: 투표 유지
-    keep_polls_hint: 투표를 삭제하지 않습니다
-    keep_self_bookmark: 북마크된 게시물 유지
-    keep_self_bookmark_hint: 내 스스로 북마크한 본인의 게시물을 삭제하지 않습니다
-    keep_self_fav: 마음에 들어한 게시물 유지
-    keep_self_fav_hint: 내 스스로 마음에  들어한 본인의 게시물을 삭제하지 않습니다
+    enabled: 오래된 揭示物 自動 削除
+    enabled_hint: 아래의 例外 目錄에 該當하지 않는다면, 明示된 期限 以後 當身의 揭示物을 自動으로 削除합니다
+    exceptions: 例外
+    explanation: 揭示物 削除는 많은 性能이 必要하기 때문에, 서버에서 바쁘지 않을 때 時間을 들여서 천천히 進行합니다. 이런 理由로,
+      當身의 揭示物은 아마도 定해진 期間보다 좀 더 時間이 지난 以後에 削除될 것입니다.
+    ignore_favs: 좋아요 無視
+    ignore_reblogs: 부스트 無視
+    interaction_exceptions: 相互作用에 基盤한 例外들
+    interaction_exceptions_explanation: 좋아요나 부스트 數가 設定한 값을 넘은 後 다시 낮아진 境遇에는 揭示物이 削除되는
+      것을 保障하지 못합니다.
+    keep_direct: 다이렉트 메시지 維持
+    keep_direct_hint: 다이렉트 메시지를 削除하지 않습니다
+    keep_media: 미디어가 있는 揭示物 維持
+    keep_media_hint: 미디어가 添附된 揭示物을 削除하지 않습니다
+    keep_pinned: 固定된 揭示物 維持
+    keep_pinned_hint: 固定 揭示物을 削除하지 않습니다
+    keep_polls: 投票 維持
+    keep_polls_hint: 投票를 削除하지 않습니다
+    keep_self_bookmark: 북마크된 揭示物 維持
+    keep_self_bookmark_hint: 내 스스로 북마크한 本人의 揭示物을 削除하지 않습니다
+    keep_self_fav: 마음에 들어한 揭示物 維持
+    keep_self_fav_hint: 내 스스로 마음에  들어한 本人의 揭示物을 削除하지 않습니다
     min_age:
-      '1209600': 2 주
+      '1209600': 2 周
       '15778476': 6 개월
       '2629746': 1 개월
       '31556952': 1 년
