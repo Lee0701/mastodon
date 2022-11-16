@@ -63,13 +63,13 @@ ko-Kore:
   accounts:
     choices_html: "%{name}의 推薦:"
     endorsements_hint: 내가 팔로우 하고 있는 사람들을 여기에 推薦 할 수 있습니다.
-    featured_tags_hint: 특정한 해시태그들을 여기에 표시되도록 할 수 있습니다.
+    featured_tags_hint: 特定한 해시태그들을 여기에 表示되도록 할 수 있습니다.
     follow: 팔로우
     followers:
       other: 팔로워
     following: 팔로잉
-    instance_actor_flash: 이 계정은 서버 자신을 나타내기 위한 가상의 계정이며 개인 사용자가 아닙니다. 이 계정은 연합을 위해
-      사용되며 정지되지 않아야 합니다.
+    instance_actor_flash: 이 計定은 서버 自身을 나타내기 爲한 假象의 計定이며 個人 使用者가 아닙니다. 이 計定은 聯合을 爲해
+      使用되며 停止되지 않아야 합니다.
     joined: "%{date}에 가입함"
     last_active: 최근 활동
     link_verified_on: "%{date}에 이 링크의 소유가 확인되었습니다"
