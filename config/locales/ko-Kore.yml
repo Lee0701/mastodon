@@ -1125,45 +1125,45 @@ ko-Kore:
       download: 아카이브 다운로드
       hint_html: 當身의 <strong>揭示物과 업로드 된 미디어</strong>의 아카이브를 要請할 수 있습니다. 내보내지는 데이터는
         ActivityPub 포맷입니다. 互換 되는 모든 소프트웨어에서 읽을 수 있습니다. 7일마다 새로운 아카이브를 要請할 수 있습니다.
-      in_progress: 당신의 아카이브를 컴파일 중입니다…
-      request: 아카이브 요청하기
+      in_progress: 當身의 아카이브를 컴파일 中입니다…
+      request: 아카이브 要請하기
       size: 크기
-    blocks: 차단
-    bookmarks: 보관함
+    blocks: 遮斷
+    bookmarks: 保管函
     csv: CSV
-    domain_blocks: 도메인 차단
+    domain_blocks: 도메인 遮斷
     lists: 리스트
     mutes: 뮤트
     storage: 미디어
   featured_tags:
-    add_new: 추가
+    add_new: 追加
     errors:
-      limit: 이미 추천 해시태그의 개수가 최대입니다
-    hint_html: "<strong>추천 해시태그가 무엇이죠?</strong> 당신의 공개 프로필 페이지에 눈에 띄게 표현 되며 사람들이 그\
-      \ 해시태그를 포함한 당신의 글을 찾아 볼 수 있도록 합니다. 창작활동이나 긴 기간을 가지는 프로젝트를 쭉 따라가기에 좋은 도구입니다."
+      limit: 이미 推薦 해시태그의 個數가 最大입니다
+    hint_html: "<strong>推薦 해시태그가 무엇이죠?</strong> 當身의 公開 프로필 페이지에 눈에 띄게 表現 되며 사람들이 그\
+      \ 해시태그를 包含한 當身의 글을 찾아 볼 수 있도록 합니다. 創作活動이나 긴 期間을 가지는 프로젝트를 쭉 따라가기에 좋은 道具입니다."
   filters:
     contexts:
       account: 프로필
       home: 홈 타임라인
       notifications: 알림
       public: 퍼블릭 타임라인
-      thread: 대화
+      thread: 對話
     edit:
-      title: 필터 편집
+      title: 필터 編輯
     errors:
       invalid_context: 컨텍스트가 없거나 올바르지 않습니다
-      invalid_irreversible: 되돌릴 수 없는 필터링은 홈 타임라인과 알림에서만 동작합니다
+      invalid_irreversible: 되돌릴 수 없는 필터링은 홈 타임라인과 알림에서만 動作합니다
     index:
-      delete: 삭제
+      delete: 削除
       empty: 필터가 없습니다.
       title: 필터
     new:
-      title: 필터 추가
+      title: 필터 追加
   footer:
-    developers: 개발자
+    developers: 開發者
     more: 더 보기…
     resources: 리소스
-    trending_now: 지금 유행중
+    trending_now: 只今 遊行中
   generic:
     all: 모두
     changes_saved_msg: 정상적으로 변경되었습니다!
