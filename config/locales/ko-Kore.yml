@@ -1330,7 +1330,7 @@ ko-Kore:
           trillion: T
   otp_authentication:
     code_hint: 確認을 爲해 認證 애플리케이션에 生成된 코드를 入力해 주십시오
-    description_html: 認證器 앱으로 <strong>2段階 認證</strong>을 活性化 하면 로그인 시 入力 할 토큰을 生成해 주는
+    description_html: 認證器 앱으로 <strong>2段階 認證</strong>을 活性化 하면 로그인 時 入力할 토큰을 生成해 주는
       電話機가 必要합니다.
     enable: 活性化
     instructions_html: "<strong>Google Authenticator, 또는 他 TOTP 애플리케이션에서 이 QR 코드를\
