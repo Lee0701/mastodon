@@ -357,14 +357,14 @@ ko-Kore:
       published_msg: 公知가 成功的으로 發行되었습니다!
       scheduled_for: "%{time}에 豫約됨"
       scheduled_msg: 公知의 發行이 豫約되었습니다!
-      title: 공지사항
-      unpublish: 게시 취소
-      unpublished_msg: 공지가 성공적으로 발행 취소되었습니다!
-      updated_msg: 공지가 성공적으로 업데이트되었습니다!
+      title: 公知事項
+      unpublish: 揭示 取消
+      unpublished_msg: 公知가 成功的으로 發行 取消되었습니다!
+      updated_msg: 公知가 成功的으로 업데이트되었습니다!
     custom_emojis:
-      assign_category: 분류 지정
+      assign_category: 分類 指定
       by_domain: 도메인
-      copied_msg: 성공적으로 에모지의 로컬 복사본을 생성했습니다
+      copied_msg: 成功的으로 에모지의 로컬 複寫本을 生成했습니다
       copy: 복사
       copy_failed_msg: 에모지의 로컬 복사본을 만드는 데 실패하였습니다
       create_new_category: 분류 생성
