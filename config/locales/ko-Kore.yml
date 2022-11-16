@@ -1405,14 +1405,14 @@ ko-Kore:
   rss:
     content_warning: '閱覽 主義:'
     descriptions:
-      account: "@%{acct}의 공개 게시물"
-      tag: "#%{hashtag} 해시태그가 붙은 공개 게시물"
+      account: "@%{acct}의 公開 揭示物"
+      tag: "#%{hashtag} 해시태그가 붙은 公開 揭示物"
   scheduled_statuses:
-    over_daily_limit: 그 날짜에 대한 %{limit}개의 예약 게시물 제한을 초과합니다
-    over_total_limit: 예약 게시물 제한 %{limit}을 초과합니다
-    too_soon: 예약 날짜는 미래여야 합니다
+    over_daily_limit: 그 날짜에 對한 %{limit}個의 豫約 揭示物 制限을 超過합니다
+    over_total_limit: 豫約 揭示物 制限 %{limit}을 超過합니다
+    too_soon: 豫約 날짜는 未來여야 합니다
   sessions:
-    activity: 마지막 활동
+    activity: 마지막 活動
     browser: 브라우저
     browsers:
       alipay: 알리페이
@@ -1432,9 +1432,9 @@ ko-Kore:
       safari: 사파리
       uc_browser: UC브라우저
       weibo: 웨이보
-    current_session: 현재 세션
+    current_session: 現在 세션
     description: "%{platform}의 %{browser}"
-    explanation: 내 마스토돈 계정에 현재 로그인 중인 웹 브라우저 목록입니다.
+    explanation: 내 마스토돈 計定에 現在 로그인 中인 웹 브라우저 目錄입니다.
     ip: IP
     platforms:
       adobe_air: 어도비 Air
@@ -1449,62 +1449,62 @@ ko-Kore:
       windows: 윈도우즈
       windows_mobile: 윈도우즈 모바일
       windows_phone: 윈도우즈 폰
-    revoke: 삭제
-    revoke_success: 세션이 성공적으로 삭제되었습니다
+    revoke: 削除
+    revoke_success: 세션이 成功的으로 削除되었습니다
     title: 세션
-    view_authentication_history: 내 계정에 대한 인증 이력 보기
+    view_authentication_history: 내 計定에 對한 認證 履歷 보기
   settings:
-    account: 계정
-    account_settings: 계정 설정
-    aliases: 계정 별명
-    appearance: 외관
-    authorized_apps: 인증된 애플리케이션
+    account: 計定
+    account_settings: 計定 設定
+    aliases: 計定 別名
+    appearance: 外觀
+    authorized_apps: 認證된 애플리케이션
     back: 돌아가기
-    delete: 계정 삭제
-    development: 개발
-    edit_profile: 프로필 편집
+    delete: 計定 削除
+    development: 開發
+    edit_profile: 프로필 編輯
     export: 데이터 내보내기
-    featured_tags: 추천 해시태그
+    featured_tags: 推薦 해시태그
     import: 데이터 가져오기
     import_and_export: 가져오기 / 내보내기
-    migrate: 계정 이동
+    migrate: 計定 移動
     notifications: 알림
-    preferences: 사용자 설정
+    preferences: 使用者 設定
     profile: 프로필
     relationships: 팔로잉과 팔로워
-    statuses_cleanup: 게시물 자동 삭제
-    strikes: 중재 기록
-    two_factor_authentication: 2단계 인증
-    webauthn_authentication: 보안 키
+    statuses_cleanup: 揭示物 自動 削除
+    strikes: 仲裁 記錄
+    two_factor_authentication: 2段階 認證
+    webauthn_authentication: 保安 키
   statuses:
     attached:
       audio:
-        other: "%{count}개의 오디오"
-      description: '첨부: %{attached}'
+        other: "%{count}個의 오디오"
+      description: '添附: %{attached}'
       image:
         other: "%{count} 이미지"
       video:
-        other: "%{count}개의 영상"
+        other: "%{count}個의 映像"
     boosted_from_html: "%{acct_link}의 글을 부스트"
-    content_warning: '열람 주의: %{warning}'
-    default_language: 화면 표시 언어와 동일하게
+    content_warning: '閱覽 注意: %{warning}'
+    default_language: 畵面 表示 言語와 同一하게
     disallowed_hashtags:
-      other: '허용되지 않은 해시태그를 포함하고 있습니다: %{tags}'
-    edited_at_html: "%{date}에 편집됨"
+      other: '許容되지 않은 해시태그를 包含하고 있습니다: %{tags}'
+    edited_at_html: "%{date}에 編輯됨"
     errors:
-      in_reply_not_found: 답장하려는 게시물이 존재하지 않습니다.
+      in_reply_not_found: 答狀하려는 揭示物이 存在하지 않습니다.
     open_in_web: Web으로 열기
-    over_character_limit: 최대 %{max}자까지 입력할 수 있습니다
+    over_character_limit: 最大 %{max}字까지 入力할 수 있습니다
     pin_errors:
-      direct: 멘션된 사용자들에게만 보이는 게시물은 고정될 수 없습니다
-      limit: 이미 너무 많은 게시물을 고정했습니다
-      ownership: 다른 사람의 게시물은 고정될 수 없습니다
-      reblog: 부스트는 고정될 수 없습니다
+      direct: 멘션된 使用者들에게만 보이는 揭示物은 固定될 수 없습니다
+      limit: 이미 너무 많은 揭示物을 固定했습니다
+      ownership: 다른 사람의 揭示物은 固定될 수 없습니다
+      reblog: 부스트는 固定될 수 없습니다
     poll:
       total_people:
-        other: "%{count}명"
+        other: "%{count}名"
       total_votes:
-        other: "%{count}명 투표함"
+        other: "%{count}名 投票函"
       vote: 투표
     show_more: 더 보기
     show_newer: 새로운 것 표시
