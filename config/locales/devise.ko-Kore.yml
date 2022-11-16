@@ -82,7 +82,7 @@ ko-Kore:
         subject: '마스토돈: 保安 키를 利用한 人證이 非活性化 됨'
         title: 保安 키 非活性化 됨
       webauthn_enabled:
-        explanation: 保安 키 人證이 當身의 計定에 對해 活性化 되어 있습니다. 保安 키를 通해 로그인 할 수 있습니다.
+        explanation: 保安 키 認證이 當身의 計定에 對해 活性化 되어 있습니다. 保安 키를 通해 로그인 할 수 있습니다.
         subject: '마스토돈: 보안 키 인증 활성화 됨'
         title: 보안 키 활성화 됨
     omniauth_callbacks:
