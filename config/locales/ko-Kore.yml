@@ -1504,7 +1504,7 @@ ko-Kore:
       total_people:
         other: "%{count}名"
       total_votes:
-        other: "%{count}名 投票函"
+        other: "%{count}名 投票함"
       vote: 投票
     show_more: 더 보기
     show_newer: 새로운 것 表示
