@@ -1052,7 +1052,7 @@ ko-Kore:
     proceed: 計定 削除
     success_msg: 計定이 成功的으로 削除되었습니다
     warning:
-      before: '進行하기 前, 主義事項을 꼼꼼히 읽어보세요:'
+      before: '進行하기 前, 注意事項을 꼼꼼히 읽어보세요:'
       caches: 다른 서버에 캐싱 된 情報들은 남아있을 수 있습니다
       data_removal: 當身의 揭示物과 다른 情報들은 永久的으로 削除 됩니다
       email_change_html: 計定을 지우지 않고도 <a href="%{path}">이메일 住所를 修正할 수 있습니다</a>
