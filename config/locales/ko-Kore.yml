@@ -365,24 +365,24 @@ ko-Kore:
       assign_category: 分類 指定
       by_domain: 도메인
       copied_msg: 成功的으로 에모지의 로컬 複寫本을 生成했습니다
-      copy: 복사
-      copy_failed_msg: 에모지의 로컬 복사본을 만드는 데 실패하였습니다
-      create_new_category: 분류 생성
-      created_msg: 에모지가 성공적으로 생성되었습니다!
-      delete: 삭제
-      destroyed_msg: 에모지가 성공적으로 삭제되었습니다!
-      disable: 비활성화
-      disabled: 비활성
-      disabled_msg: 성공적으로 비활성화하였습니다
+      copy: 複寫
+      copy_failed_msg: 에모지의 로컬 複寫本을 만드는 데 失敗하였습니다
+      create_new_category: 分類 生成
+      created_msg: 에모지가 成功的으로 生成되었습니다!
+      delete: 削除
+      destroyed_msg: 에모지가 成功的으로 削除되었습니다!
+      disable: 非活性化
+      disabled: 非活性
+      disabled_msg: 成功的으로 非活性化하였습니다
       emoji: 에모지
-      enable: 활성화
-      enabled: 활성됨
-      enabled_msg: 성공적으로 활성화하였습니다
-      image_hint: "%{size} 이하의 PNG 또는 GIF"
-      list: 목록에 추가
-      listed: 목록에 실림
+      enable: 活性化
+      enabled: 活性됨
+      enabled_msg: 成功的으로 活性化하였습니다
+      image_hint: "%{size} 以下의 PNG 또는 GIF"
+      list: 目錄에 追加
+      listed: 目錄에 실림
       new:
-        title: 새 커스텀 에모지 추가
+        title: 새 커스텀 에모지 追加
       not_permitted: 이 작업을 수행할 권한이 없습니다
       overwrite: 덮어쓰기
       shortcode: 짧은 코드
