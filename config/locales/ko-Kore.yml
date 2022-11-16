@@ -676,13 +676,13 @@ ko-Kore:
     settings:
       activity_api_enabled:
         desc_html: 週別 로컬에 揭示된 글, 活性 使用者 및 새로운 加入者 數
-        title: 사용자 활동에 대한 통계 발행
+        title: 使用者 活動에 對한 統計 發行
       bootstrap_timeline_accounts:
-        desc_html: 콤마로 여러 사용자명을 구분. 이 계정들은 팔로우 추천에 반드시 나타나게 됩니다
-        title: 새로운 사용자들에게 추천할 계정들
+        desc_html: 콤마로 여러 使用者名을 區分. 이 計定들은 팔로우 推薦에 반드시 나타나게 됩니다
+        title: 새로운 使用者들에게 推薦할 計定들
       contact_information:
-        email: 공개할 메일 주소를 입력
-        username: 연락 받을 관리자 사용자명
+        email: 公開할 메일 住所를 入力
+        username: 宴樂 받을 管理者 使用者名
       custom_css:
         desc_html: 모든 페이지에 적용할 CSS
         title: 커스텀 CSS
