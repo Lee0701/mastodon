@@ -386,7 +386,7 @@ ko-Kore:
       not_permitted: 이 作業을 遂行할 權限이 없습니다
       overwrite: 덮어쓰기
       shortcode: 짧은 코드
-      shortcode_hint: 最小 2글字, 英文字, 數字, _만 使用 可能
+      shortcode_hint: 最少 2글字, 英文字, 數字, _만 使用 可能
       title: 커스텀 에모지
       uncategorized: 分類되지 않음
       unlist: 目錄에서 除去
