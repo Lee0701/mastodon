@@ -684,37 +684,37 @@ ko-Kore:
         email: 公開할 메일 住所를 入力
         username: 宴樂 받을 管理者 使用者名
       custom_css:
-        desc_html: 모든 페이지에 적용할 CSS
+        desc_html: 모든 페이지에 適用할 CSS
         title: 커스텀 CSS
       default_noindex:
-        desc_html: 이 설정을 바꾸지 않은 모든 사용자들에게 적용 됩니다
-        title: 사용자들이 기본적으로 검색엔진에 인덱싱 되지 않도록 합니다
+        desc_html: 이 設定을 바꾸지 않은 모든 使用者들에게 適用 됩니다
+        title: 使用者들이 基本的으로 檢索엔진에 인덱싱 되지 않도록 합니다
       domain_blocks:
         all: 모두에게
         disabled: 아무에게도 안 함
-        title: 도메인 차단 보여주기
-        users: 로그인 한 사용자에게
+        title: 도메인 遮斷 보여주기
+        users: 로그인 한 使用者에게
       domain_blocks_rationale:
-        title: 사유 보여주기
+        title: 事由 보여주기
       hero:
-        desc_html: 프론트페이지에 표시 됩니다. 최소 600x100픽셀을 권장합니다. 만약 설정되지 않았다면, 서버의 썸네일이 사용
+        desc_html: 프론트페이지에 表示 됩니다. 最小 600x100픽셀을 勸奬합니다. 萬若 設定되지 않았다면, 서버의 썸네일이 使用
           됩니다
         title: 히어로 이미지
       mascot:
-        desc_html: 여러 페이지에서 보여집니다. 최소 293x205px을 추천합니다. 설정 되지 않은 경우, 기본 마스코트가 사용 됩니다
+        desc_html: 여러 페이지에서 보여집니다. 最小 293x205px을 推薦합니다. 設定 되지 않은 境遇, 基本 마스코트가 使用 됩니다
         title: 마스코트 이미지
       peers_api_enabled:
         desc_html: 이 서버가 페디버스에서 만났던 도메인 네임들
-        title: 발견 된 서버들의 리스트 발행
+        title: 發見 된 서버들의 리스트 發行
       preview_sensitive_media:
-        desc_html: 민감한 미디어로 설정되었더라도 다른 웹사이트에서 링크 미리보기에 썸네일을 보여줍니다
-        title: 민감한 미디어를 오픈그래프 미리보기에 보여주기
+        desc_html: 敏感한 미디어로 設定되었더라도 다른 웹사이트에서 링크 미리보기에 썸네일을 보여줍니다
+        title: 敏感한 미디어를 오픈그래프 미리보기에 보여주기
       profile_directory:
-        desc_html: 사용자들이 발견 될 수 있도록 허용
-        title: 프로필 책자 활성화
+        desc_html: 使用者들이 發見 될 수 있도록 許容
+        title: 프로필 冊子 活性化
       registrations:
         closed_message:
-          desc_html: 신규 등록을 받지 않을 때 프론트 페이지에 표시됩니다. HTML 태그를 사용할 수 있습니다
+          desc_html: 新規 登錄을 받지 않을 때 프론트 페이지에 표시됩니다. HTML 태그를 使用할 수 있습니다
           title: 신규 등록 정지 시 메시지
         deletion:
           desc_html: 사용자가 자신의 계정을 삭제할 수 있도록 허용합니다
