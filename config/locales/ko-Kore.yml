@@ -868,7 +868,7 @@ ko-Kore:
         usable: 使用 可能
         usage_comparison: 오늘은 %{today}回 使用되었고, 어제는 %{yesterday}回 使用되었습니다
         used_by_over_week:
-          other: 지난 周 동안 %{count} 名의 사람들이 使用했습니다
+          other: 지난 週 동안 %{count} 名의 사람들이 使用했습니다
       title: 유행
       trending: 유행중
     warning_presets:
