@@ -978,7 +978,7 @@ ko-Kore:
     login: 로그인
     logout: 로그아웃
     migrate_account: 計定 옮기기
-    migrate_account_html: 이 計定을 다른 計定으로 리디렉션 하길 원하는 경우 <a href="%{path}">여기</a>에서
+    migrate_account_html: 이 計定을 다른 計定으로 리디렉션 하길 願하는 境遇 <a href="%{path}">여기</a>에서
       設定할 수 있습니다.
     or_log_in_with: 다른 方法으로 로그인 하려면
     providers:
