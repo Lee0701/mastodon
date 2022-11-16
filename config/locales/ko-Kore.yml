@@ -471,7 +471,7 @@ ko-Kore:
         create: 遮斷 規則 生成
         resolve: 도메인 解決
         title: 새 이메일 도메인 遮斷
-      no_email_domain_block_selected: 아무 것도 選擇 되지 않아 어떤 이메일 도메인 遮斷도 變更되지 않았습니다
+      no_email_domain_block_selected: 아무 것도 選擇되지 않아 어떤 이메일 도메인 遮斷도 變更되지 않았습니다
       resolved_dns_records_hint_html: 도메인 네임은 다음의 MX 도메인으로 連結되어 있으며, 이메일을 받는데 必須的입니다.
         MX 도메인을 遮斷하면 같은 MX 도메인을 使用하는 어떤 이메일이라도 加入할 수 없게 되며, 보여지는 도메인이 다르더라도 適用됩니다.
         <strong>主要 이메일 提供者를 遮斷하지 않도록 操心하세요.</strong>
