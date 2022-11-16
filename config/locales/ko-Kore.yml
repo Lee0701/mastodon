@@ -1332,37 +1332,37 @@ ko-Kore:
     code_hint: 確認을 爲해 認證 애플리케이션에 生成된 코드를 入力해 주십시오
     description_html: 認證器 앱으로 <strong>2段階 認證</strong>을 活性化 하면 로그인 시 入力 할 토큰을 生成해 주는
       電話機가 必要합니다.
-    enable: 활성화
-    instructions_html: "<strong>Google Authenticator, 또는 타 TOTP 애플리케이션에서 이 QR 코드를\
-      \ 스캔해 주십시오.</strong> 이후 로그인 시에는 이 애플리케이션에서 생성되는 코드가 필요합니다."
-    manual_instructions: 'QR 코드를 스캔할 수 없어 수동으로 등록을 원하시는 경우 이 비밀 코드를 사용해 주십시오:'
-    setup: 설정
-    wrong_code: 코드가 올바르지 않습니다! 서버와 휴대전화 간의 시각이 일치하나요?
+    enable: 活性化
+    instructions_html: "<strong>Google Authenticator, 또는 他 TOTP 애플리케이션에서 이 QR 코드를\
+      \ 스캔해 주십시오.</strong> 以後 로그인 時에는 이 애플리케이션에서 生成되는 코드가 必要합니다."
+    manual_instructions: 'QR 코드를 스캔할 수 없어 手動으로 登錄을 원하시는 경우 이 秘密 코드를 使用해 주십시오:'
+    setup: 設定
+    wrong_code: 코드가 올바르지 않습니다! 서버와 携帶電話 間의 時刻이 一致하나요?
   pagination:
-    newer: 최근
+    newer: 最近
     next: 다음
-    older: 이전
-    prev: 이전
+    older: 以前
+    prev: 以前
     truncate: "&hellip;"
   polls:
     errors:
-      already_voted: 이미 투표에 참여하셨습니다
-      duplicate_options: 중복된 항목이 있습니다
-      duration_too_long: 너무 먼 미래입니다
+      already_voted: 이미 投票에 參與하셨습니다
+      duplicate_options: 重複된 項目이 있습니다
+      duration_too_long: 너무 먼 未來입니다
       duration_too_short: 너무 가깝습니다
-      expired: 투표가 이미 끝났습니다
-      invalid_choice: 선택한 투표 항목이 존재하지 않습니다
+      expired: 投票가 이미 끝났습니다
+      invalid_choice: 選擇한 投票 項目이 存在하지 않습니다
       over_character_limit: 각각 %{max} 글자를 넘을 수 없습니다
-      too_few_options: 한가지 이상의 항목을 포함해야 합니다
-      too_many_options: 항목은 %{max}개를 넘을 수 없습니다
+      too_few_options: 한가지 以上의 項目을 包含해야 합니다
+      too_many_options: 項目은 %{max}個를 넘을 수 없습니다
   preferences:
-    other: 기타
-    posting_defaults: 게시물 기본설정
-    public_timelines: 공개 타임라인
+    other: 其他
+    posting_defaults: 揭示物 基本設定
+    public_timelines: 公開 타임라인
   reactions:
     errors:
-      limit_reached: 다른 리액션 제한에 도달했습니다
-      unrecognized_emoji: 인식 되지 않은 에모지입니다
+      limit_reached: 다른 리액션 制限에 到達했습니다
+      unrecognized_emoji: 認識 되지 않은 에모지입니다
   relationships:
     activity: 계정 활동
     dormant: 휴면
