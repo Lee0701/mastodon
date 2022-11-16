@@ -172,95 +172,95 @@ ko-Kore:
         other: 이 計定은 <strong>%{count}</strong> 番의 處罰이 있었습니다.
       promote: 昇給
       protocol: 프로토콜
-      public: 공개
-      push_subscription_expires: PuSH 구독 기간 만료
+      public: 公開
+      push_subscription_expires: PuSH 구독 期間 滿了
       redownload: 프로필 업데이트
-      redownloaded_msg: 성공적으로 %{username}의 프로필을 원본으로부터 업데이트 하였습니다
-      reject: 거부
-      rejected_msg: 성공적으로 %{username}의 가입 신청서를 반려하였습니다
+      redownloaded_msg: 成功的으로 %{username}의 프로필을 原本으로부터 업데이트 하였습니다
+      reject: 拒否
+      rejected_msg: 成功的으로 %{username}의 加入 申請書를 返戾하였습니다
       remove_avatar: 아바타 지우기
-      remove_header: 헤더 삭제
-      removed_avatar_msg: 성공적으로 %{username}의 아바타 이미지를 삭제하였습니다
-      removed_header_msg: 성공적으로 %{username}의 헤더 이미지를 삭제하였습니다
+      remove_header: 헤더 削除
+      removed_avatar_msg: 成功的으로 %{username}의 아바타 이미지를 削除하였습니다
+      removed_header_msg: 成功的으로 %{username}의 헤더 이미지를 削除하였습니다
       resend_confirmation:
-        already_confirmed: 이 사용자는 이미 확인되었습니다
-        send: 확인 메일 다시 보내기
-        success: 확인 이메일이 전송되었습니다!
-      reset: 초기화
-      reset_password: 암호 초기화
+        already_confirmed: 이 使用者는 이미 確認되었습니다
+        send: 確認 메일 다시 보내기
+        success: 確認 이메일이 傳送되었습니다!
+      reset: 初期化
+      reset_password: 暗號 初期化
       resubscribe: 다시 구독
-      role: 권한
+      role: 權限
       roles:
-        admin: 관리자
-        moderator: 중재자
+        admin: 管理者
+        moderator: 仲裁者
         staff: 스태프
-        user: 사용자
-      search: 검색
-      search_same_email_domain: 같은 이메일 도메인을 가진 다른 사용자들
-      search_same_ip: 같은 IP의 다른 사용자들
+        user: 使用者
+      search: 檢索
+      search_same_email_domain: 같은 이메일 도메인을 가진 다른 使用者들
+      search_same_ip: 같은 IP의 다른 使用者들
       security_measures:
-        only_password: 암호만
-        password_and_2fa: 암호와 2단계 인증
-      sensitive: 민감함
-      sensitized: 민감함으로 설정됨
-      shared_inbox_url: 공유된 inbox URL
+        only_password: 暗號만
+        password_and_2fa: 暗號와 2段階 認證
+      sensitive: 敏感함
+      sensitized: 敏感함으로 設定됨
+      shared_inbox_url: 共有된 inbox URL
       show:
-        created_reports: 이 계정에서 제출된 신고
-        targeted_reports: 이 계정에 대한 신고
-      silence: 침묵
-      silenced: 침묵 됨
-      statuses: 게시물
-      strikes: 이전의 처벌들
+        created_reports: 이 計定에서 提出된 申告
+        targeted_reports: 이 計定에 對한 申告
+      silence: 沈默
+      silenced: 沈默 됨
+      statuses: 揭示物
+      strikes: 以前의 處罰들
       subscribe: 구독하기
-      suspend: 정지
-      suspended: 정지 됨
-      suspension_irreversible: 이 계정의 데이터는 복구할 수 없도록 삭제되었습니다. 계정을 정지 해제함으로서 계정을 다시
-        사용 가능하게 할 수 있지만 이전에 삭제한 어떤 데이터도 복구되지 않습니다.
-      suspension_reversible_hint_html: 계정이 정지되었습니다, 그리고 %{date}에 데이터가 완전히 삭제될 것입니다.
-        그 때까지는 어떤 안 좋은 효과 없이 계정이 복구 될 수 있습니다. 만약 지금 당장 계정의 모든 데이터를 삭제하고 싶다면, 아래에서
-        행할 수 있습니다.
-      title: 계정
-      unblock_email: 이메일 주소 차단 해제
-      unblocked_email_msg: "%{username}의 이메일 주소를 성공적으로 차단 해제했습니다"
-      unconfirmed_email: 미확인 된 이메일 주소
-      undo_sensitized: 민감함으로 설정 취소
-      undo_silenced: 침묵 해제
-      undo_suspension: 정지 해제
-      unsilenced_msg: 성공적으로 %{username} 계정을 제한 해제했습니다
-      unsubscribe: 구독 해제
-      unsuspended_msg: 성공적으로 %{username} 계정을 정지 해제했습니다
+      suspend: 停止
+      suspended: 停止 됨
+      suspension_irreversible: 이 計定의 데이터는 復舊할 수 없도록 削除되었습니다. 計定을 停止 解除함으로서 計定을 다시
+        使用 可能하게 할 수 있지만 以前에 削除한 어떤 데이터도 復舊되지 않습니다.
+      suspension_reversible_hint_html: 計定이 停止되었습니다, 그리고 %{date}에 데이터가 完全히 削除될 것입니다.
+        그 때까지는 어떤 안 좋은 效果 없이 計定이 復舊 될 수 있습니다. 萬若 只今 當場 計定의 모든 데이터를 削除하고 싶다면, 아래에서
+        行할 수 있습니다.
+      title: 計定
+      unblock_email: 이메일 住所 遮斷 解除
+      unblocked_email_msg: "%{username}의 이메일 住所를 成功的으로 遮斷 解除했습니다"
+      unconfirmed_email: 未確認 된 이메일 住所
+      undo_sensitized: 敏感함으로 設定 取消
+      undo_silenced: 沈默 解除
+      undo_suspension: 停止 解除
+      unsilenced_msg: 成功的으로 %{username} 計定을 制限 解除했습니다
+      unsubscribe: 구독 解除
+      unsuspended_msg: 成功的으로 %{username} 計定을 停止 解除했습니다
       username: 아이디
-      view_domain: 도메인의 요약 보기
-      warn: 경고
+      view_domain: 도메인의 要約 보기
+      warn: 警告
       web: 웹
-      whitelisted: 허용 목록
+      whitelisted: 許容 目錄
     action_logs:
       action_types:
-        approve_appeal: 이의제기 승인
-        approve_user: 사용자 승인
-        assigned_to_self_report: 신고 맡기
-        change_email_user: 사용자의 이메일 변경
-        confirm_user: 사용자 확인
-        create_account_warning: 경고 생성
-        create_announcement: 공지사항 생성
-        create_custom_emoji: 커스텀 에모지 생성
-        create_domain_allow: 도메인 허용 생성
-        create_domain_block: 도메인 차단 추가
-        create_email_domain_block: 이메일 도메인 차단 생성
-        create_ip_block: IP 규칙 만들기
-        create_unavailable_domain: 사용 불가능한 도메인 생성
-        demote_user: 사용자 강등
-        destroy_announcement: 공지사항 삭제
-        destroy_custom_emoji: 커스텀 에모지 삭제
-        destroy_domain_allow: 도메인 허용 삭제
-        destroy_domain_block: 도메인 차단 삭제
-        destroy_email_domain_block: 이메일 도메인 차단 삭제
-        destroy_instance: 도메인 제거
-        destroy_ip_block: IP 규칙 삭제
-        destroy_status: 게시물 삭제
-        destroy_unavailable_domain: 사용 불가능한 도메인 제거
-        disable_2fa_user: 2단계 인증 비활성화
-        disable_custom_emoji: 커스텀 에모지 비활성화
+        approve_appeal: 異議提起 承認
+        approve_user: 使用者 承認
+        assigned_to_self_report: 申告 맡기
+        change_email_user: 使用者의 이메일 變更
+        confirm_user: 使用者 確認
+        create_account_warning: 警告 生成
+        create_announcement: 公知事項 生成
+        create_custom_emoji: 커스텀 에모지 生成
+        create_domain_allow: 도메인 許容 生成
+        create_domain_block: 도메인 遮斷 追加
+        create_email_domain_block: 이메일 도메인 遮斷 生成
+        create_ip_block: IP 規則 만들기
+        create_unavailable_domain: 使用 不可能한 도메인 生成
+        demote_user: 使用者 降等
+        destroy_announcement: 公知事項 削除
+        destroy_custom_emoji: 커스텀 에모지 削除
+        destroy_domain_allow: 도메인 許容 削除
+        destroy_domain_block: 도메인 遮斷 削除
+        destroy_email_domain_block: 이메일 도메인 遮斷 削除
+        destroy_instance: 도메인 除去
+        destroy_ip_block: IP 規則 削除
+        destroy_status: 揭示物 削除
+        destroy_unavailable_domain: 使用 不可能한 도메인 除去
+        disable_2fa_user: 2段階 認證 非活性化
+        disable_custom_emoji: 커스텀 에모지 非活性化
         disable_sign_in_token_auth_user: 사용자에 대한 이메일 토큰 인증 비활성화
         disable_user: 사용자 비활성화
         enable_custom_emoji: 커스텀 에모지 활성화
