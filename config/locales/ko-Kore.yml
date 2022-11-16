@@ -1176,148 +1176,148 @@ ko-Kore:
     validation_errors:
       other: 오류가 發生했습니다. 아래 %{count}個 오류를 確認해 주십시오
   html_validator:
-    invalid_markup: '올바르지 않은 HTML 마크업을 포함하고 있습니다: %{error}'
+    invalid_markup: '올바르지 않은 HTML 마크업을 包含하고 있습니다: %{error}'
   imports:
     errors:
-      over_rows_processing_limit: "%{count}개 이상의 열을 포함합니다"
+      over_rows_processing_limit: "%{count}個 以上의 列을 包含합니다"
     modes:
-      merge: 병합
-      merge_long: 기존 것을 그대로 둔 채 새로 추가
+      merge: 倂合
+      merge_long: 旣存 것을 그대로 둔 채 새로 追加
       overwrite: 덮어쓰기
-      overwrite_long: 기존 것을 모두 지우고 새로 추가
-    preface: 다른 서버에서 내보내기 한 파일에서 팔로우 / 차단 정보를 이 계정으로 불러올 수 있습니다.
-    success: 파일이 정상적으로 업로드 되었으며, 현재 처리 중입니다
+      overwrite_long: 旣存 것을 모두 지우고 새로 追加
+    preface: 다른 서버에서 내보내기 한 파일에서 팔로우 / 遮斷 情報를 이 計定으로 불러올 수 있습니다.
+    success: 파일이 正常的으로 업로드 되었으며, 現在 處理 中입니다
     types:
-      blocking: 차단한 계정 목록
-      bookmarks: 보관함
-      domain_blocking: 도메인 차단 목록
-      following: 팔로우 중인 계정 목록
-      muting: 뮤트 중인 계정 목록
+      blocking: 遮斷한 計定 目錄
+      bookmarks: 保管函
+      domain_blocking: 도메인 遮斷 目錄
+      following: 팔로우 中인 計定 目錄
+      muting: 뮤트 中인 計定 目錄
     upload: 업로드
-  in_memoriam_html: 고인의 계정입니다.
+  in_memoriam_html: 故人의 計定입니다.
   invites:
-    delete: 비활성화
-    expired: 만료됨
+    delete: 非活性化
+    expired: 滿了됨
     expires_in:
-      '1800': 30 분
-      '21600': 6 시간
-      '3600': 1 시간
-      '43200': 12 시간
-      '604800': 1주일
+      '1800': 30 分
+      '21600': 6 時間
+      '3600': 1 時間
+      '43200': 12 時間
+      '604800': 1週日
       '86400': 하루
-    expires_in_prompt: 영원히
-    generate: 생성
-    invited_by: '당신을 초대한 사람:'
+    expires_in_prompt: 永遠히
+    generate: 生成
+    invited_by: '當身을 招待한 사람:'
     max_uses:
-      other: "%{count} 회"
-    max_uses_prompt: 제한 없음
-    prompt: 이 서버에 대한 초대 링크를 만들고 공유합니다
+      other: "%{count} 回"
+    max_uses_prompt: 制限 없음
+    prompt: 이 서버에 對한 招待 링크를 만들고 共有합니다
     table:
-      expires_at: 만료
-      uses: 사용됨
-    title: 초대
+      expires_at: 滿了
+      uses: 使用됨
+    title: 招待
   lists:
     errors:
-      limit: 리스트 최대치에 도달했습니다
+      limit: 리스트 最大値에 到達했습니다
   login_activities:
     authentication_methods:
-      otp: 2단계 인증 앱
-      password: 암호
-      sign_in_token: 이메일 보안 코드
-      webauthn: 보안 키
-    description_html: 확인되지 않은 활동이 보인다면, 암호를 바꾸거나 2단계 인증을 활성화 하는 것을 고려해 보세요.
-    empty: 인증 이력이 존재하지 않습니다
-    failed_sign_in_html: 실패한 로그인 시도 %{method} %{ip} (%{browser})
-    successful_sign_in_html: 성공한 로그인 시도 %{method} %{ip} (%{browser})
-    title: 인증 이력
+      otp: 2段階 認證 앱
+      password: 暗號
+      sign_in_token: 이메일 保安 코드
+      webauthn: 保安 키
+    description_html: 確認되지 않은 活動이 보인다면, 暗號를 바꾸거나 2段階 認證을 活性化 하는 것을 考慮해 보세요.
+    empty: 認證 履歷이 存在하지 않습니다
+    failed_sign_in_html: 失敗한 로그인 試圖 %{method} %{ip} (%{browser})
+    successful_sign_in_html: 成功한 로그인 試圖 %{method} %{ip} (%{browser})
+    title: 認證 履歷
   media_attachments:
     validations:
-      images_and_video: 이미 사진이 첨부 된 게시물엔 동영상을 첨부 할 수 없습니다
-      not_ready: 처리가 끝나지 않은 파일은 첨부할 수 없습니다. 잠시 후에 다시 시도해 주세요!
-      too_many: 최대 4개까지 첨부할 수 있습니다
+      images_and_video: 이미 寫眞이 添附 된 揭示物엔 動映像을 添附 할 수 없습니다
+      not_ready: 處理가 끝나지 않은 파일은 添附할 수 없습니다. 잠시 후에 다시 試圖해 주세요!
+      too_many: 最大 4個까지 添附할 수 있습니다
   migrations:
-    acct: 새 계정의 username@domain
-    cancel: 리디렉션 취소
-    cancel_explanation: 리다이렉트를 취소하면 현재 계정이 다시 활성화 됩니다, 새 계정으로 이동한 팔로워를 되찾을 수는 없습니다.
-    cancelled_msg: 리다이렉트를 성공적으로 취소했습니다.
+    acct: 새 計定의 username@domain
+    cancel: 리디렉션 取消
+    cancel_explanation: 리다이렉트를 取消하면 現在 計定이 다시 活性化 됩니다, 새 計定으로 移動한 팔로워를 되찾을 수는 없습니다.
+    cancelled_msg: 리다이렉트를 成功적으로 取消했습니다.
     errors:
-      already_moved: 이미 이동한 계정과 동일합니다
-      missing_also_known_as: 이 계정을 역으로 참조하지 않고 있습니다
-      move_to_self: 현재 계정은 사용할 수 없습니다
+      already_moved: 이미 移動한 計定과 同一합니다
+      missing_also_known_as: 이 計定을 逆으로 參照하지 않고 있습니다
+      move_to_self: 現在 計定은 使用할 수 없습니다
       not_found: 찾을 수 없습니다
-      on_cooldown: 휴식기간입니다
-    followers_count: 이주 될 팔로워들
-    incoming_migrations: 다른 계정으로부터 옮기기
-    incoming_migrations_html: 다른 계정을 이 계정으로 이주하고 싶은 경우, 먼저 <a href="%{path}">계정 별칭을
+      on_cooldown: 休息期間입니다
+    followers_count: 移住 될 팔로워들
+    incoming_migrations: 다른 計定으로부터 옮기기
+    incoming_migrations_html: 다른 計定을 이 計定으로 移住하고 싶은 境遇, 먼저 <a href="%{path}">計定 別稱을
       만들어야 합니다</a>.
-    moved_msg: 당신의 계정은 %{acct}로 리다이렉트 되고 있으며 팔로워들은 이주 될 것입니다.
-    not_redirecting: 현재 이 계정은 어디로도 리다이렉트 되고 있지 않습니다.
-    on_cooldown: 당신은 최근에 이미 계정을 이동했습니다. 이 기능은 %{count}일 후에 다시 이용 가능합니다.
-    past_migrations: 과거 이주
-    proceed_with_move: 팔로워 이동
-    redirected_msg: 당신의 계정은 이제 %{acct} 로 리다이렉트됩니다.
-    redirecting_to: 당신의 계정은 %{acct} 로 리다이렉트됩니다.
-    set_redirect: 리디렉션 설정
+    moved_msg: 當身의 計定은 %{acct}로 리다이렉트 되고 있으며 팔로워들은 移住 될 것입니다.
+    not_redirecting: 現在 이 計定은 어디로도 리다이렉트 되고 있지 않습니다.
+    on_cooldown: 當身은 最近에 이미 計定을 移動했습니다. 이 機能은 %{count}日 後에 다시 利用 可能합니다.
+    past_migrations: 過去 移住
+    proceed_with_move: 팔로워 移動
+    redirected_msg: 當身의 計定은 이제 %{acct} 로 리다이렉트됩니다.
+    redirecting_to: 當身의 計定은 %{acct} 로 리다이렉트됩니다.
+    set_redirect: 리디렉션 設定
     warning:
-      backreference_required: 새 계정은 이 계정으로 역참조를 하도록 설정되어 있어야 합니다
-      before: '진행하기 전, 주의사항을 꼼꼼히 읽어보세요:'
-      cooldown: 이주 뒤에는 새로운 이주를 하지 못하는 휴식기간이 존재합니다
-      disabled_account: 이 계정은 완전한 사용이 불가능하게 됩니다. 하지만, 데이터 내보내기나 재활성화를 위해 접근할 수 있습니다.
-      followers: 이 행동은 현재 계정의 모든 팔로워를 새 계정으로 이동시킵니다
-      only_redirect_html: 대신, <a href="%{path}">프로필에 리디렉션만 표시</a>할 수 있습니다.
-      other_data: 다른 어떤 데이터도 자동적으로 옮겨지지 않을 것입니다
-      redirect: 현재 계정 프로필은 리다이렉트 알림과 함께 업데이트 되며 검색에서 제외 됩니다
+      backreference_required: 새 計定은 이 計定으로 逆參照를 하도록 設定되어 있어야 합니다
+      before: '進行하기 前, 主義事項을 꼼꼼히 읽어보세요:'
+      cooldown: 移住 뒤에는 새로운 移住를 하지 못하는 休息期間이 存在합니다
+      disabled_account: 이 計定은 完全한 使用이 不可能하게 됩니다. 하지만, 데이터 내보내기나 再活性化를 爲해 接近할 수 있습니다.
+      followers: 이 行動은 現在 計定의 모든 팔로워를 새 計定으로 移動시킵니다
+      only_redirect_html: 代身, <a href="%{path}">프로필에 리디렉션만 表示</a>할 수 있습니다.
+      other_data: 다른 어떤 데이터도 自動的으로 옮겨지지 않을 것입니다
+      redirect: 現在 計定 프로필은 리다이렉트 알림과 함께 업데이트 되며 檢索에서 除外 됩니다
   moderation:
-    title: 중재
+    title: 仲裁
   move_handler:
-    carry_blocks_over_text: 이 사용자는 당신이 차단한 %{acct}로부터 이주 했습니다.
-    carry_mutes_over_text: 이 사용자는 당신이 뮤트한 %{acct}로부터 이주 했습니다.
-    copy_account_note_text: '이 사용자는 %{acct}로부터 이동하였습니다. 당신의 이전 노트는 이렇습니다:'
+    carry_blocks_over_text: 이 使用者는 當身이 遮斷한 %{acct}로부터 移住 했습니다.
+    carry_mutes_over_text: 이 使用者는 當身이 뮤트한 %{acct}로부터 移住 했습니다.
+    copy_account_note_text: '이 使用者는 %{acct}로부터 移動하였습니다. 當身의 以前 노트는 이렇습니다:'
   notification_mailer:
     admin:
       sign_up:
-        subject: "%{name} 님이 가입했습니다"
+        subject: "%{name} 님이 加入했습니다"
     digest:
       action: 모든 알림 보기
-      body: 마지막 로그인(%{since}) 이후로 일어난 일들에 관한 요약
-      mention: "%{name} 님이 나를 언급했습니다:"
+      body: 마지막 로그인(%{since}) 以後로 일어난 일들에 關한 要約
+      mention: "%{name} 님이 나를 言及했습니다:"
       new_followers_summary:
-        other: 게다가, 접속하지 않은 동안 %{count} 명의 팔로워가 생겼습니다!
+        other: 게다가, 接續하지 않은 동안 %{count} 名의 팔로워가 생겼습니다!
       subject:
-        other: 마지막 방문 이후로 %{count} 건의 새로운 알림
-      title: 당신이 없는 동안에...
+        other: 마지막 訪問 以後로 %{count} 件의 새로운 알림
+      title: 當身이 없는 동안에...
     favourite:
-      body: '당신의 게시물을 %{name} 님이 마음에 들어했습니다:'
-      subject: "%{name} 님이 내 게시물을 마음에 들어했습니다"
+      body: '當身의 揭示物을 %{name} 님이 마음에 들어했습니다:'
+      subject: "%{name} 님이 내 揭示物을 마음에 들어했습니다"
       title: 새 좋아요
     follow:
       body: "%{name} 님이 나를 팔로우 했습니다!"
       subject: "%{name} 님이 나를 팔로우 했습니다"
       title: 새 팔로워
     follow_request:
-      action: 팔로우 요청 관리
-      body: "%{name} 님이 내게 팔로우 요청을 보냈습니다"
-      subject: "%{name} 님이 보낸 팔로우 요청"
-      title: 새 팔로우 요청
+      action: 팔로우 要請 管理
+      body: "%{name} 님이 내게 팔로우 要請을 보냈습니다"
+      subject: "%{name} 님이 보낸 팔로우 要請"
+      title: 새 팔로우 要請
     mention:
-      action: 답장
-      body: "%{name} 님이 나를 언급했습니다:"
-      subject: "%{name} 님이 나를 언급했습니다"
+      action: 答狀
+      body: "%{name} 님이 나를 言及했습니다:"
+      subject: "%{name} 님이 나를 言及했습니다"
       title: 새 멘션
     poll:
-      subject: "%{name}의 투표가 종료되었습니다"
+      subject: "%{name}의 投票가 終了되었습니다"
     reblog:
-      body: '당신의 게시물을 %{name} 님이 부스트 했습니다:'
-      subject: "%{name} 님이 내 게시물을 부스트 했습니다"
+      body: '當身의 揭示物을 %{name} 님이 부스트 했습니다:'
+      subject: "%{name} 님이 내 揭示物을 부스트 했습니다"
       title: 새 부스트
     status:
-      subject: "%{name} 님이 방금 게시물을 올렸습니다"
+      subject: "%{name} 님이 方今 揭示物을 올렸습니다"
     update:
-      subject: "%{name} 님이 게시물을 수정했습니다"
+      subject: "%{name} 님이 揭示物을 修正했습니다"
   notifications:
-    email_events: 이메일 알림에 대한 이벤트
-    email_events_hint: '알림 받을 이벤트를 선택해주세요:'
-    other_settings: 기타 알림 설정
+    email_events: 이메일 알림에 對한 이벤트
+    email_events_hint: '알림 받을 이벤트를 選擇해주세요:'
+    other_settings: 其他 알림 設定
   number:
     human:
       decimal_units:
@@ -1329,9 +1329,9 @@ ko-Kore:
           thousand: K
           trillion: T
   otp_authentication:
-    code_hint: 확인을 위해 인증 애플리케이션에 생성된 코드를 입력해 주십시오
-    description_html: 인증기 앱으로 <strong>2단계 인증</strong>을 활성화 하면 로그인 시 입력 할 토큰을 생성해 주는
-      전화기가 필요합니다.
+    code_hint: 確認을 爲해 認證 애플리케이션에 生成된 코드를 入力해 주십시오
+    description_html: 認證器 앱으로 <strong>2段階 認證</strong>을 活性化 하면 로그인 시 入力 할 토큰을 生成해 주는
+      電話機가 必要합니다.
     enable: 활성화
     instructions_html: "<strong>Google Authenticator, 또는 타 TOTP 애플리케이션에서 이 QR 코드를\
       \ 스캔해 주십시오.</strong> 이후 로그인 시에는 이 애플리케이션에서 생성되는 코드가 필요합니다."
