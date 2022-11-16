@@ -872,10 +872,10 @@ ko-Kore:
       title: 流行
       trending: 遊行中
     warning_presets:
-      add_new: 새로 추가
-      delete: 삭제
-      edit_preset: 경고 틀 수정
-      empty: 아직 어떤 경고 틀도 정의되지 않았습니다.
+      add_new: 새로 追加
+      delete: 削除
+      edit_preset: 警告 틀 修正
+      empty: 아직 어떤 警告 틀도 正義되지 않았습니다.
       title: 경고 틀 관리
   admin_mailer:
     new_appeal:
