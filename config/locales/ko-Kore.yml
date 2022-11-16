@@ -1046,13 +1046,13 @@ ko-Kore:
       x_months: "%{count}月"
       x_seconds: "%{count}超"
   deletes:
-    challenge_not_passed: 입력한 정보가 올바르지 않습니다
-    confirm_password: 본인 확인을 위해 현재 사용 중인 암호를 입력해 주십시오
-    confirm_username: 절차를 진행하려면 당신의 사용자명을 입력하세요
-    proceed: 계정 삭제
-    success_msg: 계정이 성공적으로 삭제되었습니다
+    challenge_not_passed: 入力한 情報가 올바르지 않습니다
+    confirm_password: 本人 確認을 爲해 現在 使用 中인 暗號를 入力해 주십시오
+    confirm_username: 節次를 進行하려면 當身의 使用者名을 入力하세요
+    proceed: 計定 削除
+    success_msg: 計定이 成功的으로 削除되었습니다
     warning:
-      before: '진행하기 전, 주의사항을 꼼꼼히 읽어보세요:'
+      before: '進行하기 前, 主義事項을 꼼꼼히 읽어보세요:'
       caches: 다른 서버에 캐싱 된 정보들은 남아있을 수 있습니다
       data_removal: 당신의 게시물과 다른 정보들은 영구적으로 삭제 됩니다
       email_change_html: 계정을 지우지 않고도 <a href="%{path}">이메일 주소를 수정할 수 있습니다</a>
