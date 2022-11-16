@@ -315,7 +315,7 @@ ko-Kore:
         disable_sign_in_token_auth_user_html: "%{name} 님이 %{target} 님의 이메일 토큰 認證을\
           \ 非活性化 했습니다"
         disable_user_html: "%{name} 님이 使用者 %{target}의 로그인을 非活性化 했습니다"
-        enable_custom_emoji_html: "%{name} 님이 에모지 %{target}를 活性化 했습니다"
+        enable_custom_emoji_html: "%{name} 님이 繪文字 %{target}를 活性化 했습니다"
         enable_sign_in_token_auth_user_html: "%{name} 님이 %{target} 님의 이메일 토큰 認證을 活性化\
           \ 했습니다"
         enable_user_html: "%{name} 님이 使用者 %{target}의 로그인을 活性化 했습니다"
