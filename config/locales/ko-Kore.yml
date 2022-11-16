@@ -870,7 +870,7 @@ ko-Kore:
         used_by_over_week:
           other: 지난 週 동안 %{count} 名의 사람들이 使用했습니다
       title: 流行
-      trending: 遊行中
+      trending: 流行中
     warning_presets:
       add_new: 새로 追加
       delete: 削除
