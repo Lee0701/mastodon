@@ -1174,7 +1174,7 @@ ko-Kore:
     save_changes: 變更 事項을 貯藏
     today: 오늘
     validation_errors:
-      other: 오류가 發生했습니다. 아래 %{count}個 오류를 確認해 주십시오
+      other: 誤謬가 發生했습니다. 아래 %{count}個 誤謬를 確認해 주십시오
   html_validator:
     invalid_markup: '올바르지 않은 HTML 마크업을 包含하고 있습니다: %{error}'
   imports:
