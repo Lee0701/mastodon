@@ -1166,15 +1166,15 @@ ko-Kore:
     trending_now: 只今 遊行中
   generic:
     all: 모두
-    changes_saved_msg: 정상적으로 변경되었습니다!
-    copy: 복사
-    delete: 삭제
+    changes_saved_msg: 正常的으로 變更되었습니다!
+    copy: 複寫
+    delete: 削除
     none: 없음
-    order_by: 순서
-    save_changes: 변경 사항을 저장
+    order_by: 順序
+    save_changes: 變更 事項을 貯藏
     today: 오늘
     validation_errors:
-      other: 오류가 발생했습니다. 아래 %{count}개 오류를 확인해 주십시오
+      other: 오류가 發生했습니다. 아래 %{count}個 오류를 確認해 주십시오
   html_validator:
     invalid_markup: '올바르지 않은 HTML 마크업을 포함하고 있습니다: %{error}'
   imports:
