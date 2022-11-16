@@ -761,7 +761,7 @@ ko-Kore:
         title: 타임라인 프리뷰
       title: 사이트 設定
       trendable_by_default:
-        desc_html: 이전에 拒否되지 않은 해시태그들에 影響을 미칩니다
+        desc_html: 以前에 拒否되지 않은 해시태그들에 影響을 미칩니다
         title: 해시태그가 事前 리뷰 없이 트렌드에 올라갈 수 있도록 許容
       trends:
         desc_html: 리뷰를 거친 해시태그를 遊行하는 해시태그에 公開的으로 보여줍니다
