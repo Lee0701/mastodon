@@ -682,7 +682,7 @@ ko-Kore:
         title: 새로운 使用者들에게 推薦할 計定들
       contact_information:
         email: 公開할 메일 住所를 入力
-        username: 宴樂 받을 管理者 使用者名
+        username: 連絡 받을 管理者 使用者名
       custom_css:
         desc_html: 모든 페이지에 適用할 CSS
         title: 커스텀 CSS
