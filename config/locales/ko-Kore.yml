@@ -767,61 +767,61 @@ ko-Kore:
         desc_html: 리뷰를 거친 해시태그를 流行하는 해시태그에 公開的으로 보여줍니다
         title: 遊行하는 해시태그
     site_uploads:
-      delete: 업로드한 파일 삭제
-      destroyed_msg: 사이트 업로드를 성공적으로 삭제했습니다!
+      delete: 업로드한 파일 削除
+      destroyed_msg: 사이트 업로드를 成功的으로 削除했습니다!
     statuses:
-      back_to_account: 계정으로 돌아가기
-      back_to_report: 신고 페이지로 돌아가기
+      back_to_account: 計定으로 돌아가기
+      back_to_report: 申告 페이지로 돌아가기
       batch:
-        remove_from_report: 신고에서 제거
-        report: 신고
-      deleted: 삭제됨
+        remove_from_report: 申告에서 除去
+        report: 申告
+      deleted: 削除됨
       media:
         title: 미디어
-      no_status_selected: 아무 게시물도 선택 되지 않아 아무 것도 바뀌지 않았습니다
-      title: 계정 게시물
+      no_status_selected: 아무 揭示物도 選擇 되지 않아 아무 것도 바뀌지 않았습니다
+      title: 計定 揭示物
       with_media: 미디어 있음
     strikes:
       actions:
-        delete_statuses: "%{name} 님이 %{target}의 게시물을 지웠습니다"
-        disable: "%{name} 님이 %{target}의 계정을 동결시켰습니다"
-        mark_statuses_as_sensitive: "%{name} 님이 %{target}의 게시물을 민감함으로 표시했습니다"
-        none: "%{name} 님이 %{target}에게 경고를 보냈습니다"
-        sensitive: "%{name} 님이 %{target}의 계정을 민감함으로 표시했습니다"
-        silence: "%{name} 님이 %{target}의 계정을 제한시켰습니다"
-        suspend: "%{name} 님이 %{target}의 계정을 정지시켰습니다"
-      appeal_approved: 이의제기됨
-      appeal_pending: 이의제기 대기중
+        delete_statuses: "%{name} 님이 %{target}의 揭示物을 지웠습니다"
+        disable: "%{name} 님이 %{target}의 計定을 凍結시켰습니다"
+        mark_statuses_as_sensitive: "%{name} 님이 %{target}의 揭示物을 敏感함으로 表示했습니다"
+        none: "%{name} 님이 %{target}에게 警告를 보냈습니다"
+        sensitive: "%{name} 님이 %{target}의 計定을 敏感함으로 表示했습니다"
+        silence: "%{name} 님이 %{target}의 計定을 制限시켰습니다"
+        suspend: "%{name} 님이 %{target}의 計定을 停止시켰습니다"
+      appeal_approved: 異議提起됨
+      appeal_pending: 異議提起 待機中
     system_checks:
       database_schema_check:
-        message_html: 데이터베이스 마이그레이션이 대기중입니다. 응용프로그램이 예상한대로 동작할 수 있도록 마이그레이션을 실행해 주세요
+        message_html: 데이터베이스 마이그레이션이 待機中입니다. 응용프로그램이 豫想한대로 動作할 수 있도록 마이그레이션을 實行해 주세요
       elasticsearch_running_check:
-        message_html: Elasticsearch에 연결할 수 없습니다. 실행중인지 확인하거나, 전문검색을 비활성화하세요
+        message_html: Elasticsearch에 連結할 수 없습니다. 實行中인지 確認하거나, 專門檢索을 非活性化하세요
       elasticsearch_version_check:
-        message_html: '호환되지 않는 Elasticsearch 버전: %{value}'
-        version_comparison: Elasticsearch %{required_version}버전이 필요하지만 %{running_version}버전이
-          실행 중입니다.
+        message_html: '互換되지 않는 Elasticsearch 버전: %{value}'
+        version_comparison: Elasticsearch %{required_version}버전이 必要하지만 %{running_version}버전이
+          實行 中입니다.
       rules_check:
-        action: 서버 규칙 관리
-        message_html: 아직 서버규칙을 정하지 않았습니다.
+        action: 서버 規則 管理
+        message_html: 아직 서버規則을 定하지 않았습니다.
       sidekiq_process_check:
-        message_html: "%{value} 큐에 대한 사이드킥 프로세스가 발견되지 않았습니다. 사이드킥 설정을 검토해주세요"
+        message_html: "%{value} 큐에 對한 사이드킥 프로세스가 發見되지 않았습니다. 사이드킥 設定을 檢討해주세요"
     tags:
-      review: 심사 상태
-      updated_msg: 해시태그 설정이 성공적으로 갱신되었습니다
-    title: 관리
+      review: 審査 狀態
+      updated_msg: 해시태그 設定이 成功的으로 更新되었습니다
+    title: 管理
     trends:
-      allow: 허용
-      approved: 승인됨
-      disallow: 거부
+      allow: 許容
+      approved: 承認됨
+      disallow: 拒否
       links:
-        allow: 링크 허용하기
-        allow_provider: 출처 허용하기
-        description_html: 현재 서버에서 게시물을 볼 수 있는 계정에서 많이 공유되고 있는 링크들입니다. 사용자가 세상 돌아가는
-          상황을 파악하는 데 도움이 됩니다. 출처를 승인할 때까지 링크는 공개적으로 게시되지 않습니다. 각각의 링크를 개별적으로 허용하거나
-          거부할 수도 있습니다.
-        disallow: 링크 거부하기
-        disallow_provider: 출처 거부하기
+        allow: 링크 許容하기
+        allow_provider: 出處 許容하기
+        description_html: 現在 서버에서 揭示物을 볼 수 있는 計定에서 많이 共有되고 있는 링크들입니다. 使用者가 世上 돌아가는
+          狀況을 把握하는 데 도움이 됩니다. 出處를 承認할 때까지 링크는 公開的으로 揭示되지 않습니다. 각각의 링크를 個別的으로 許容하거나
+          拒否할 수도 있습니다.
+        disallow: 링크 拒否하기
+        disallow_provider: 출처 拒否하기
         shared_by_over_week:
           other: 지난 주 동안 %{count} 명의 사람들이 공유했습니다
         title: 유행하는 링크
