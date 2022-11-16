@@ -824,7 +824,7 @@ ko-Kore:
         disallow_provider: 出處 拒否하기
         shared_by_over_week:
           other: 지난 周 동안 %{count} 名의 사람들이 共有했습니다
-        title: 遊行하는 링크
+        title: 流行하는 링크
         usage_comparison: 오늘은 %{today}回 共有되었고, 어제는 %{yesterday}回 共有되었습니다
       only_allowed: 許容된 것만
       pending_review: 審査 待機
