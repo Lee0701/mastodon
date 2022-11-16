@@ -68,7 +68,7 @@ ko-Kore:
     followers:
       other: 팔로워
     following: 팔로잉
-    instance_actor_flash: 이 計定은 서버 自身을 나타내기 爲한 假想의 計定이며 個人 使用者가 아닙니다. 이 計定은 聯合을 爲해
+    instance_actor_flash: 이 計定은 서버 自身을 나타내기 위한 假象의 計定이며 個人 使用者가 아닙니다. 이 計定은 聯合을 爲해
       使用되며 停止되지 않아야 합니다.
     joined: "%{date}에 加入함"
     last_active: 最近 活動
@@ -321,42 +321,42 @@ ko-Kore:
         enable_user_html: "%{name} 님이 使用者 %{target}의 로그인을 活性化 했습니다"
         memorialize_account_html: "%{name} 님이 %{target}의 計定을 追慕碑 페이지로 轉換했습니다"
         promote_user_html: "%{name} 님이 使用者 %{target}를 昇級시켰습니다"
-        reject_appeal_html: "%{name} 님이 %{target}의 중재 결정에 대한 이의제기를 거절했습니다"
-        reject_user_html: "%{name} 님이 %{target}의 가입을 거부했습니다"
+        reject_appeal_html: "%{name} 님이 %{target}의 仲裁 決定에 對한 異議提起를 拒絶했습니다"
+        reject_user_html: "%{name} 님이 %{target}의 加入을 拒否했습니다"
         remove_avatar_user_html: "%{name} 님이 %{target}의 아바타를 지웠습니다"
-        reopen_report_html: "%{name} 님이 신고 %{target}을 다시 열었습니다"
-        reset_password_user_html: "%{name} 님이 사용자 %{target}의 암호를 초기화했습니다"
-        resolve_report_html: "%{name} 님이 신고 %{target}를 처리됨으로 변경하였습니다"
-        sensitive_account_html: "%{name} 님이 %{target}의 미디어를 민감함으로 표시했습니다"
-        silence_account_html: "%{name} 님이 %{target}의 계정을 침묵시켰습니다"
-        suspend_account_html: "%{name} 님이 %{target}의 계정을 정지시켰습니다"
-        unassigned_report_html: "%{name} 님이 신고 %{target}을 할당 해제했습니다"
-        unblock_email_account_html: "%{name} 님이 %{target}의 이메일 주소를 차단 해제했습니다."
-        unsensitive_account_html: "%{name} 님이 %{target}의 미디어를 민감하지 않음으로 표시했습니다"
+        reopen_report_html: "%{name} 님이 申告 %{target}을 다시 열었습니다"
+        reset_password_user_html: "%{name} 님이 使用者 %{target}의 暗號를 初期化했습니다"
+        resolve_report_html: "%{name} 님이 申告 %{target}를 處理됨으로 變更하였습니다"
+        sensitive_account_html: "%{name} 님이 %{target}의 미디어를 敏感함으로 表示했습니다"
+        silence_account_html: "%{name} 님이 %{target}의 計定을 沈默시켰습니다"
+        suspend_account_html: "%{name} 님이 %{target}의 計定을 停止시켰습니다"
+        unassigned_report_html: "%{name} 님이 申告 %{target}을 割當 解除했습니다"
+        unblock_email_account_html: "%{name} 님이 %{target}의 이메일 住所를 遮斷 解除했습니다."
+        unsensitive_account_html: "%{name} 님이 %{target}의 미디어를 敏感하지 않음으로 表示했습니다"
         unsilence_account_html: "%{name} 님이 %{target}의 計定에 對한 沈默을 解除했습니다"
-        unsuspend_account_html: "%{name} 님이 %{target}의 계정에 대한 정지를 해제했습니다"
-        update_announcement_html: "%{name} 님이 공지사항 %{target}을 갱신했습니다"
+        unsuspend_account_html: "%{name} 님이 %{target}의 計定에 對한 停止를 解除했습니다"
+        update_announcement_html: "%{name} 님이 公知事項 %{target}을 更新했습니다"
         update_custom_emoji_html: "%{name} 님이 에모지 %{target}를 업데이트 했습니다"
-        update_domain_block_html: "%{name} 님이 %{target}에 대한 도메인 차단을 갱신했습니다"
-        update_status_html: "%{name} 님이 %{target}의 게시물을 업데이트 했습니다"
-      deleted_status: "(삭제된 게시물)"
+        update_domain_block_html: "%{name} 님이 %{target}에 對한 도메인 遮斷을 更新했습니다"
+        update_status_html: "%{name} 님이 %{target}의 揭示物을 업데이트 했습니다"
+      deleted_status: "(削除된 揭示物)"
       empty: 로그를 찾을 수 없습니다
-      filter_by_action: 행동으로 거르기
-      filter_by_user: 사용자로 거르기
-      title: 감사 기록
+      filter_by_action: 行動으로 거르기
+      filter_by_user: 使用者로 거르기
+      title: 監査 記錄
     announcements:
-      destroyed_msg: 공지가 성공적으로 삭제되었습니다!
+      destroyed_msg: 公知가 成功的으로 削除되었습니다!
       edit:
-        title: 공지사항 수정
-      empty: 공지를 찾을 수 없습니다.
-      live: 진행 중
+        title: 公知事項 修正
+      empty: 公知를 찾을 수 없습니다.
+      live: 進行 中
       new:
-        create: 공지사항 생성
-        title: 새 공지사항
-      publish: 게시
-      published_msg: 공지가 성공적으로 발행되었습니다!
-      scheduled_for: "%{time}에 예약됨"
-      scheduled_msg: 공지의 발행이 예약되었습니다!
+        create: 公知事項 生成
+        title: 새 公知事項
+      publish: 揭示
+      published_msg: 公知가 成功的으로 發行되었습니다!
+      scheduled_for: "%{time}에 豫約됨"
+      scheduled_msg: 公知의 發行이 豫約되었습니다!
       title: 공지사항
       unpublish: 게시 취소
       unpublished_msg: 공지가 성공적으로 발행 취소되었습니다!
