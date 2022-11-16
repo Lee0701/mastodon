@@ -584,44 +584,44 @@ ko-Kore:
       description_html: "<strong>聯合 릴레이</strong>는 서버들 사이에서 많은 量의 公開 揭示物을 구독하고 仲介하는\
         \ 서버입니다. <strong>이것은 中小 規摹의 서버에서 聯合宇宙를 發見하는 데에 도움을 줄 수 있습니다</strong>, 이제 로컬\
         \ 使用者들이 다른 서버의 使用者들을 手動으로 팔로우 하지 않아도 됩니다."
-      disable: 비활성화
-      disabled: 비활성화 됨
-      enable: 활성화
-      enable_hint: 활성화 되면, 이 릴레이의 모든 공개 게시물을 구독하고 이 서버의 공개 게시물을 전송하게 됩니다.
-      enabled: 활성화 됨
+      disable: 非活性化
+      disabled: 非活性化 됨
+      enable: 活性化
+      enable_hint: 活性化 되면, 이 릴레이의 모든 公開 揭示物을 구독하고 이 서버의 公開 揭示物을 傳送하게 됩니다.
+      enabled: 活性化 됨
       inbox_url: 릴레이 URL
-      pending: 릴레이의 승인 대기중
-      save_and_enable: 저장하고 활성화
-      setup: 릴레이 연결 설정
-      signatures_not_enabled: 시큐어모드나 제한된 페더레이션 모드를 사용하고 있다면 릴레이는 제대로 동작하지 않을 것입니다
-      status: 상태
+      pending: 릴레이의 承認 대기중
+      save_and_enable: 貯藏하고 活性化
+      setup: 릴레이 連結 設定
+      signatures_not_enabled: 시큐어모드나 制限된 페더레이션 모드를 使用하고 있다면 릴레이는 제대로 動作하지 않을 것입니다
+      status: 狀態
       title: 릴레이
     report_notes:
-      created_msg: 리포트 노트가 성공적으로 작성되었습니다!
-      destroyed_msg: 리포트 노트가 성공적으로 삭제되었습니다!
+      created_msg: 리포트 노트가 成功的으로 作成되었습니다!
+      destroyed_msg: 리포트 노트가 成功的으로 削除되었습니다!
       today_at: 오늘 %{time}
     reports:
       account:
         notes:
-          other: "%{count}개의 기록"
-      action_log: 감사 기록
-      action_taken_by: 신고 처리자
+          other: "%{count}個의 記錄"
+      action_log: 監査 記錄
+      action_taken_by: 申告 處理者
       actions:
-        delete_description_html: 신고된 게시물은 삭제될 것이며 이 처벌기록은 같은 계정의 향후 규정 위반에 대해 참고사항으로
-          쓰일 수 있도록 저장됩니다.
-        mark_as_sensitive_description_html: 신고된 게시물의 미디어는 민감함으로 표시될 것이며 이 처벌기록은 같은
-          계정의 향후 규정 위반에 대해 참고사항으로 쓰일 수 있도록 저장됩니다.
-        other_description_html: 계정 동작을 제어하고 신고된 계정과의 의사소통을 사용자 지정하기 위한 추가 옵션을 봅니다.
-        resolve_description_html: 신고된 계정에 대해 아무런 동작도 취하지 않으며, 처벌기록이 남지 않으며, 신고는 처리됨으로
-          변경됩니다.
-        silence_description_html: 이미 팔로우 하고 있는 사람이나 수동으로 찾아보는 사람에게만 프로필이 보여지고, 도달
-          범위를 엄격하게 제한합니다. 언제든지 되돌릴 수 있습니다.
-        suspend_description_html: 프로필과 모든 컨텐츠가 최종적으로 삭제될 때까지 접근 불가상태가 됩니다. 이 계정과의
-          상호작용은 불가능해집니다. 30일 이내에 되돌릴 수 있습니다.
-      actions_description_html: 이 보고서를 해결하기 위해 취해야 할 조치를 지정해주세요. 신고된 계정에 대해 처벌 조치를
-        취하면 <strong>스팸</strong> 카테고리가 선택된 경우를 제외하고 이메일 알림이 해당 계정으로 전송됩니다.
-      add_to_report: 신고에 더 추가하기
-      are_you_sure: 정말로 실행하시겠습니까?
+        delete_description_html: 申告된 揭示物은 削除될 것이며 이 處罰記錄은 같은 計定의 向後 規定 違反에 對해 參考事項으로
+          쓰일 수 있도록 貯藏됩니다.
+        mark_as_sensitive_description_html: 申告된 揭示物의 미디어는 敏感함으로 表示될 것이며 이 處罰記錄은 같은
+          計定의 向後 規定 違反에 對해 參考事項으로 쓰일 수 있도록 貯藏됩니다.
+        other_description_html: 計定 動作을 制御하고 申告된 計定과의 意思疏通을 使用者 指定하기 爲한 追加 옵션을 봅니다.
+        resolve_description_html: 申告된 計定에 對해 아무런 動作도 취하지 않으며, 處罰記錄이 남지 않으며, 申告는 處理됨으로
+          變更됩니다.
+        silence_description_html: 이미 팔로우 하고 있는 사람이나 手動으로 찾아보는 사람에게만 프로필이 보여지고, 到達
+          範圍를 掩擊하게 制限합니다. 언제든지 되돌릴 수 있습니다.
+        suspend_description_html: 프로필과 모든 컨텐츠가 最終的으로 削除될 때까지 接近 不可狀態가 됩니다. 이 計定과의
+          相互作用은 不可能해집니다. 30日 以內에 되돌릴 수 있습니다.
+      actions_description_html: 이 報告書를 解決하기 爲해 취해야 할 措置를 指定해주세요. 申告된 計定에 對해 處罰 措置를
+        취하면 <strong>스팸</strong> 카테고리가 選擇된 境遇를 除外하고 이메일 알림이 해당 計定으로 傳送됩니다.
+      add_to_report: 申告에 더 追加하기
+      are_you_sure: 정말로 實行하시겠습니까?
       assign_to_self: 나에게 할당하기
       assigned: 할당 된 중재자
       by_target_domain: 신고된 계정의 도메인
