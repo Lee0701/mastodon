@@ -875,7 +875,7 @@ ko-Kore:
       add_new: 새로 追加
       delete: 削除
       edit_preset: 警告 틀 修正
-      empty: 아직 어떤 警告 틀도 正義되지 않았습니다.
+      empty: 아직 어떤 警告 틀도 定義되지 않았습니다.
       title: 警告 틀 管理
   admin_mailer:
     new_appeal:
