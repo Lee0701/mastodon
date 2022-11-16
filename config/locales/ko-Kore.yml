@@ -502,7 +502,7 @@ ko-Kore:
       back_to_limited: 制限됨
       back_to_warning: 警告
       by_domain: 도메인
-      confirm_purge: 정말로 이 도메인의 데이터를 永久的으로 削除하길 원하십니까?
+      confirm_purge: 정말로 이 도메인의 데이터를 永久的으로 削除하길 願하십니까?
       content_policies:
         comment: 內部 參考事項
         description_html: 이 도메인과 下位 도메인의 모든 計定에 適用될 콘텐츠 政策을 正義할 수 있습니다.
