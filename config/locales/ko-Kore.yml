@@ -715,53 +715,53 @@ ko-Kore:
       registrations:
         closed_message:
           desc_html: 新規 登錄을 받지 않을 때 프론트 페이지에 表示됩니다. HTML 태그를 使用할 수 있습니다
-          title: 신규 등록 정지 시 메시지
+          title: 新規 登錄 停止 時 메시지
         deletion:
-          desc_html: 사용자가 자신의 계정을 삭제할 수 있도록 허용합니다
-          title: 계정 삭제를 허가함
+          desc_html: 使用者가 自身의 計定을 削除할 수 있도록 許容합니다
+          title: 計定 削除를 許可함
         min_invite_role:
           disabled: 아무도 못 하게
-          title: 초대링크를 만들 수 있는 권한
+          title: 招待링크를 만들 수 있는 權限
         require_invite_text:
-          desc_html: 가입이 수동 승인을 필요로 할 때, "왜 가입하려고 하나요?" 항목을 선택사항으로 두는 것보다는 필수로 두는
+          desc_html: 加入이 手動 承認을 必要로 할 때, "왜 加入하려고 하나요?" 項目을 選擇事項으로 두는 것보다는 必須로 두는
             것이 낫습니다
-          title: 새 사용자가 초대 요청 글을 작성해야 하도록
+          title: 새 使用者가 招待 要請 글을 作成해야 하도록
       registrations_mode:
         modes:
-          approved: 가입하려면 승인이 필요함
-          none: 아무도 가입 할 수 없음
-          open: 누구나 가입 할 수 있음
-        title: 가입 모드
+          approved: 加入하려면 承認이 必要함
+          none: 아무도 加入 할 수 없음
+          open: 누구나 加入 할 수 있음
+        title: 加入 모드
       show_known_fediverse_at_about_page:
-        desc_html: 활성화 되면 프리뷰 페이지에서 페디버스의 모든 게시물을 표시합니다. 비활성화시 로컬에 있는 게시물만 표시 됩니다.
-        title: 타임라인 프리뷰에 알려진 페디버스 표시하기
+        desc_html: 活性化 되면 프리뷰 페이지에서 페디버스의 모든 揭示物을 表示합니다. 非活性化時 로컬에 있는 揭示物만 表示 됩니다.
+        title: 타임라인 프리뷰에 알려진 페디버스 表示하기
       show_staff_badge:
-        desc_html: 사용자 페이지에 스태프 배지를 표시합니다
-        title: 스태프 배지 표시
+        desc_html: 使用者 페이지에 스태프 배지를 表示합니다
+        title: 스태프 배지 表示
       site_description:
-        desc_html: API의 소개문에 사용 됩니다.이 마스토돈 서버의 특별한 점 등을 설명하세요. HTML 태그, 주로 <code>&lt;a&gt;</code>,
-          <code>&lt;em&gt;</code> 같은 것을 사용 가능합니다.
-        title: 서버 설명
+        desc_html: API의 紹介文에 使用 됩니다.이 마스토돈 서버의 特別한 點 등을 說明하세요. HTML 태그, 주로 <code>&lt;a&gt;</code>,
+          <code>&lt;em&gt;</code> 같은 것을 使用 可能합니다.
+        title: 서버 說明
       site_description_extended:
-        desc_html: 규칙, 가이드라인 등을 작성하기 좋은 곳입니다. HTML 태그를 사용할 수 있습니다
-        title: 사이트 상세 설명
+        desc_html: 規則, 가이드라인 등을 作成하기 좋은 곳입니다. HTML 태그를 使用할 수 있습니다
+        title: 사이트 詳細 說明
       site_short_description:
-        desc_html: 사이드바와 메타 태그에 나타납니다. 마스토돈이 무엇이고 이 서버의 특징은 무엇인지 한 문장으로 설명하세요.
-        title: 짧은 서버 설명
+        desc_html: 사이드바와 메타 태그에 나타납니다. 마스토돈이 무엇이고 이 서버의 特徵은 무엇인지 한 文章으로 說明하세요.
+        title: 짧은 서버 說明
       site_terms:
-        desc_html: 당신은 독자적인 개인정보 취급 방침이나 이용약관, 그 외의 법적 근거를 작성할 수 있습니다. HTML태그를 사용할
+        desc_html: 當身은 獨自的인 個人情報 取扱 方針이나 利用約款, 그 外의 法的 根據를 作成할 수 있습니다. HTML태그를 使用할
           수 있습니다
-        title: 커스텀 서비스 이용 약관
+        title: 커스텀 서비스 利用 約款
       site_title: 서버 이름
       thumbnail:
-        desc_html: OpenGraph와 API의 미리보기로 사용 됩니다. 1200x630px을 권장합니다
+        desc_html: OpenGraph와 API의 미리보기로 使用 됩니다. 1200x630px을 勸奬합니다
         title: 서버 썸네일
       timeline_preview:
-        desc_html: 랜딩 페이지에 공개 타임라인을 표시합니다
+        desc_html: 랜딩 페이지에 公開 타임라인을 表示합니다
         title: 타임라인 프리뷰
-      title: 사이트 설정
+      title: 사이트 設定
       trendable_by_default:
-        desc_html: 이전에 거부되지 않은 해시태그들에 영향을 미칩니다
+        desc_html: 이전에 拒否되지 않은 해시태그들에 影響을 미칩니다
         title: 해시태그가 사전 리뷰 없이 트렌드에 올라갈 수 있도록 허용
       trends:
         desc_html: 리뷰를 거친 해시태그를 유행하는 해시태그에 공개적으로 보여줍니다
