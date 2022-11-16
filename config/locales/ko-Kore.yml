@@ -911,7 +911,7 @@ ko-Kore:
           %{lowest_status_url}이고 %{lowest_status_score}點을 記錄하고 있습니다.'
         title: 流行하는 揭示物
       new_trending_tags:
-        no_approved_tags: 現在 承認된 遊行 中인 해시태그가 없습니다.
+        no_approved_tags: 現在 承認된 流行 中인 해시태그가 없습니다.
         requirements: '이 候補들 中 어떤 것이라도 #%{rank}位의 承認된 遊行 中인 해시태그를 앞지를 수 있으며, 이것은 現在
           #%{lowest_tag_name}이고 %{lowest_tag_score}點을 기록하고 있습니다.'
         title: 유행하는 해시태그
