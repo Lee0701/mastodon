@@ -158,7 +158,7 @@ ko-Kore:
       admin:write: 서버의 모든 데이터 修正
       admin:write:accounts: 計定에 모더레이션 措置 취하기
       admin:write:reports: 申告에 모더레이션 措置 취하기
-      crypto: 縱斷間 暗號化 使用
+      crypto: 終端間 暗號化 使用
       follow: 계정의 관계를 수정
       push: 푸시 알림을 받기
       read: 계정의 모든 데이터를 읽기
