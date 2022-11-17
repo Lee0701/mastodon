@@ -101,7 +101,7 @@ ko-Kore:
           unknown: 액세스 토큰이 잘못되었습니다.
         resource_owner_authenticator_not_configured: Doorkeeper.configure.resource_owner_authenticator가
           設定되지 않아 리소스 所有者 찾기가 失敗하였습니다.
-        server_error: 權限 附與 서버에 銳氣치 않은 狀態가 發生하여, 要請을 遂行할 수 없습니다.
+        server_error: 權限 附與 서버에 豫期치 않은 狀態가 發生하여, 要請을 遂行할 수 없습니다.
         temporarily_unavailable: 權限 附與 서버가 一時的인 過負荷 또는 維持 管理로 인해 要請을 現在 處理할 수 없습니다.
         unauthorized_client: 클라이언트가 이 方法을 使用하여 該當 要請을 實行하도록 許容되지 않았습니다.
         unsupported_grant_type: 權限 附與 有形이 權限 附與 서버에 의해 支援되지 않습니다.
