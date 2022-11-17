@@ -4,34 +4,34 @@ ko-Kore:
       doorkeeper/application:
         name: 애플리케이션 이름
         redirect_uri: 리디렉션 URI
-        scopes: 범위
+        scopes: 範圍
         website: 애플리케이션 웹사이트
     errors:
       models:
         doorkeeper/application:
           attributes:
             redirect_uri:
-              fragment_present: fragment를 포함할 수 없습니다
+              fragment_present: fragment를 包含할 수 없습니다
               invalid_uri: 올바른 URI여야 합니다.
-              relative_uri: 절대경로 URI여야 합니다
+              relative_uri: 絶對經路 URI여야 합니다
               secured_uri: HTTPS/SSL URI여야 합니다.
   doorkeeper:
     applications:
       buttons:
-        authorize: 승인
-        cancel: 취소
-        destroy: 제거
-        edit: 수정
-        submit: 제출
+        authorize: 承認
+        cancel: 取消
+        destroy: 除去
+        edit: 修正
+        submit: 提出
       confirmations:
-        destroy: 확실합니까?
+        destroy: 確實합니까?
       edit:
-        title: 애플리케이션 수정
+        title: 애플리케이션 修正
       form:
-        error: 이런! 에러를 확인하세요
+        error: 이런! 에러를 確認하세요
       help:
-        native_redirect_uri: "%{native_redirect_uri}를 이용해 로컬 테스트를 할 수 있습니다"
-        redirect_uri: 한 줄에 하나의 URI를 작성하세요
+        native_redirect_uri: "%{native_redirect_uri}를 利用해 로컬 테스트를 할 수 있습니다"
+        redirect_uri: 한 茁에 하나의 URI를 作成하세요
         scopes: 스페이스로 범위를 구분하세요. 빈 칸으로 놔두면 기본 범위를 사용합니다.
       index:
         application: 애플리케이션
