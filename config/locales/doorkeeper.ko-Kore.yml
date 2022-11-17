@@ -134,31 +134,31 @@ ko-Kore:
         crypto: 終端間 暗號化
         favourites: 좋아요
         filters: 필터
-        follow: 관계
+        follow: 關係
         follows: 팔로우
         lists: 리스트
-        media: 첨부된 미디어
+        media: 添附된 미디어
         mutes: 뮤트
         notifications: 알림
         push: 푸시 알림
-        reports: 신고
-        search: 검색
-        statuses: 게시물
+        reports: 申告
+        search: 檢索
+        statuses: 揭示物
     layouts:
       admin:
         nav:
           applications: 애플리케이션
-          oauth2_provider: OAuth2 제공자
+          oauth2_provider: OAuth2 提供者
       application:
-        title: OAuth 인증이 필요합니다
+        title: OAuth 認證이 必要합니다
     scopes:
       admin:read: 서버의 모든 데이터 읽기
-      admin:read:accounts: 모든 계정의 민감한 정보 읽기
-      admin:read:reports: 신고와 신고 된 계정의 민감한 정보 읽기
-      admin:write: 서버의 모든 데이터 수정
-      admin:write:accounts: 계정에 모더레이션 조치 취하기
-      admin:write:reports: 신고에 모더레이션 조치 취하기
-      crypto: 종단간 암호화 사용
+      admin:read:accounts: 모든 計定의 敏感한 情報 읽기
+      admin:read:reports: 申告와 申告 된 計定의 敏感한 情報 읽기
+      admin:write: 서버의 모든 데이터 修正
+      admin:write:accounts: 計定에 모더레이션 措置 취하기
+      admin:write:reports: 申告에 모더레이션 措置 취하기
+      crypto: 縱斷間 暗號化 使用
       follow: 계정의 관계를 수정
       push: 푸시 알림을 받기
       read: 계정의 모든 데이터를 읽기
