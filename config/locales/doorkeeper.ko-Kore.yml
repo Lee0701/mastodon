@@ -102,36 +102,36 @@ ko-Kore:
         resource_owner_authenticator_not_configured: Doorkeeper.configure.resource_owner_authenticator가
           設定되지 않아 리소스 所有者 찾기가 失敗하였습니다.
         server_error: 權限 附與 서버에 銳氣치 않은 狀態가 發生하여, 要請을 遂行할 수 없습니다.
-        temporarily_unavailable: 권한 부여 서버가 일시적인 과부하 또는 유지 관리로 인해 요청을 현재 처리할 수 없습니다.
-        unauthorized_client: 클라이언트가 이 방법을 사용하여 해당 요청을 실행하도록 허용되지 않았습니다.
-        unsupported_grant_type: 권한 부여 유형이 권한 부여 서버에 의해 지원되지 않습니다.
-        unsupported_response_type: 권한 부여 서버가 이 응답 유형을 지원하지 않습니다.
+        temporarily_unavailable: 權限 附與 서버가 一時的인 過負荷 또는 維持 管理로 인해 要請을 現在 處理할 수 없습니다.
+        unauthorized_client: 클라이언트가 이 方法을 使用하여 該當 要請을 實行하도록 許容되지 않았습니다.
+        unsupported_grant_type: 權限 附與 有形이 權限 附與 서버에 의해 支援되지 않습니다.
+        unsupported_response_type: 權限 附與 서버가 이 應答 有形을 支援하지 않습니다.
     flash:
       applications:
         create:
-          notice: 애플리케이션이 생성 되었습니다.
+          notice: 애플리케이션이 生成 되었습니다.
         destroy:
-          notice: 애플리케이션이 삭제 되었습니다.
+          notice: 애플리케이션이 削除 되었습니다.
         update:
-          notice: 애플리케이션이 갱신 되었습니다.
+          notice: 애플리케이션이 更新 되었습니다.
       authorized_applications:
         destroy:
-          notice: 애플리케이션이 삭제되었습니다.
+          notice: 애플리케이션이 削除되었습니다.
     grouped_scopes:
       access:
-        read: 읽기 전용 권한
-        read/write: 읽기/쓰기 권한
-        write: 쓰기 전용 권한
+        read: 읽기 專用 權限
+        read/write: 읽기/쓰기 權限
+        write: 쓰기 專用 權限
       title:
-        accounts: 계정
-        admin/accounts: 계정 관리
-        admin/all: 모든 관리자 기능
-        admin/reports: 신고 관리
-        all: 전체
-        blocks: 차단
+        accounts: 計定
+        admin/accounts: 計定 管理
+        admin/all: 모든 管理者 機能
+        admin/reports: 申告 管理
+        all: 全體
+        blocks: 遮斷
         bookmarks: 북마크
-        conversations: 대화
-        crypto: 종단간 암호화
+        conversations: 對話
+        crypto: 縱斷間 暗號化
         favourites: 좋아요
         filters: 필터
         follow: 관계
