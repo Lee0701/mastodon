@@ -927,7 +927,7 @@ ko-Kore:
     remove: 別稱 連結 끊기
   appearance:
     advanced_web_interface: 高級 웹 인터페이스
-    advanced_web_interface_hint: '畵面의 가로폭을 가득 채우고 싶다면, 高級 웹 인터페이스는 한 番에 여러 情報를 볼 수
+    advanced_web_interface_hint: '畵面의 가로幅을 가득 채우고 싶다면, 高級 웹 인터페이스는 한 番에 여러 情報를 볼 수
       있도록 여러 컬럼을 設定할 수 있도록 합니다: 홈, 알림, 聯合타임라인, 리스트, 해시태그 등'
     animations_and_accessibility: 애니메이션과 接近性
     confirmation_dialogs: 確認 對話箱子
@@ -957,7 +957,7 @@ ko-Kore:
     apply_for_account: 加入 要請하기
     change_password: 패스워드
     checkbox_agreement_html: <a href="%{rules_path}" target="_blank">서버 規則</a>과 <a
-      href="%{terms_path}" target="_blank">利用約款</a>에 동의합니다
+      href="%{terms_path}" target="_blank">利用約款</a>에 同意합니다
     checkbox_agreement_without_rules_html: <a href="%{terms_path}" target="_blank">利用
       約款</a>에 同意합니다
     delete_account: 計定 削除
