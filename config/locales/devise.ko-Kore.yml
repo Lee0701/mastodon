@@ -1,4 +1,4 @@
-ko:
+ko-Kore:
   devise:
     confirmations:
       confirmed: 이메일이 成功的으로 承認 되었습니다.
