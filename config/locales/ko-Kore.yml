@@ -887,7 +887,7 @@ ko-Kore:
         sensitive: 計定을 敏感함으로 表示하는 것
         silence: 計定을 制限하는 것
         suspend: 計定을 停止하는 것
-      body: "%{target} 님이 %{action_taken_by} 님에 의해 %{date}에 決定된 仲裁 決定에 對한 異議를 提起했습니다,\
+      body: "%{target} 님이 %{action_taken_by} 님에 依해 %{date}에 決定된 仲裁 決定에 對한 異議를 提起했습니다,\
         \ 決定된 事項은 %{type}이었습니다. 作成內容은 다음과 같습니다:"
       next_steps: 仲裁 決定事項을 되돌리기 爲해서 上疏를 承認하거나, 無視할 수 있습니다.
       subject: "%{username} 님이 %{instance}에서 發生한 仲裁 決定에 對해 疏明을 提出했습니다"
@@ -933,7 +933,7 @@ ko-Kore:
     confirmation_dialogs: 確認 對話箱子
     discovery: 發見하기
     localization:
-      body: 마스토돈은 自願奉仕者들에 의해 飜譯되었습니다.
+      body: 마스토돈은 自願奉仕者들에 依해 飜譯되었습니다.
       guide_link: https://crowdin.com/project/mastodon
       guide_link_text: 누구나 寄與할 수 있습니다.
     sensitive_content: 敏感한 內容
@@ -1081,7 +1081,7 @@ ko-Kore:
       approve_appeal: 異議提起 承認
       associated_report: 關聯된 申告
       created_at: 날짜
-      description_html: 이 決定事項들은 當身에 計定에 對해 行해졌고 %{instance}의 스태프에 의해 警告가 發送되었습니다.
+      description_html: 이 決定事項들은 當身에 計定에 對해 行해졌고 %{instance}의 스태프에 依해 警告가 發送되었습니다.
       recipient: 受信者
       reject_appeal: 異議提起 拒絶
       status: '揭示物 #%{id}'
