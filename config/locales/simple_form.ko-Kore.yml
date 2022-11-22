@@ -38,14 +38,14 @@ ko-Kore:
         current_password: 保安을 爲해 現在 計定의 暗號를 入力해주세요
         current_username: 確認을 爲해, 現在 計定의 使用者名을 入力해주세요
         digest: 오랫동안 活動하지 않았을 때 받은 멘션들에 對한 要約 받기
-        discoverable: 推薦, 트렌드 및 其他 機能을 通해 낯선 사람이 貴下의 計定을 찾을 수 있도록 許容합니다
+        discoverable: 推薦, 트렌드 및 其他 機能을 通해 낯선 사람이 내 計定을 發見할 수 있도록 許容합니다
         email: 當身은 確認 메일을 받게 됩니다
         fields: 當身의 프로파일에 최대 4個까지 表 形式으로 나타낼 수 있습니다
         header: PNG, GIF 或은 JPG. 最大 %{size}. %{dimensions}px로 縮小 됨
         inbox_url: 使用할 릴레이 서버의 프론트페이지에서 URL을 複寫합니다
         irreversible: 필터링 된 揭示物은 나중에 필터가 사라지더라도 돌아오지 않게 됩니다
         locale: 使用者 인터페이스, 이메일, 푸시 알림 言語
-        locked: 팔로우 要請을 承認함으로써 누가 當身을 팔로우 할 수 있는지를 手動으로 制御합니다.
+        locked: 팔로우 要請을 承認制로 두어 누가 當身을 팔로우 할 수 있는지를 手動으로 制御합니다.
         password: 最少 8글字
         phrase: 揭示物 內容이나 閱覽注意 內容 안에서 大小文字 區分 없이 매칭 됩니다
         scopes: 애플리케이션에 許容할 API들입니다. 最上位 스코프를 選擇하면 個別的인 것은 選擇하지 않아도 됩니다.
@@ -68,7 +68,7 @@ ko-Kore:
         domain: 이메일에 表示되는 도메인 네임이거나 그것이 使用하는 MX 레코드일 수 있습니다. 加入時에 檢證됩니다.
         with_dns_records: 入力한 도메인의 DNS를 照會를 試圖하여 나온 값도 遮斷됩니다
       featured_tag:
-        name: "이것들을 使用하면 좋을 것 같습니다:"
+        name: "이것들은 最近에 많이 쓰인 해시태그들입니다:"
       filters:
         action: 揭示物이 필터에 걸러질 때 어떤 動作을 遂行할 지 고르세요
         actions:
@@ -199,7 +199,7 @@ ko-Kore:
         setting_crop_images: 擴張되지 않은 揭示物의 이미지를 16x9로 자르기
         setting_default_language: 揭示物 言語
         setting_default_privacy: 揭示物 프라이버시
-        setting_default_sensitive: 미디어를 언제나 敏感한 컨텐츠로 設定
+        setting_default_sensitive: 미디어를 언제나 敏感한 콘텐츠로 設定
         setting_delete_modal: 揭示物 削除 前 確認 窓을 表示
         setting_disable_swiping: 스와이프 모션 非活性化
         setting_display_media: 미디어 表示
@@ -211,7 +211,7 @@ ko-Kore:
         setting_noindex: 檢索엔진의 인덱싱을 拒絶
         setting_reduce_motion: 애니메이션 줄이기
         setting_show_application: 툿 作成에 使用한 앱을 公開
-        setting_system_font_ui: 시스템의 初期 設定 폰트를 使用
+        setting_system_font_ui: 시스템의 基本 글꼴을 使用
         setting_theme: 사이트 테마
         setting_trends: 오늘의 流行 보이기
         setting_unfollow_modal: 언팔로우 前 언팔로우 確認 表示
@@ -277,10 +277,10 @@ ko-Kore:
         digest: 要約 이메일 보내기
         favourite: 누군가 내 狀態를 마음에 들어했을 때
         follow: 누군가 나를 팔로우 했을 때
-        follow_request: 누군가 나를 팔로우 하길 願할 때
+        follow_request: 누군가 나를 팔로우 하길 要請할 때
         mention: 누군가 나를 言及했을 때
         pending_account: 새 計定이 審査가 必要할 때
-        reblog: 누군가 내 툿을 부스트 했을 때
+        reblog: 누군가 내 揭示物을 부스트 했을 때
         report: 새 申告가 接受되었을 때
         trending_tag: 새 트렌드에 對한 리뷰가 必要할 때
       rule:
