@@ -4,7 +4,7 @@
 
 export default [
   {
-    locale: "ko",
+    locale: "ko-Hang",
     pluralRuleFunction: function(e, a) {
       return "other";
     },
@@ -195,13 +195,198 @@ export default [
       }
     }
   }, {
-    locale: "ko-KP",
-    parentLocale: "ko"
-  }, {
-    locale: "ko-Hang",
-    parentLocale: "ko"
-  }, {
     locale: "ko-Kore",
-    parentLocale: "ko"
+    pluralRuleFunction: function(e, a) {
+      return "other";
+    },
+    fields: {
+      year: {
+        displayName: "年",
+        relative: {
+          0: "올해",
+          1: "來年",
+          "-1": "昨年"
+        },
+        relativeTime: {
+          future: {
+            other: "{0}年 後"
+          },
+          past: {
+            other: "{0}年 前"
+          }
+        }
+      },
+      "year-short": {
+        displayName: "年",
+        relative: {
+          0: "올해",
+          1: "來年",
+          "-1": "昨年"
+        },
+        relativeTime: {
+          future: {
+            other: "{0}年 後"
+          },
+          past: {
+            other: "{0}年 前"
+          }
+        }
+      },
+      month: {
+        displayName: "月",
+        relative: {
+          0: "이번 달",
+          1: "다음 달",
+          "-1": "지난달"
+        },
+        relativeTime: {
+          future: {
+            other: "{0}個月 後"
+          },
+          past: {
+            other: "{0}個月 前"
+          }
+        }
+      },
+      "month-short": {
+        displayName: "月",
+        relative: {
+          0: "이번 달",
+          1: "다음 달",
+          "-1": "지난달"
+        },
+        relativeTime: {
+          future: {
+            other: "{0}個月 後"
+          },
+          past: {
+            other: "{0}個月 前"
+          }
+        }
+      },
+      day: {
+        displayName: "日",
+        relative: {
+          0: "오늘",
+          1: "來日",
+          2: "모레",
+          "-2": "그저께",
+          "-1": "어제"
+        },
+        relativeTime: {
+          future: {
+            other: "{0}日 後"
+          },
+          past: {
+            other: "{0}日 前"
+          }
+        }
+      },
+      "day-short": {
+        displayName: "日",
+        relative: {
+          0: "오늘",
+          1: "來日",
+          2: "모레",
+          "-2": "그저께",
+          "-1": "어제"
+        },
+        relativeTime: {
+          future: {
+            other: "{0}日 後"
+          },
+          past: {
+            other: "{0}日 前"
+          }
+        }
+      },
+      hour: {
+        displayName: "時",
+        relative: {
+          0: "現在 時間"
+        },
+        relativeTime: {
+          future: {
+            other: "{0}時間 後"
+          },
+          past: {
+            other: "{0}時間 前"
+          }
+        }
+      },
+      "hour-short": {
+        displayName: "時",
+        relative: {
+          0: "現在 時間"
+        },
+        relativeTime: {
+          future: {
+            other: "{0}時間 後"
+          },
+          past: {
+            other: "{0}時間 前"
+          }
+        }
+      },
+      minute: {
+        displayName: "分",
+        relative: {
+          0: "現在 分"
+        },
+        relativeTime: {
+          future: {
+            other: "{0}分 後"
+          },
+          past: {
+            other: "{0}分 前"
+          }
+        }
+      },
+      "minute-short": {
+        displayName: "分",
+        relative: {
+          0: "現在 分"
+        },
+        relativeTime: {
+          future: {
+            other: "{0}分 後"
+          },
+          past: {
+            other: "{0}分 前"
+          }
+        }
+      },
+      second: {
+        displayName: "秒",
+        relative: {
+          0: "只今"
+        },
+        relativeTime: {
+          future: {
+            other: "{0}秒 後"
+          },
+          past: {
+            other: "{0}秒 前"
+          }
+        }
+      },
+      "second-short": {
+        displayName: "秒",
+        relative: {
+          0: "只今"
+        },
+        relativeTime: {
+          future: {
+            other: "{0}秒 後"
+          },
+          past: {
+            other: "{0}秒 前"
+          }
+        }
+      }
+    }
+  }, {
+    locale: "ko-KP",
+    parentLocale: "ko-Hang"
   }
 ]
