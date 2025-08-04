@@ -1,15 +1,11 @@
 ko-Kore:
   about:
-    about_mastodon_html: 마스토돈은 <em>오픈 소스 基盤의</em> 소셜 네트워크 서비스 입니다. 商用 플랫폼의 代替로서
-      <em>分散形 構造</em>를 採擇해, 여러분의 對話가 한 會社에 獨占되는 것을 防止합니다. 信賴할 수 있는 인스턴스를 選擇하세요
-      &mdash; 어떤 인스턴스를 고르더라도, 누구와도 對話할 수 있습니다. 누구나 自身만의 마스토돈 인스턴스를 만들 수 있으며, 아주
-      매끄럽게 <em>소셜 네트워크</em>에 參加할 수 있습니다.
+    about_mastodon_html: 마스토돈은 <em>오픈 소스 基盤의</em> 소셜 네트워크 서비스 입니다. 商用 플랫폼의 代替로서 <em>分散形 構造</em>를 採擇해, 여러분의 對話가 한 會社에 獨占되는 것을 防止합니다. 信賴할 수 있는 인스턴스를 選擇하세요 &mdash; 어떤 인스턴스를 고르더라도, 누구와도 對話할 수 있습니다. 누구나 自身만의 마스토돈 인스턴스를 만들 수 있으며, 아주 매끄럽게 <em>소셜 네트워크</em>에 參加할 수 있습니다.
     contact_missing: 未設定
     contact_unavailable: 없음
     hosted_on: "%{domain}에서 호스팅 되는 마스토돈"
     title: 정보
   accounts:
-    follow: 팔로우
     followers:
       other: 팔로워
     following: 팔로잉
@@ -22,9 +18,12 @@ ko-Kore:
     posts:
       other: 揭示物
     posts_tab_heading: 揭示物
+    self_follow_error: 本人의 計定을 팔로우할 수는 없습니다
   admin:
     account_actions:
       action: 措置 취하기
+      already_silenced: 이 計定은 이미 制限되었습니다.
+      already_suspended: 이 計定은 이미 停止되었습니다.
       title: "%{acct} 計定에 仲裁 취하기"
     account_moderation_notes:
       create: 仲裁 記錄 作成하기
@@ -46,6 +45,7 @@ ko-Kore:
         title: "%{username}의 이메일 住所 變更"
       change_role:
         changed_msg: 役割이 成功的으로 變更되었습니다!
+        edit_roles: 使用者 役割 管理
         label: 役割 變更
         no_role: 役割 없음
         title: "%{username}의 역할 변경"
@@ -91,6 +91,7 @@ ko-Kore:
       moderation:
         active: 活動
         all: 全體
+        disabled: 非活性
         pending: 待機 中
         silenced: 制限됨
         suspended: 停止 中
@@ -115,6 +116,8 @@ ko-Kore:
       redownloaded_msg: 成功的으로 %{username}의 프로필을 原本으로부터 업데이트 하였습니다
       reject: 拒否
       rejected_msg: 成功的으로 %{username}의 加入 申請書를 返戾하였습니다
+      remote_suspension_irreversible: 이 計定의 데이터는 되돌릴 수 없도록 削除되었습니다.
+      remote_suspension_reversible_hint_html: 이 計定은 計定이 屬한 서버에서 停止되었습니다, 그리고 %{date}에 데이터가 完全히 削除될 것입니다. 그 때까지는 該當 서버에서 計定을 그대로 復舊할 수 있습니다. 萬若 只今 當場 이 計定의 모든 데이터를 削除하고 싶다면, 아래에서 實行할 수 있습니다.
       remove_avatar: 아바타 지우기
       remove_header: 헤더 削除
       removed_avatar_msg: 成功的으로 %{username}의 아바타 이미지를 削除하였습니다
@@ -130,6 +133,7 @@ ko-Kore:
       search: 檢索
       search_same_email_domain: 같은 이메일 도메인을 가진 다른 使用者들
       search_same_ip: 같은 IP의 다른 使用者들
+      security: 保安
       security_measures:
         only_password: 暗號만
         password_and_2fa: 暗號와 2段階 認證
@@ -146,11 +150,8 @@ ko-Kore:
       subscribe: 購讀하기
       suspend: 停止
       suspended: 停止 됨
-      suspension_irreversible: 이 計定의 데이터는 復舊할 수 없도록 削除되었습니다. 計定을 停止 解除함으로서 計定을 다시 使用
-        可能하게 할 수 있지만 以前에 削除한 어떤 데이터도 復舊되지 않습니다.
-      suspension_reversible_hint_html: 計定이 停止되었습니다, 그리고 %{date}에 데이터가 完全히 削除될 것입니다. 그
-        때까지는 어떤 안 좋은 效果 없이 計定이 復舊 될 수 있습니다. 萬若 只今 當場 計定의 모든 데이터를 削除하고 싶다면, 아래에서
-        行할 수 있습니다.
+      suspension_irreversible: 이 計定의 데이터는 復舊할 수 없도록 削除되었습니다. 計定을 停止 解除함으로서 計定을 다시 使用 可能하게 할 수 있지만 以前에 削除한 어떤 데이터도 復舊되지 않습니다.
+      suspension_reversible_hint_html: 計定이 停止되었습니다, 그리고 %{date}에 데이터가 完全히 削除될 것입니다. 그 때까지는 어떤 안 좋은 效果 없이 計定이 復舊 될 수 있습니다. 萬若 只今 當場 計定의 모든 데이터를 削除하고 싶다면, 아래에서 行할 수 있습니다.
       title: 計定
       unblock_email: 이메일 住所 遮斷 解除
       unblocked_email_msg: "%{username}의 이메일 住所를 成功的으로 遮斷 解除했습니다"
@@ -182,6 +183,7 @@ ko-Kore:
         create_domain_block: 도메인 遮斷 追加
         create_email_domain_block: 이메일 도메인 遮斷 生成
         create_ip_block: IP 規則 만들기
+        create_relay: 릴레이 生成
         create_unavailable_domain: 使用 不可能한 도메인 生成
         create_user_role: 役割 生成
         demote_user: 使用者 降等
@@ -193,18 +195,22 @@ ko-Kore:
         destroy_email_domain_block: 이메일 도메인 遮斷 削除
         destroy_instance: 도메인 除去
         destroy_ip_block: IP 規則 削除
+        destroy_relay: 릴레이 削除
         destroy_status: 揭示物 削除
         destroy_unavailable_domain: 使用 不可能한 도메인 除去
         destroy_user_role: 役割 削除
         disable_2fa_user: 2段階 認證 非活性化
         disable_custom_emoji: 커스텀 繪文字 非活性化
+        disable_relay: 릴레이 非活性化
         disable_sign_in_token_auth_user: 使用者에 對한 이메일 토큰 認證 非活性化
         disable_user: 使用者 非活性化
         enable_custom_emoji: 커스텀 繪文字 活性化
+        enable_relay: 릴레이 活性化
         enable_sign_in_token_auth_user: 使用者에 對한 이메일 토큰 認證 活性化
         enable_user: 使用者 活性化
         memorialize_account: 追慕計定으로 轉換
         promote_user: 使用者 昇級
+        publish_terms_of_service: 利用 約款 揭示
         reject_appeal: 異議提起 拒絶
         reject_user: 使用者 拒否
         remove_avatar_user: 아바타 지우기
@@ -224,6 +230,7 @@ ko-Kore:
         update_custom_emoji: 커스텀 繪文字 업데이트
         update_domain_block: 도메인 遮斷 更新
         update_ip_block: IP 規則 修正
+        update_report: 申告 업데이트
         update_status: 揭示物 揭示
         update_user_role: 役割 修正
       actions:
@@ -241,6 +248,7 @@ ko-Kore:
         create_domain_block_html: "%{name} 님이 도메인 %{target}를 遮斷했습니다"
         create_email_domain_block_html: "%{name} 님이 이메일 도메인 %{target}를 遮斷했습니다"
         create_ip_block_html: "%{name} 님이 IP 規則 %{target}을 만들었습니다"
+        create_relay_html: "%{name} 님이 릴레이 %{target}를 生成했습니다"
         create_unavailable_domain_html: "%{name} 님이 도메인 %{target}에 對한 傳達을 中止했습니다"
         create_user_role_html: "%{name} 님이 %{target} 役割을 生成했습니다"
         demote_user_html: "%{name} 님이 使用者 %{target} 님을 降等했습니다"
@@ -252,18 +260,22 @@ ko-Kore:
         destroy_email_domain_block_html: "%{name} 님이 이메일 도메인 %{target}을 遮斷 解除하였습니다"
         destroy_instance_html: "%{name} 님이 도메인 %{target}를 除去했습니다"
         destroy_ip_block_html: "%{name} 님이 IP 規則 %{target}을 削除하였습니다"
+        destroy_relay_html: "%{name} 님이 릴레이 %{target}를 削除했습니다"
         destroy_status_html: "%{name} 님이 %{target}의 揭示物을 削除했습니다"
         destroy_unavailable_domain_html: "%{name} 님이 도메인 %{target}에 對한 傳達을 再開"
         destroy_user_role_html: "%{name} 님이 %{target} 役割을 削除했습니다"
         disable_2fa_user_html: "%{name} 님이 使用者 %{target}의 2FA를 非活性化 했습니다"
         disable_custom_emoji_html: "%{name} 님이 繪文字 %{target}를 非活性化했습니다"
+        disable_relay_html: "%{name} 님이 릴레이 %{target}를 非活性化했습니다"
         disable_sign_in_token_auth_user_html: "%{name} 님이 %{target} 님의 이메일 토큰 認證을 非活性化했습니다"
         disable_user_html: "%{name} 님이 使用者 %{target}의 로그인을 非活性化했습니다"
         enable_custom_emoji_html: "%{name} 님이 繪文字 %{target}를 活性化했습니다"
+        enable_relay_html: "%{name} 님이 릴레이 %{target}를 活性化했습니다"
         enable_sign_in_token_auth_user_html: "%{name} 님이 %{target} 님의 이메일 토큰 認證을 活性化했습니다"
         enable_user_html: "%{name} 님이 使用者 %{target}의 로그인을 活性化했습니다"
         memorialize_account_html: "%{name} 님이 %{target}의 計定을 追慕碑 페이지로 轉換했습니다"
         promote_user_html: "%{name} 님이 使用者 %{target}를 昇級시켰습니다"
+        publish_terms_of_service_html: "%{name} 님이 利用 約款을 업데이트했습니다"
         reject_appeal_html: "%{name} 님이 %{target}의 仲裁 決定에 對한 異議提起를 拒絶했습니다"
         reject_user_html: "%{name} 님이 %{target}의 加入을 拒否했습니다"
         remove_avatar_user_html: "%{name} 님이 %{target}의 아바타를 지웠습니다"
@@ -283,6 +295,7 @@ ko-Kore:
         update_custom_emoji_html: "%{name} 님이 繪文字 %{target}를 업데이트 했습니다"
         update_domain_block_html: "%{name} 님이 %{target}에 對한 도메인 遮斷을 更新했습니다"
         update_ip_block_html: "%{name} 님이 IP 규칙 %{target}을 修正했습니다"
+        update_report_html: "%{name} 님이 申告 %{target}를 업데이트 했습니다"
         update_status_html: "%{name} 님이 %{target}의 揭示物을 업데이트했습니다"
         update_user_role_html: "%{name} 님이 %{target} 役割을 修正했습니다"
       deleted_account: 計定을 削除했습니다
@@ -290,7 +303,9 @@ ko-Kore:
       filter_by_action: 行動으로 거르기
       filter_by_user: 使用者로 거르기
       title: 監査 記錄
+      unavailable_instance: (도메인네임 使用不可)
     announcements:
+      back: 公知事項으로 돌아가기
       destroyed_msg: 公知가 成功的으로 削除되었습니다!
       edit:
         title: 公知事項 修正
@@ -299,6 +314,10 @@ ko-Kore:
       new:
         create: 公知事項 生成
         title: 새 公知事項
+      preview:
+        disclaimer: 使用者들은 受信設定을 끌 수 없기 때문에 이메일 알림은 個人情報 流出이나 서버 終了와 같은 重要한 公知事項에만 使用해야 합니다.
+        explanation_html: "<strong>%{display_count} 名의 使用者</strong>에게 이메일이 發送됩니다. 다음 內容이 이메일에 包含됩니다:"
+        title: 公知事項 알림 미리보기
       publish: 揭示
       published_msg: 公知가 成功的으로 發行되었습니다!
       scheduled_for: "%{time}에 豫約됨"
@@ -307,6 +326,7 @@ ko-Kore:
       unpublish: 揭示 取消
       unpublished_msg: 公知가 成功的으로 發行 取消되었습니다!
       updated_msg: 公知가 成功的으로 업데이트되었습니다!
+    critical_update_pending: 緊急 업데이트 保留 中
     custom_emojis:
       assign_category: 分類 指定
       by_domain: 도메인
@@ -371,30 +391,41 @@ ko-Kore:
       add_new: 도메인 許容
       created_msg: 도메인이 成功的으로 許容 目錄에 追加되었습니다
       destroyed_msg: 도메인이 許容 目錄에서 除去되었습니다
+      export: 내보내기
+      import: 불러오기
       undo: 許容 目錄에서 除外
     domain_blocks:
       add_new: 도메인 遮斷 追加하기
+      confirm_suspension:
+        cancel: 取消
+        confirm: 停止
+        permanent_action: 停止를 取消한다고 해서 데이터나 關係가 돌아오진 않습니다.
+        preamble_html: <strong>%{domain}</strong>과 서브도메인들을 遮斷하려고 합니다.
+        remove_all_data: 이 動作은 이 도메인의 모든 콘텐츠, 미디어, 프로필 데이터를 서버에서 지울 것입니다.
+        stop_communication: 이 서버들과의 交信이 中止될 것입니다.
+        title: "%{domain} 도메인 遮斷 確認"
+        undo_relationships: 이 動作은 이 서버 計定들과 저 서버 計定들 사이의 팔로우 關係들을 取消할 것입니다.
       created_msg: 도메인 遮斷 處理를 完了했습니다
       destroyed_msg: 도메인 遮斷이 解除되었습니다
       domain: 도메인
       edit: 도메인 遮斷 修正
       existing_domain_block: 이미 %{name}에 대한 더 强力한 制限이 있습니다.
-      existing_domain_block_html: 이미 %{name}에 對한 더 强力한 制限이 걸려 있습니다, <a
-        href="%{unblock_url}">遮斷 解除</a>를 먼저 해야 합니다.
+      existing_domain_block_html: 이미 %{name}에 對한 더 强力한 制限이 걸려 있습니다, <a href="%{unblock_url}">遮斷 解除</a>를 먼저 해야 합니다.
+      export: 내보내기
+      import: 불러오기
       new:
         create: 遮斷 追加
-        hint: 도메인 遮斷은 內部 데이터베이스에 計定이 生成되는 것까지는 막을 수 없지만, 그 도메인에서 生成된 計定에 自動的으로 特定한 仲裁
-          規則을 適用하게 할 수 있습니다.
+        hint: 도메인 遮斷은 內部 데이터베이스에 計定이 生成되는 것까지는 막을 수 없지만, 그 도메인에서 生成된 計定에 自動的으로 特定한 仲裁 規則을 適用하게 할 수 있습니다.
         severity:
-          desc_html: >-
-            <strong>沈默</strong>은 計定을 팔로우 하지 않고 있는 사람들에겐 計定의 揭示物을 보이지 않게 합니다.
-            <strong>停止</strong>는 計定의 콘텐츠, 미디어, 프로필 데이터를 削除합니다.
-
+          desc_html: |-
+            <strong>沈默</strong>은 計定을 팔로우 하지 않고 있는 사람들에겐 計定의 揭示物을 보이지 않게 합니다. <strong>停止</strong>는 計定의 콘텐츠, 미디어, 프로필 데이터를 削除합니다.
             미디어 파일만을 拒否하고 싶다면 <strong>없음</strong>으로 두세요.
           noop: 없음
           silence: 沈默
           suspend: 停止
         title: 새로운 도메인 遮斷
+      no_domain_block_selected: 아무 것도 選擇 되지 않아 어떤 도메인 遮斷도 變更되지 않았습니다
+      not_permitted: 이 作業을 遂行할 權限이 없습니다
       obfuscate: 도메인 이름 難讀化
       obfuscate_hint: 도메인 制限 目錄을 公開하는 境遇 도메인 이름의 一部를 難讀化 합니다
       private_comment: 非公開 註釋
@@ -409,6 +440,7 @@ ko-Kore:
       view: 도메인 遮斷 보기
     email_domain_blocks:
       add_new: 새로 追加
+      allow_registrations_with_approval: 承認을 通한 加入 許容
       attempts_over_week:
         other: 지난 週 동안 %{count}件의 加入 試圖가 있었습니다
       created_msg: 이메일 도메인 遮斷 規則을 生成했습니다
@@ -422,16 +454,57 @@ ko-Kore:
         resolve: 도메인 解決
         title: 새 이메일 도메인 遮斷
       no_email_domain_block_selected: 아무 것도 選擇되지 않아 어떤 이메일 도메인 遮斷도 變更되지 않았습니다
-      resolved_dns_records_hint_html: 도메인 네임은 다음의 MX 도메인으로 連結되어 있으며, 이메일을 받는데 必須的입니다.
-        MX 도메인을 遮斷하면 같은 MX 도메인을 使用하는 어떤 이메일이라도 加入할 수 없게 되며, 보여지는 도메인이 다르더라도
-        適用됩니다. <strong>主要 이메일 提供者를 遮斷하지 않도록 操心하세요.</strong>
+      not_permitted: 許容하지 않음
+      resolved_dns_records_hint_html: 도메인 네임은 다음의 MX 도메인으로 連結되어 있으며, 이메일을 받는데 必須的입니다. MX 도메인을 遮斷하면 같은 MX 도메인을 使用하는 어떤 이메일이라도 加入할 수 없게 되며, 보여지는 도메인이 다르더라도 適用됩니다. <strong>主要 이메일 提供者를 遮斷하지 않도록 操心하세요.</strong>
       resolved_through_html: "%{domain}을 通해 解決됨"
       title: Email 도메인 遮斷
+    export_domain_allows:
+      new:
+        title: 도메인 許容 目錄 불러오기
+      no_file: 選擇된 파일이 없습니다
+    export_domain_blocks:
+      import:
+        description_html: 도메인 遮斷 目錄을 불러오려고 합니다. 操心스럽게 檢討하시고, 特히羅 이 目錄을 스스로 作成하지 않았을 境遇엔 더 綿密히 檢討하세요.
+        existing_relationships_warning: 이미 存在하는 팔로우 關係
+        private_comment_description_html: "어디서 불러온 것인지 追跡을 圓滑하게 하기 爲해서, 불러온 遮斷들은 다음과 같은 非公開 註釋과 함께 生成될 것입니다: <q>%{comment}</q>"
+        private_comment_template: "%{date}에 %{source}에서 불러옴"
+        title: 도메인 遮斷 불러오기
+      invalid_domain_block: "한 個 以上의 도메인 遮斷이 省略되었습니다. 에러는 다음과 같습니다: %{error}"
+      new:
+        title: 도메인 遮斷 불러오기
+      no_file: 選擇된 파일이 없습니다
+    fasp:
+      debug:
+        callbacks:
+          created_at: 生成日
+          delete: 削除
+          ip: IP 住所
+          request_body: 要請 바디
+          title: 디버그 콜백
+      providers:
+        active: 活性
+        base_url: Base URL
+        callback: 콜백
+        delete: 削除
+        edit: 提供者 編輯
+        finish_registration: 登錄 完了
+        name: 이름
+        providers: 提供者
+        public_key_fingerprint: 公開키 핑거프린트
+        registration_requested: 加入 要請됨
+        registrations:
+          confirm: 確認
+          description: FASP로부터 登錄을 받았습니다. 本人이 始作하지 않았다면 拒否하세요. 本人이 始作했다면 登錄을 確認하기 前에 이름과 키 핑거프린트를 注意 깊게 比較하세요.
+          reject: 拒否
+          title: FASP 加入 確認
+        save: 貯藏
+        select_capabilities: 權限 選擇
+        sign_in: 로그인
+        status: 狀態
+        title: 聯合宇宙 補助 서비스 提供者
+      title: FASP
     follow_recommendations:
-      description_html: <strong>팔로우 推薦은 새 使用者들이 關心 가는 콘텐트를 빠르게 찾을 수 있도록
-        도와줍니다</strong>. 使用者가 個人化 된 팔로우 推薦이 만들어지기 위한 充分한 相互作用을 하지 않은 境遇, 이 計定들이
-        代身 推薦 됩니다. 이들은 該當 言語에 對해 많은 關心을 갖거나 많은 로컬 팔로워를 가지고 있는 計定들을 섞어서 날마다 다시 計算
-        됩니다.
+      description_html: <strong>팔로우 推薦은 새 使用者들이 關心 가는 콘텐트를 빠르게 찾을 수 있도록 도와줍니다</strong>. 使用者가 個人化 된 팔로우 推薦이 만들어지기 위한 充分한 相互作用을 하지 않은 境遇, 이 計定들이 代身 推薦 됩니다. 이들은 該當 言語에 對해 많은 關心을 갖거나 많은 로컬 팔로워를 가지고 있는 計定들을 섞어서 날마다 다시 計算 됩니다.
       language: 言語 필터
       status: 狀態
       suppress: 팔로우 推薦 숨기기
@@ -439,10 +512,12 @@ ko-Kore:
       title: 팔로우 推薦
       unsuppress: 팔로우 推薦 復元
     instances:
+      audit_log:
+        title: 最近 監査 記錄
+        view_all: 監査 記錄 全體 보기
       availability:
         description_html:
-          other: 도메인에 對한 傳達이 成功 없이 <strong>%{count}</strong>日 失敗한다면, 以後의 傳達 試圖는 該當
-            도메인<em>에서</em> 傳達이 오기 前까지는 만들어지지 않습니다.
+          other: 도메인에 對한 傳達이 成功 없이 <strong>%{count}</strong>日 失敗한다면, 以後의 傳達 試圖는 該當 도메인<em>에서</em> 傳達이 오기 前까지는 만들어지지 않습니다.
         failure_threshold_reached: "%{date}에 失敗 臨界點에 到達했습니다."
         failures_recorded:
           other: 失敗한 傳達 試圖 總 %{count}日.
@@ -457,6 +532,7 @@ ko-Kore:
       content_policies:
         comment: 內部 參考事項
         description_html: 이 도메인과 下位 도메인의 모든 計定에 適用될 콘텐츠 政策을 定義할 수 있습니다.
+        limited_federation_mode_description_html: 이 도메인의 聯合을 許容할지 選擇할 수 있습니다.
         policies:
           reject_media: 미디어 拒否
           reject_reports: 申告 拒否
@@ -492,11 +568,17 @@ ko-Kore:
         all: 모두
         limited: 制限됨
         title: 仲裁
+      moderation_notes:
+        create: 仲裁 參考事項 追加
+        created_msg: 서버 仲裁 參考事項을 만들었습니다!
+        description_html: 確認하고 다른 仲裁字나 未來의 自身을 爲해 參考事項을 作成합니다
+        destroyed_msg: 서버 仲裁 參考事項을 削除했습니다!
+        placeholder: 이 인스턴스에 對한 情報, 取한 措置, 以後 이 서버를 仲裁하기 爲해 도움이 될 어떤 것이든 좋습니다.
+        title: 仲裁 參考事項
       private_comment: 非公開 註釋
       public_comment: 公開 註釋
       purge: 除去
-      purge_description_html: 이 도메인이 永久的으로 오프라인 狀態라고 생각되면, 스토리지에서 이 도메인의 모든 計定 레코드와 關聯
-        데이터를 削除할 수 있습니다. 이 作業은 時間이 좀 걸릴 수 있습니다.
+      purge_description_html: 이 도메인이 永久的으로 오프라인 狀態라고 생각되면, 스토리지에서 이 도메인의 모든 計定 레코드와 關聯 데이터를 削除할 수 있습니다. 이 作業은 時間이 좀 걸릴 수 있습니다.
       title: 聯合
       total_blocked_by_us: 우리에게 遮斷 됨
       total_followed_by_them: 우리를 팔로우
@@ -504,6 +586,7 @@ ko-Kore:
       total_reported: 이들에 對한 申告
       total_storage: 미디어 添附
       totals_time_period_hint_html: 아래에 表示된 總計에는 모든 時間에 對한 데이터가 包含됩니다.
+      unknown_instance: 現在 이 서버에서 該當 도메인에 對한 記錄은 없습니다.
     invites:
       deactivate_all: 全部 非活性化
       filter:
@@ -532,9 +615,7 @@ ko-Kore:
     relays:
       add_new: 릴레이 追加
       delete: 削除
-      description_html: <strong>聯合 릴레이</strong>는 서버들 사이에서 많은 量의 公開 揭示物을 구독하고 仲介하는
-        서버입니다. <strong>이것은 中小 規模의 서버에서 聯合宇宙를 發見하는 데에 도움을 줄 수 있습니다</strong>, 이제
-        로컬 使用者들이 다른 서버의 使用者들을 手動으로 팔로우 하지 않아도 됩니다.
+      description_html: <strong>聯合 릴레이</strong>는 서버들 사이에서 많은 量의 公開 揭示物을 구독하고 仲介하는 서버입니다. <strong>이것은 中小 規模의 서버에서 聯合宇宙를 發見하는 데에 도움을 줄 수 있습니다</strong>, 이제 로컬 使用者들이 다른 서버의 使用者들을 手動으로 팔로우 하지 않아도 됩니다.
       disable: 非活性化
       disabled: 非活性化 됨
       enable: 活性化
@@ -550,7 +631,6 @@ ko-Kore:
     report_notes:
       created_msg: 리포트 노트가 成功的으로 作成되었습니다!
       destroyed_msg: 리포트 노트가 成功的으로 削除되었습니다!
-      today_at: 오늘 %{time}
     reports:
       account:
         notes:
@@ -559,29 +639,34 @@ ko-Kore:
       action_taken_by: 申告 處理者
       actions:
         delete_description_html: 申告된 揭示物은 削除될 것이며 이 處罰記錄은 같은 計定의 向後 規定 違反에 對해 參考事項으로 쓰일 수 있도록 貯藏됩니다.
-        mark_as_sensitive_description_html: 申告된 揭示物의 미디어는 敏感함으로 表示될 것이며 이 處罰記錄은 같은 計定의
-          向後 規定 違反에 對해 參考事項으로 쓰일 수 있도록 貯藏됩니다.
+        mark_as_sensitive_description_html: 申告된 揭示物의 미디어는 敏感함으로 表示될 것이며 이 處罰記錄은 같은 計定의 向後 規定 違反에 對해 參考事項으로 쓰일 수 있도록 貯藏됩니다.
         other_description_html: 計定 動作을 制御하고 申告된 計定과의 意思疏通을 使用者 指定하기 爲한 追加 옵션을 봅니다.
         resolve_description_html: 申告된 計定에 對해 아무런 動作도 취하지 않으며, 處罰記錄이 남지 않으며, 申告는 處理됨으로 變更됩니다.
-        silence_description_html: 이미 팔로우 하고 있는 사람이나 手動으로 찾아보는 사람에게만 프로필이 보여지고, 到達 範圍를
-          掩擊하게 制限합니다. 언제든지 되돌릴 수 있습니다.
-        suspend_description_html: 프로필과 모든 콘텐츠가 最終的으로 削除될 때까지 接近 不可狀態가 됩니다. 이 計定과의 相互作用은
-          不可能해집니다. 30日 以內에 되돌릴 수 있습니다.
-      actions_description_html: 이 申告를 解決하기 爲해 取해야 할 措置를 指定해주세요. 申告된 計定에 對해 處罰 措置를 取하면,
-        <strong>스팸</strong> 카테고리가 選擇된 境遇를 除外하고 該當 計定으로 이메일 알림이 傳送됩니다.
+        silence_description_html: 이미 팔로우 하고 있는 사람이나 手動으로 찾아보는 사람에게만 프로필이 보여지고, 到達 範圍를 掩擊하게 制限합니다. 언제든지 되돌릴 수 있습니다.
+        suspend_description_html: 프로필과 모든 콘텐츠가 最終的으로 削除될 때까지 接近 不可狀態가 됩니다. 이 計定과의 相互作用은 不可能해집니다. 30日 以內에 되돌릴 수 있습니다.
+      actions_description_html: 이 申告를 解決하기 爲해 取해야 할 措置를 指定해주세요. 申告된 計定에 對해 處罰 措置를 取하면, <strong>스팸</strong> 카테고리가 選擇된 境遇를 除外하고 該當 計定으로 이메일 알림이 傳送됩니다.
+      actions_description_remote_html: 이 申告를 解決하기 爲해 實行할 行動을 決定하세요. 이 決定은 이 遠隔 計定과 그 콘텐츠를 다루는 方式에 대해 <strong>이 서버</strong>에서만 影響을 끼칩니다
+      actions_no_posts: 이 申告는 削除할 關聯 揭示物이 없습니다
       add_to_report: 申告에 더 追加하기
+      already_suspended_badges:
+        local: 이 서버에서 이미 停止되었습니다
+        remote: 저 서버에서 이미 停止되었습니다
       are_you_sure: 正말로 實行하시겠습니까?
       assign_to_self: 나에게 割當하기
       assigned: 割當된 仲裁者
       by_target_domain: 申告된 計定의 도메인
+      cancel: 取消
       category: 카테고리
       category_description_html: 이 計定 또는 揭示物이 申告된 理由는 申告된 計定과의 意思疏通 過程에 引用됩니다
       comment:
         none: 없음
       comment_description_html: "더 많은 情報를 爲해, %{name} 님이 作成했습니다:"
+      confirm: 確定
+      confirm_action: "@%{acct}에 취할 仲裁 決定에 對한 確認"
       created_at: 리포트 時刻
       delete_and_resolve: 揭示物 削除
       forwarded: 傳達됨
+      forwarded_replies_explanation: 이 申告는 리모트 使用者가 리모트 컨텐츠에 대해 申告한 것입니다. 이것은 申告된 內容이 로컬 使用者에 對한 答글이기 때문에 첨부되었습니다.
       forwarded_to: "%{domain}에게 傳達됨"
       mark_as_resolved: 解決 完了 處理
       mark_as_sensitive: 敏感함으로 設定
@@ -595,21 +680,42 @@ ko-Kore:
         placeholder: 이 리포트에 對한 措置, 其他 關聯 된 事項에 對해 說明합니다…
         title: 노트
       notes_description_html: 確認하고 다른 仲裁者나 未來의 自身을 爲해 노트를 作成합니다
+      processed_msg: "申告 #%{id}가 正常的으로 처리되었습니다"
       quick_actions_description_html: "빠른 措置를 取하거나 아래로 스크롤해서 申告된 콘텐츠를 確認하세요:"
       remote_user_placeholder: "%{instance}의 리모트 使用者"
       reopen: 리포트 다시 열기
       report: "申告 #%{id}"
       reported_account: 申告 對象 計定
       reported_by: 申告者
+      reported_with_application: 申告에 使用된 앱
       resolved: 解決됨
       resolved_msg: 리포트가 成功的으로 解決되었습니다!
       skip_to_actions: 作業으로 건너뛰기
       status: 狀態
       statuses: 申告된 콘텐츠
       statuses_description_html: 問題가 되는 콘텐츠는 申告된 計定에게 引用되어 傳達됩니다
+      summary:
+        action_preambles:
+          delete_html: "<strong>@%{acct}</strong>의 揭示物 中 一部를 <strong>지우려고</strong> 합니다. 이것은 아래의 行動이 隨伴됩니다:"
+          mark_as_sensitive_html: "<strong>@%{acct}</strong>의 揭示物 中 一部를 <strong>민감함으로 標示</strong> 합니다. 이것은 아래의 行動이 隨伴됩니다:"
+          silence_html: "<strong>@%{acct}</strong>의 計定을 <strong>制限</strong>하려고 합니다. 이것은 아래의 行動이 隨伴됩니다:"
+          suspend_html: "<strong>@%{acct}</strong>의 計定을 <strong>停止</strong>하려고 합니다. 이것은 아래의 行動이 隨伴됩니다:"
+        actions:
+          delete_html: 問題가 되는 揭示物을 지웁니다
+          mark_as_sensitive_html: 問題가 되는 揭示物의 미디어를 민감함으로 標示합니다
+          silence_html: 이미 팔로우하고 있는 사람에게만 프로필을 보이게 하고 나머지 사람들에게는 手動으로 確認을 해야만 볼 수 있게 하여 <strong>@%{acct}</strong>의 到達 範圍를 엄격하게 制限합니다.
+          suspend_html: <strong>@%{acct}</strong>의 計定을 停止합니다. 프로필과 콘텐츠가 使用 불가능하게 됩니다.
+        close_report: "申告 #%{id}를 解決됨으로 標示합니다"
+        close_reports_html: <strong>@%{acct}</strong>에 對한 <strong>모든</strong> 申告를 解決됨으로 처리합니다
+        delete_data_html: <strong>@%{acct}</strong>의 프로필과 콘텐츠를 30日의 猶豫期間 以後에 削除합니다
+        preview_preamble_html: "<strong>@%{acct}</strong>는 다음 內容의 警告를 받게 됩니다:"
+        record_strike_html: 向後 規則違反에 對한 參考事項이 될 수 있도록 <strong>@%{acct}</strong>에 對한 處罰記錄을 남깁니다
+        send_email_html: <strong>@%{acct}</strong>에게 警告 메일을 보냅니다
+        warning_placeholder: 仲裁 決定에 對한 追加的인 理由.
       target_origin: 申告된 計定의 所屬
       title: 申告
       unassign: 割當 解除
+      unknown_action_msg: "알 수 없는 액션: %{action}"
       unresolved: 未解決
       updated_at: 업데이트 時刻
       view_profile: 프로필 보기
@@ -627,8 +733,7 @@ ko-Kore:
       description_html: <strong>使用者 役割</strong>을 通해, 使用者들이 마스토돈의 어떤 機能과 領域에 接近할 수 있을지 設定할 수 있습니다.
       edit: "%{name} 役割 修正"
       everyone: 基本 權限
-      everyone_full_description_html: 이것은 <strong>모든 使用者</strong>에게 適用될 <strong>基本
-        役割</strong>이며, 役割을 指定하지 않아도 適用됩니다. 다른 모든 役割들은 여기에서 權限을 相續합니다.
+      everyone_full_description_html: 이것은 <strong>모든 使用者</strong>에게 適用될 <strong>基本 役割</strong>이며, 役割을 指定하지 않아도 適用됩니다. 다른 모든 役割들은 여기에서 權限을 相續합니다.
       permissions_count:
         other: "%{count}個의 權限"
       privileges:
@@ -675,36 +780,49 @@ ko-Kore:
       title: 役割
     rules:
       add_new: 規則 追加
+      add_translation: 飜譯 追加
       delete: 削除
-      description_html: 大部分의 境遇 사람들이 利用約款을 반드시 읽고 同意하도록 하지만, 普通의 사람들은 問題가 일어나기 前까지는 읽지
-        않습니다. <strong>여러분의 서버 規則을 目錄으로 整理해서 한 番에 읽기 쉽게 만드세요.</strong> 規則 各各을 짧고
-        單純하게 만들고, 하나를 여러 個로 쪼개지도 마세요.
+      description_html: 大部分의 境遇 사람들이 利用約款을 반드시 읽고 同意하도록 하지만, 普通의 사람들은 問題가 일어나기 前까지는 읽지 않습니다. <strong>여러분의 서버 規則을 目錄으로 整理해서 한 番에 읽기 쉽게 만드세요.</strong> 規則 各各을 짧고 單純하게 만들고, 하나를 여러 個로 쪼개지도 마세요.
       edit: 規則 修正
       empty: 아직 正義된 서버 規則이 없습니다.
+      move_down: 아래로 移動
+      move_up: 위로 移動
       title: 서버 規則
+      translation: 飜譯
+      translations: 飜譯
+      translations_explanation: 規則에 對한 飜譯을 추가할 수 있습니다. 번역된 버전이 없다면 原文이 보여질 것입니다. 恒常 原文과 飜譯本意 內容이 일치하는지 確認하세요.
     settings:
       about:
         manage_rules: 서버 規則 管理
         preamble: 이 서버가 어떻게 運營되고, 仲裁되고, 資金을 調達하는지 等에 關한 仔細한 情報를 記入하세요.
         rules_hint: 使用者들이 遵守해야 할 規則들을 爲한 專用 空間입니다.
         title: 情報
+      allow_referrer_origin:
+        desc: 使用者가 外部 사이트 링크를 클릭한 境遇 브라우저는 마스토돈 서버 住所를 리퍼러로 보내게 됩니다. 이 서버가 個人 서버인 境遇 等 使用者를 식별할 수 있는 境遇 이 機能을 非活性化하세요.
+        title: 外部 사이트가 이 마스토돈 서버를 트래픽 소스로 볼 수 있도록 許容
       appearance:
         preamble: 마스토돈의 웹 인터페이스를 變更
         title: 外觀
       branding:
-        preamble: 이 서버의 브랜딩은 네트워크의 다른 서버와 差別點을 附與합니다. 이 情報는 여러 環境에서 보여질 수 있는데, 예를 들면
-          마스토돈 인터페이스, 네이티브 앱, 다른 웹사이트나 메시지 앱에서 보이는 링크 미리보기, 其他 等等이 있습니다. 이러한 理由로
-          因해, 이 情報를 明確하고 짧고 簡潔하게 維持하는 것이 가장 좋습니다.
+        preamble: 이 서버의 브랜딩은 네트워크의 다른 서버와 差別點을 附與합니다. 이 情報는 여러 環境에서 보여질 수 있는데, 예를 들면 마스토돈 인터페이스, 네이티브 앱, 다른 웹사이트나 메시지 앱에서 보이는 링크 미리보기, 其他 等等이 있습니다. 이러한 理由로 因해, 이 情報를 明確하고 짧고 簡潔하게 維持하는 것이 가장 좋습니다.
         title: 브랜딩
+      captcha_enabled:
+        desc_html: 이것은 hCaptcha의 外部 스크립트에 依存합니다, 이것은 個人情報 保護에 威脅을 가할 수도 있습니다. 追加的으로, <strong>이것은 몇몇 사람들(特히羅 障礙人들)에게 加入 節次의 接近性을 심각하게 떨어트릴 수 있습니다</strong>. 이러한 理由로, 代替制로 承認 專用이나 招待制를 通한 加入을 고려해보세요.
+        title: 새로운 使用者가 計定 確認을 爲해서는 CAPTCHA를 풀어야 하도록 합니다
       content_retention:
+        danger_zone: 위험한 領域
         preamble: 마스토돈에 貯藏된 使用者 콘텐츠를 어떻게 다룰지 制御합니다.
         title: 콘텐츠 保存期限
+      default_noindex:
+        desc_html: 이 設定을 個人的으로 바꾸지 않은 모든 使用者들에게 適用 됩니다
+        title: 使用者들이 基本的으로 檢索엔진에 인덱싱되지 않도록 합니다
       discovery:
         follow_recommendations: 팔로우 推薦
-        preamble: 興味로운 콘텐츠를 露出하는 것은 마스토돈을 알지 못할 수도 있는 新規 使用者를 誘入시키는 데 重要합니다. 이 서버에서 作動하는
-          多樣한 發見하기 機能을 制御합니다.
+        preamble: 興味로운 콘텐츠를 露出하는 것은 마스토돈을 알지 못할 수도 있는 新規 使用者를 誘入시키는 데 重要합니다. 이 서버에서 作動하는 多樣한 發見하기 機能을 制御합니다.
+        privacy: 個人情報
         profile_directory: 프로필 冊子
         public_timelines: 公開 타임라인
+        publish_statistics: 統計 發行
         title: 發見하기
         trends: 流行
       domain_blocks:
@@ -712,6 +830,7 @@ ko-Kore:
         disabled: 아무에게도 안 함
         users: 로그인 한 使用者에게
       registrations:
+        moderation_recommandation: 모두에게 加入을 熱氣 前에 적절하고 反應이 빠른 仲裁 팀을 데리고 있는지 確認해 주세요!
         preamble: 누가 이 서버에 計定을 만들 수 있는 지 制御합니다.
         title: 加入
       registrations_mode:
@@ -719,18 +838,38 @@ ko-Kore:
           approved: 加入하려면 承認이 必要함
           none: 아무도 加入 할 수 없음
           open: 누구나 加入 할 수 있음
+        warning_hint: 當身의 仲裁 팀이 스팸이나 惡意的인 加入을 시기적절하게 처리할 수 있다고 自信할 수 없다면 "加入이 承認을 요구하도록" 設定하는 것을 추천합니다.
+      security:
+        authorized_fetch: 聯合된 서버들에게서 認證 必須
+        authorized_fetch_hint: 聯合된 서버들에게서 認證을 요구하는 것은 使用者 레벨과 서버 레벨의 遮斷을 좀 더 확실하게 해줍니다. 한便으로는 性能的인 페널티, 答글의 傳達 範圍 減少, 몇몇 聯合된 서비스들과의 互換性 問題가 있을 可能性이 있습니다. 追加的으로 이 機能은 專用 액터가 공개된 揭示物이나 計定을 페치하는 것은 막지 않습니다.
+        authorized_fetch_overridden_hint: 現在 이 값은 環境變數에 의해 設定되어 있기에 設定을 變更할 수 없습니다.
+        federation_authentication: 聯合 認證 必須
       title: 서버 설정
     site_uploads:
       delete: 업로드한 파일 削除
       destroyed_msg: 사이트 업로드를 成功的으로 削除했습니다!
+    software_updates:
+      critical_update: 緊急 ? 빠른 업데이트 要望
+      description: 最新 修正 事項과 機能을 활용하기 爲해 Mastodon 設置를 最新 狀態로 유지하기를 권장합니다. 더욱이, 때로는 保安 問題를 피하기 爲해 Mastodon을 적절한 時點에 緊急 업데이트해야 하는 境遇도 있습니다. 따라서 Mastodon은 30分마다 업데이트를 確認하며, 이메일 알림 環境設定에 따라 使用者에게 알려드립니다.
+      documentation_link: 더 알아보기
+      release_notes: 릴리스 노트
+      title: 使用 가능한 업데이트
+      type: 類型
+      types:
+        major: 메이저 릴리스
+        minor: 마이너 릴리스
+        patch: 패치 릴리스 ? 버그픽스이며 變更을 적용하기 쉽습니다
+      version: 버전
     statuses:
       account: 作成者
       application: 애플리케이션
       back_to_account: 計定으로 돌아가기
       back_to_report: 申告 페이지로 돌아가기
       batch:
+        add_to_report: "申告 #%{id}에 追加"
         remove_from_report: 申告에서 除去
         report: 申告
+      contents: 內容
       deleted: 削除됨
       favourites: 좋아요
       history: 버전 履歷
@@ -739,13 +878,17 @@ ko-Kore:
       media:
         title: 미디어
       metadata: 메타데이터
+      no_history: 이 揭示物은 수정되지 않았습니다
       no_status_selected: 아무 것도 選擇되지 않아 어떤 揭示物도 바뀌지 않았습니다
       open: 揭示物 열기
       original_status: 原本 揭示物
       reblogs: 리블로그
+      replied_to_html: "%{acct_link} 님에게 答狀"
       status_changed: 揭示物 變更됨
+      status_title: "@%{name} 님의 揭示物"
       title: 計定 揭示物
       trending: 流行中
+      view_publicly: 公開時點으로 보기
       visibility: 公開 設定
       with_media: 미디어 있음
     strikes:
@@ -759,34 +902,115 @@ ko-Kore:
         suspend: "%{name} 님이 %{target}의 計定을 停止시켰습니다"
       appeal_approved: 異議提起됨
       appeal_pending: 異議提起 待機中
+      appeal_rejected: 異議 提起 拒絶됨
     system_checks:
       database_schema_check:
         message_html: 待機中인 데이터베이스 마이그레이션이 있습니다. 애플리케이션이 豫想대로 動作할 수 있도록 마이그레이션을 實行해 주세요
+      elasticsearch_analysis_index_mismatch:
+        message_html: Elasticsearch 인덱스 아날라이저 設定이 업데이트되지 않았습니다. <code>tootctl search deploy --only-mapping --only=%{value}</code> 命令을 實行해주세요
+      elasticsearch_health_red:
+        message_html: Elasticsearch 클러스터가 非正常(red)狀態입니다. 檢索 機能이 動作하지 않습니다
+      elasticsearch_health_yellow:
+        message_html: Elasticsearch 클러스터가 非正常(yellow)狀態입니다. 理由를 조사할 必要가 있습니다
+      elasticsearch_index_mismatch:
+        message_html: Elasticsearch 인덱스 매핑이 업데이트되지 않았습니다. <code>tootctl search deploy --only=%{value}</code> 命令을 實行해주세요
+      elasticsearch_preset:
+        action: 文書 參照
+        message_html: Elasticsearch 클러스터가 여러 臺의 노드를 使用하지만 마스토돈이 그것을 使用하도록 設定되지 않았습니다.
+      elasticsearch_preset_single_node:
+        action: 文書 參照
+        message_html: Elasticsearch 클러스터가 한 代의 노드만 使用하고 있습니다. <code>ES_PRESET</code>이 <code>single_node_cluster</code>로 設定되어야 합니다.
+      elasticsearch_reset_chewy:
+        message_html: 設定 變更으로 인해 Elasticsearch 시스템 인덱스가 最新狀態가 아닙니다. <code>tootctl search deploy --reset-chewy</code> 命令으로 업데이트 하세요.
       elasticsearch_running_check:
         message_html: Elasticsearch에 連結할 수 없습니다. 實行中인지 確認하거나, 專門檢索을 非活性化하세요
       elasticsearch_version_check:
         message_html: "互換되지 않는 Elasticsearch 버전: %{value}"
-        version_comparison: Elasticsearch %{required_version}버전이 必要하지만
-          %{running_version}버전이 實行 中입니다.
+        version_comparison: Elasticsearch %{required_version}버전이 必要하지만 %{running_version}버전이 實行 中입니다.
       rules_check:
         action: 서버 規則 管理
         message_html: 아직 서버規則을 定하지 않았습니다.
       sidekiq_process_check:
         message_html: "%{value} 큐에 對한 사이드킥 프로세스가 發見되지 않았습니다. 사이드킥 設定을 檢討해주세요"
+      software_version_check:
+        action: 使用 가능한 업데이트 보기
+        message_html: 마스토돈 업데이트가 있습니다.
+      software_version_critical_check:
+        action: 使用 가능한 업데이트 보기
+        message_html: 緊急 마스토돈 업데이트가 있으니, 가능한 서둘러 업데이트 해주세요.
+      software_version_patch_check:
+        action: 使用 가능한 업데이트 보기
+        message_html: 마스토돈 버그픽스 업데이트가 있습니다.
+      upload_check_privacy_error:
+        action: 더 많은 情報를 보려면 여기를 確認하세요.
+        message_html: <strong>웹서버가 잘못 設定되어있습니다. 使用者의 個人情報가 위험한 狀態입니다.</strong>
+      upload_check_privacy_error_object_storage:
+        action: 더 많은 情報를 보려면 여기를 確認하세요
+        message_html: <strong>오브젝트 스토리지가 잘못 設定되어 있습니다. 使用者의 個人情報가 위험한 狀態입니다.</strong>
     tags:
+      moderation:
+        not_trendable: 流行에 오를 수 없음
+        not_usable: 使用 不可
+        pending_review: 審査 大氣
+        review_requested: 檢討 要請
+        reviewed: 檢討함
+        title: 揭示物
+        trendable: 流行에 오를 수 있음
+        unreviewed: 檢討되지 않음
+        usable: 使用 可能
+      name: 이름
+      newest: 最新
+      oldest: 오래된 순
+      open: 公開時點으로 보기
+      reset: 初期化
       review: 審査 狀態
+      search: 檢索
+      title: 해시태그
       updated_msg: 해시태그 設定이 成功的으로 更新되었습니다
+    terms_of_service:
+      back: 利用約款으로 돌아가기
+      changelog: 變更事項
+      create: 直接 使用
+      current: 現在
+      draft: 草案
+      generate: 템플릿 使用
+      generates:
+        action: 生成
+        chance_to_review_html: <strong>生成된 利用 約款은 自動으로 揭示되지 않을 것입니다.</strong> 結果를 確認할 機會가 있습니다. 진행하려면 필요한 情報들을 입력하세요.
+        explanation_html: 제공되는 利用約款 틀은 情報 提供만을 目的으로 하며 法律 助言으로 해석하면 안 됩니다. 貴下의 狀況에 맞는 法律 諮問을 받아주시기 바랍니다.
+        title: 利用 約款 設定
+      going_live_on_html: "%{date} 施行中"
+      history: 歷史
+      live: 活性
+      no_history: 記錄된 利用約款 變更이 아직 없습니다.
+      no_terms_of_service_html: 現在 設定된 利用約款이 없습니다. 利用約款은 明確性을 제공하고 貴下와 使用者間 紛爭에서 발생할 수 있는 責任으로부터 보호할 수 있습니다.
+      notified_on_html: 使用者들이 %{date}에 알림을 받았습니다
+      notify_users: 使用者들에게 알리기
+      preview:
+        explanation_html: "%{date} 이前에 加入한 <strong>%{display_count} 名의 使用者</strong>에게 이메일이 發送됩니다. 다음 內容이 이메일에 包含됩니다:"
+        send_preview: 미리보기를 %{email}에 보내기
+        send_to_all:
+          other: "%{display_count} 件의 메일 發送"
+        title: 利用 約款 알림 미리보기
+      publish: 揭示
+      published_on_html: "%{date}에 揭示됨"
+      save_draft: 草案 貯藏
+      title: 利用 約款
     title: 管理
     trends:
       allow: 許容
       approved: 承認됨
+      confirm_allow: 正말로 選擇된 태그들을 許容하시겠습니까?
+      confirm_disallow: 正말로 選擇된 태그들을 금지하시겠습니까?
       disallow: 拒否
       links:
         allow: 링크 許容하기
         allow_provider: 出處 許容하기
-        description_html: 現在 서버에서 揭示物을 볼 수 있는 計定에서 많이 共有되고 있는 링크들입니다. 使用者가 世上 돌아가는 狀況을
-          把握하는 데 도움이 됩니다. 出處를 承認할 때까지 링크는 公開的으로 揭示되지 않습니다. 각각의 링크를 個別的으로 許容하거나
-          拒否할 수도 있습니다.
+        confirm_allow: 正말로 選擇된 링크들을 許容하시겠습니까?
+        confirm_allow_provider: 正말로 選擇된 提供者들을 許容하시겠습니까?
+        confirm_disallow: 正말로 選擇된 링크들을 금지하시겠습니까?
+        confirm_disallow_provider: 正말로 選擇된 提供者들을 금지하시겠습니까?
+        description_html: 現在 서버에서 揭示物을 볼 수 있는 計定에서 많이 共有되고 있는 링크들입니다. 使用者가 世上 돌아가는 狀況을 把握하는 데 도움이 됩니다. 出處를 承認할 때까지 링크는 公開的으로 揭示되지 않습니다. 각각의 링크를 個別的으로 許容하거나 拒否할 수도 있습니다.
         disallow: 링크 拒否하기
         disallow_provider: 出處 拒否하기
         no_link_selected: 아무 것도 選擇되지 않아 어떤 링크도 바뀌지 않았습니다
@@ -796,21 +1020,23 @@ ko-Kore:
           other: 지난 周 동안 %{count} 名의 사람들이 共有했습니다
         title: 流行하는 링크
         usage_comparison: 오늘은 %{today}回 共有되었고, 어제는 %{yesterday}回 共有되었습니다
+      not_allowed_to_trend: 트렌드에 오를 수 없음
       only_allowed: 許容된 것만
       pending_review: 審査 待機
       preview_card_providers:
         allowed: 이 出處의 링크는 流行 目錄에 실릴 수 있습니다
-        description_html: 當身의 서버에서 많은 링크가 共有되고 있는 도메인들입니다. 링크의 도메인이 承認되기 前까지는 링크들은 公開的으로
-          트렌드에 揭示되지 않습니다. 當身의 承認(또는 拒絶)은 서브도메인까지 擴張됩니다.
+        description_html: 當身의 서버에서 많은 링크가 共有되고 있는 도메인들입니다. 링크의 도메인이 承認되기 前까지는 링크들은 公開的으로 트렌드에 揭示되지 않습니다. 當身의 承認(또는 拒絶)은 서브도메인까지 擴張됩니다.
         rejected: 이 出處의 링크는 流行 目錄에 실릴 수 없습니다
         title: 出處
       rejected: 拒否됨
       statuses:
         allow: 揭示物 許容
         allow_account: 作成者 許容
-        description_html: 當身의 서버가 알기로 現在 많은 數의 共有와 좋아요가 되고 있는 揭示物들입니다. 새로운 使用者나 돌아오는
-          使用者들이 팔로우 할 사람들을 찾는 데 도움이 될 수 있습니다. 作成者를 承認하고, 作成者가 그들의 計定이 다른 計定에게
-          探索되도록 設定하지 않는 한 揭示物들은 公開的으로 表示되지 않습니다. 또한 각각의 揭示物을 別個로 拒絶할 數도 있습니다.
+        confirm_allow: 正말로 選擇된 揭示物들을 許容하시겠습니까?
+        confirm_allow_account: 正말로 選擇된 計定들을 許容하시겠습니까?
+        confirm_disallow: 正말로 選擇된 揭示物들을 금지하시겠습니까?
+        confirm_disallow_account: 正말로 選擇된 計定들을 금지하시겠습니까?
+        description_html: 當身의 서버가 알기로 現在 많은 數의 共有와 좋아요가 되고 있는 揭示物들입니다. 새로운 使用者나 돌아오는 使用者들이 팔로우 할 사람들을 찾는 데 도움이 될 수 있습니다. 作成者를 承認하고, 作成者가 그들의 計定이 다른 計定에게 探索되도록 設定하지 않는 한 揭示物들은 公開的으로 表示되지 않습니다. 또한 각각의 揭示物을 別個로 拒絶할 數도 있습니다.
         disallow: 揭示物 不許
         disallow_account: 作成者 不許
         no_status_selected: 아무 것도 選擇되지 않아 어떤 流行中인 揭示物도 바뀌지 않았습니다
@@ -826,8 +1052,7 @@ ko-Kore:
           tag_servers_dimension: 上位 서버
           tag_servers_measure: 다른 서버들
           tag_uses_measure: 總 使用
-        description_html: 現在 서버에서 볼 수 있는 揭示物에서 많이 共有되고 있는 해시태그들입니다. 現在 사람들이 무슨 이야기를 하고
-          있는지 使用者들이 把握할 수 있도록 도움이 됩니다. 承認하지 않는 한 해시태그는 公開的으로 揭示되지 않습니다.
+        description_html: 現在 서버에서 볼 수 있는 揭示物에서 많이 共有되고 있는 해시태그들입니다. 現在 사람들이 무슨 이야기를 하고 있는지 使用者들이 把握할 수 있도록 도움이 됩니다. 承認하지 않는 한 해시태그는 公開的으로 揭示되지 않습니다.
         listable: 推薦될 수 있습니다
         no_tag_selected: 아무 것도 選擇되지 않아 어떤 태그도 바뀌지 않았습니다
         not_listable: 推薦될 수 없습니다
@@ -852,9 +1077,7 @@ ko-Kore:
     webhooks:
       add_new: 엔드포인트 追加
       delete: 削除
-      description_html: <strong>웹훅</strong>은 選擇한 이벤트에 對해 마스토돈이 <strong>實時間
-        알림</strong>을 各自의 應用프로그램에게 보냄으로서, 當身의 應用프로그램이 <strong>自動으로 反應</strong>을 할
-        수 있도록 만듧니다.
+      description_html: <strong>웹훅</strong>은 選擇한 이벤트에 對해 마스토돈이 <strong>實時間 알림</strong>을 各自의 應用프로그램에게 보냄으로서, 當身의 應用프로그램이 <strong>自動으로 反應</strong>을 할 수 있도록 만듧니다.
       disable: 非活性化
       disabled: 非活性化됨
       edit: 엔드포인트 修正
@@ -871,6 +1094,9 @@ ko-Kore:
       title: 웹훅
       webhook: 웹훅
   admin_mailer:
+    auto_close_registrations:
+      body: 最近 모더레이터 活動 不足으로, %{instance}가 안좋은 일에 使用되는 것을 방지하기 爲해 %{instance}의 加入이 受動 審査를 요구하도록 自動으로 變更되었습니다. 언제든지 加入을 다시 열 수 있습니다.
+      subject: "%{instance}의 加入이 承認을 必要로 하도록 自動으로 變更되었습니다"
     new_appeal:
       actions:
         delete_statuses: 揭示物을 削除하는 것
@@ -880,10 +1106,12 @@ ko-Kore:
         sensitive: 計定을 敏感함으로 表示하는 것
         silence: 計定을 制限하는 것
         suspend: 計定을 停止하는 것
-      body: "%{target} 님이 %{action_taken_by} 님에 依해 %{date}에 決定된 仲裁 決定에 對한 異議를 提起했습니다,\
-        \ 決定된 事項은 %{type}이었습니다. 作成內容은 다음과 같습니다:"
+      body: "%{target} 님이 %{action_taken_by} 님에 依해 %{date}에 決定된 仲裁 決定에 對한 異議를 提起했습니다, 決定된 事項은 %{type}이었습니다. 作成內容은 다음과 같습니다:"
       next_steps: 仲裁 決定事項을 되돌리기 爲해서 上疏를 承認하거나, 無視할 수 있습니다.
       subject: "%{username} 님이 %{instance}에서 發生한 仲裁 決定에 對해 疏明을 提出했습니다"
+    new_critical_software_updates:
+      body: 마스토돈의 緊急 업데이트가 릴리스 되었으니, 가능한 서둘러 업데이트를 바랍니다!
+      subject: "%{instance}에 대해 緊急 업데이트가 있습니다!"
     new_pending_account:
       body: 아래에 새 計定에 對한 詳細情報가 있습니다. 이 加入을 承認하거나 拒否할 수 있습니다.
       subject: "%{instance}의 새 計定(%{username})에 對한 審査가 待機中입니다"
@@ -891,6 +1119,9 @@ ko-Kore:
       body: "%{reporter} 님이 %{target}를 申告했습니다"
       body_remote: "%{domain}의 누군가가 %{target}을 申告했습니다"
       subject: "%{instance} 에 새 申告 登錄됨 (#%{id})"
+    new_software_updates:
+      body: 새 마스토돈 버전이 릴리스되었습니다. 업데이트 할 수 있습니다!
+      subject: "%{instance}에 대해 새 마스토돈 버전이 使用 가능합니다!"
     new_trends:
       body: "아래에 있는 項目들은 公開的으로 보여지기 前에 檢討를 거쳐야 합니다:"
       new_trending_links:
@@ -898,9 +1129,6 @@ ko-Kore:
       new_trending_statuses:
         title: 流行하는 揭示物
       new_trending_tags:
-        no_approved_tags: 現在 承認된 流行 中인 해시태그가 없습니다.
-        requirements: "이 候補들 中 어떤 것이라도 #%{rank}位의 承認된 流行 中인 해시태그를 앞지를 수 있으며, 이것은 現在
-          #%{lowest_tag_name}이고 %{lowest_tag_score}點을 기록하고 있습니다."
         title: 流行하는 해시태그
       subject: 새 트렌드가 %{instance}에서 審査 待機 中입니다
   aliases:
@@ -908,14 +1136,11 @@ ko-Kore:
     created_msg: 새 別稱이 成功的으로 만들어졌습니다. 이제 旣存 計定에서 移住를 始作할 수 있습니다.
     deleted_msg: 成功的으로 別稱을 削除했습니다. 該當 計定에서 이 計定으로의 移住는 더以上 可能하지 않습니다.
     empty: 別稱이 없습니다.
-    hint_html: 다른 計定에서 이 計定으로 옮기길 원하는 境遇, 여기에서 別稱을 만들 수 있습니다, 旣存 計定의 팔로워를 이쪽으로 옮기고
-      싶은 境遇 必要한 過程입니다. 이 行動 自體는 <strong>害롭지 않고 되돌리기가 可能합니다</strong>.<strong>計定
-      移住는 以前 計定에서 着手하게 됩니다</strong>
+    hint_html: 다른 計定에서 이 計定으로 옮기길 원하는 境遇, 여기에서 別稱을 만들 수 있습니다, 旣存 計定의 팔로워를 이쪽으로 옮기고 싶은 境遇 必要한 過程입니다. 이 行動 自體는 <strong>害롭지 않고 되돌리기가 可能합니다</strong>.<strong>計定 移住는 以前 計定에서 着手하게 됩니다</strong>
     remove: 別稱 連結 끊기
   appearance:
     advanced_web_interface: 高級 웹 인터페이스
-    advanced_web_interface_hint: '畵面의 가로幅을 가득 채우고 싶다면, 高級 웹 인터페이스는 한 番에 여러 情報를 볼 수
-      있도록 여러 컬럼을 設定할 수 있도록 합니다: 홈, 알림, 聯合타임라인, 리스트, 해시태그 등'
+    advanced_web_interface_hint: "畵面의 가로幅을 가득 채우고 싶다면, 高級 웹 인터페이스는 한 番에 여러 情報를 볼 수 있도록 여러 컬럼을 設定할 수 있도록 합니다: 홈, 알림, 聯合타임라인, 리스트, 해시태그 등"
     animations_and_accessibility: 애니메이션과 接近性
     confirmation_dialogs: 確認 對話箱子
     discovery: 發見하기
@@ -924,35 +1149,44 @@ ko-Kore:
       guide_link: https://crowdin.com/project/mastodon
       guide_link_text: 누구나 寄與할 수 있습니다.
     sensitive_content: 敏感한 內容
-    toot_layout: 揭示物 레이아웃
   application_mailer:
     notification_preferences: 메일 設定 變更
     salutation: "%{name} 님,"
     settings: "메일 設定을 變更: %{link}"
+    unsubscribe: 購讀 解除
     view: "보기:"
     view_profile: 프로필 보기
     view_status: 揭示物 보기
   applications:
     created: 애플리케이션이 成功的으로 生成되었습니다
     destroyed: 애플리케이션이 成功的으로 削除되었습니다
+    logout: 로그아웃
     regenerate_token: 토큰 再生成
     token_regenerated: 액세스 토큰이 成功的으로 再生成되었습니다
     warning: 이 데이터를 操心히 다뤄 주세요. 다른 사람들과 絶對로 共有하지 마세요!
     your_token: 액세스 토큰
   auth:
     apply_for_account: 待機者 名單에 들어가기
-    change_password: 패스워드
-    checkbox_agreement_html: <a href="%{rules_path}" target="_blank">서버 規則</a>과 <a
-      href="%{terms_path}" target="_blank">利用約款</a>에 同意합니다
-    checkbox_agreement_without_rules_html: <a href="%{terms_path}" target="_blank">利用
-      約款</a>에 同意합니다
+    captcha_confirmation:
+      help_html: 萬若 CAPTCHA를 푸는데 問題가 생겼다면 %{email}을 통해 連絡을 주시면 도와드릴 수 있습니다.
+      hint_html: 하나만 더! 當身이 사람인지 確認이 필요합니다 (스팸 計定을 거르기 爲해서 필요한 過程입니다). 아래에 있는 CAPTCHA를 풀고 "繼續"을 누르세요
+      title: 保安 체크
+    confirmations:
+      awaiting_review: 이메일 住所가 確認되었습니다! 이제 %{domain} 스태프가 加入을 檢討할 것입니다. 計定이 承認되면 이메일을 받게 됩니다!
+      awaiting_review_title: 加入 申請을 檢討 中입니다
+      clicking_this_link: 이 링크를 클릭
+      login_link: 로그인
+      proceed_to_login_html: 이제 %{login_link} 할 수 있습니다.
+      redirect_to_app_html: 곧 <strong>%{app_name}</strong>으로 里디렉션 됩니다. 안 된다면, %{clicking_this_link}하거나 直接 앱으로 돌아가세요.
+      registration_complete: 只今 막 %{domain} 加入이 完了되었습니다!
+      welcome_title: "%{name} 님 반갑습니다!"
+      wrong_email_hint: 萬若 이메일 住所가 올바르지 않다면, 計定 設定에서 變更할 수 있습니다.
     delete_account: 計定 削除
     delete_account_html: 計定을 削除하고 싶은 境遇, <a href="%{path}">여기서</a> 削除할 수 있습니다. 削除 前 確認 畵面이 表示됩니다.
     description:
       prefix_invited_by_user: "@%{name} 님이 當身을 이 마스토돈 서버로 招待했습니다!"
       prefix_sign_up: 마스토돈에 加入하세요!
-      suffix: 計定 하나로 사람들을 팔로우 하고, 揭示物을 作成하며 마스토돈을 包含한 다른 어떤 서버의 使用者와도 메시지를 주고 받을 수
-        있습니다!
+      suffix: 計定 하나로 사람들을 팔로우 하고, 揭示物을 作成하며 마스토돈을 包含한 다른 어떤 서버의 使用者와도 메시지를 주고 받을 수 있습니다!
     didnt_get_confirmation: 確認 메일을 받지 못하셨습니까?
     dont_have_your_security_key: 保安 키가 없습니까?
     forgot_password: 秘密番號를 잊어버리셨습니까?
@@ -965,7 +1199,11 @@ ko-Kore:
     migrate_account: 計定 옮기기
     migrate_account_html: 이 計定을 다른 計定으로 리디렉션 하길 願하는 境遇 <a href="%{path}">여기</a>에서 設定할 수 있습니다.
     or_log_in_with: 다른 方法으로 로그인 하려면
-    privacy_policy_agreement_html: <a href="%{privacy_policy_path}" target="_blank">個人情報 保護政策</a>을 읽었고 同意합니다
+    progress:
+      confirm: 이메일 確認
+      details: 細部事項
+      review: 審査 結果
+      rules: 規定을 受諾합니다.
     providers:
       cas: CAS
       saml: SAML
@@ -974,15 +1212,26 @@ ko-Kore:
     resend_confirmation: 確認 메일을 다시 보내기
     reset_password: 暗號 再設定
     rules:
+      accept: 受諾
+      back: 뒤路가기
+      invited_by: "當身이 받은 招待狀 德分에 %{domain}에 加入할 수 있습니다:"
       preamble: 다음은 %{domain}의 仲裁者들에 의해 設定되고 適用되는 規則들입니다.
+      preamble_invited: 계속하기 前에, %{domain}의 仲裁者들이 정해놓은 規則들을 檢討해주세요.
       title: 몇 個의 規則이 있습니다.
+      title_invited: 招待를 받았습니다.
     security: 保安
     set_new_password: 새 暗號
     setup:
       email_below_hint_html: 아래의 이메일 計定이 올바르지 않을 境遇, 여기서 變更하고 새 確認 메일을 받을 수 있습니다.
       email_settings_hint_html: 確認 메일이 %{email}로 보내졌습니다. 이메일 住所가 올바르지 않은 境遇, 計定 設定에서 變更하세요.
+      link_not_received: 링크를 못 받으셨나요?
+      new_confirmation_instructions_sent: 確認 링크가 담긴 이메일이 몇 分 안에 도착할것입니다!
       title: 設定
+    sign_in:
+      preamble_html: <strong>%{domain}</strong>의 計定 情報를 이용해 로그인 하세요. 萬若 내 計定이 다른 서버에 存在한다면, 여기서는 로그인 할 수 없습니다.
+      title: "%{domain}에 로그인"
     sign_up:
+      manual_review: "%{domain} 加入은 仲裁者들의 審査를 거쳐 진행됩니다. 加入 節次를 圓滑하게 하기 爲해, 간단한 自己紹介와 왜 %{domain}에 計定을 만들려고 하는지 적어주세요."
       preamble: 이 마스토돈 서버의 計定을 通해, 네트워크에 屬한 다른 사람들을, 그들이 어떤 서버에 있든 팔로우 할 수 있습니다.
       title: "%{domain}에 加入하기 爲한 情報들을 入力하세요."
     status:
@@ -991,21 +1240,20 @@ ko-Kore:
       functional: 計定이 完璧히 作動합니다.
       pending: 當身의 加入申請은 스태프의 檢査를 爲해 待機中입니다. 時間이 조금 걸릴 수 있습니다. 加入申請이 承認되면 이메일을 받게 됩니다.
       redirecting_to: 計定이 %{acct}로 리다이렉트 中이기 때문에 非活性 狀態입니다.
+      self_destruct: "%{domain} 도메인 閉鎖가 進行中이기 때문에, 計定에는 制限된 接近만 할 수 있습니다."
       view_strikes: 내 計定에 對한 過去 仲裁 記錄 보기
     too_fast: 너무 빠르게 樣式이 提出되었습니다, 다시 試圖하세요.
     use_security_key: 保安 키 使用
-  authorize_follow:
-    already_following: 이미 이 計定을 팔로우 하고 있습니다
-    already_requested: 이미 이 計定에게 팔로우 要請을 보냈습니다
-    error: 리모트 計定을 確認하는 途中 誤謬가 發生했습니다
-    follow: 팔로우
-    follow_request: "當身은 다음 計定에 팔로우 申請을 했습니다:"
-    following: "成功! 當身은 다음 計定을 팔로우 하고 있습니다:"
-    post_follow:
-      close: 혹은, 當身은 이 윈도우를 닫을 수 있습니다.
-      return: 使用者 프로필 보기
-      web: 웹으로 가기
-    title: "%{acct} 를 팔로우"
+    user_agreement_html: <a href="%{terms_of_service_path}" target="_blank">利用 約款</a>과 <a href="%{privacy_policy_path}" target="_blank">個人情報處理方針</a>을 읽었고 동의합니다
+    user_privacy_agreement_html: <a href="%{privacy_policy_path}" target="_blank">個人情報處理方針</a>을 읽었고 동의합니다
+  author_attribution:
+    example_title: 例示 텍스트
+    hint_html: 마스토돈 밖에서 뉴스나 블로그 글을 쓰시나요? 마스토돈에 共有되었을 때 어떻게 표시될지를 제어하세요.
+    instructions: "이 코드가 글의 HTML 안에 包含되는지 確認하세요:"
+    more_from_html: "%{name}의 揭示物 더 보기"
+    s_blog: "%{name}의 블로그"
+    then_instructions: 그리고 發行處의 도메인 네임을 아래 入力欄에 추가하세요.
+    title: 作成者 寄與
   challenge:
     confirm: 繼續
     hint_html: <strong>팁:</strong> 한 時間 동안 다시 暗號를 묻지 않을 것입니다.
@@ -1014,7 +1262,6 @@ ko-Kore:
   crypto:
     errors:
       invalid_key: 有效하지 않은 Ed25519 또는 Curve25519 키
-      invalid_signature: 有效하지 않은 Ed25519 署名
   date:
     formats:
       default: "%Y-%m-%d"
@@ -1044,8 +1291,7 @@ ko-Kore:
       caches: 다른 서버에 캐싱된 情報들은 남아있을 수 있습니다
       data_removal: 當身의 揭示物과 다른 情報들은 永久的으로 削除 됩니다
       email_change_html: 計定을 지우지 않고도 <a href="%{path}">이메일 住所를 修正할 수 있습니다</a>
-      email_contact_html: 아직 到着하지 않았다면, <a href="mailto:%{email}">%{email}</a>에 메일을 보내
-        도움을 要請할 수 있습니다
+      email_contact_html: 아직 到着하지 않았다면, <a href="mailto:%{email}">%{email}</a>에 메일을 보내 도움을 要請할 수 있습니다
       email_reconfirmation_html: 아직 確認 메일이 到着하지 않은 境遇, <a href="%{path}">다시 要請할 수 있습니다</a>
       irreversible: 計定을 復舊하거나 다시 使用할 수 없게 됩니다
       more_details_html: 더 仔細한 情報는, <a href="%{terms_path}">個人情報 政策</a>을 參考하세요.
@@ -1081,8 +1327,10 @@ ko-Kore:
       your_appeal_approved: 當身의 疏明이 받아들여졌습니다
       your_appeal_pending: 疏明을 提出했습니다
       your_appeal_rejected: 當身의 疏明이 棄却되었습니다
-  domain_validator:
-    invalid_domain: 올바른 도메인 네임이 아닙니다
+  edit_profile:
+    basic_information: 基本 情報
+    hint_html: <strong>사람들이 公開 프로필을 보고서 揭示物을 볼 때를 爲한 프로필을 꾸밉니다.</strong> 프로필과 프로필 寫眞을 채우면 다른 사람들이 나를 팔로우하고 나와 교류할 機會가 더 많아집니다.
+    other: 其他
   errors:
     "400": 提出한 要請이 올바르지 않습니다.
     "403": 이 페이지를 表示할 權限이 없습니다.
@@ -1097,8 +1345,7 @@ ko-Kore:
       content: 罪悚합니다, 뭔가 잘못 되었습니다.
       title: 이 페이지는 잘못되었습니다
     "503": 이 페이지는 臨時的인 서버 問題로 인해 提供 될 수 없습니다.
-    noscript_html: 마스토돈을 使用하기 爲해서는 자바스크립트를 켜 주십시오. 아니면 <a href="%{apps_path}">네이티브
-      앱</a> 중 하나를 使用할 수 있습니다.
+    noscript_html: 마스토돈을 使用하기 爲해서는 자바스크립트를 켜 주십시오. 아니면 <a href="%{apps_path}">네이티브 앱</a> 중 하나를 使用할 수 있습니다.
   existing_username_validator:
     not_found: 該當 使用者名에 對한 로컬 유저를 찾을 수 없습니다
     not_found_multiple: "%{usernames}를 찾을 수 없습니다"
@@ -1106,9 +1353,7 @@ ko-Kore:
     archive_takeout:
       date: 날짜
       download: 아카이브 다운로드
-      hint_html: 當身의 <strong>揭示物과 업로드 된 미디어</strong>의 아카이브를 要請할 수 있습니다. 내보내지는 데이터는
-        ActivityPub 포맷입니다. 互換 되는 모든 소프트웨어에서 읽을 수 있습니다. 7日마다 새로운 아카이브를 要請할 수
-        있습니다.
+      hint_html: 當身의 <strong>揭示物과 업로드 된 미디어</strong>의 아카이브를 要請할 수 있습니다. 내보내지는 데이터는 ActivityPub 포맷입니다. 互換 되는 모든 소프트웨어에서 읽을 수 있습니다. 7日마다 새로운 아카이브를 要請할 수 있습니다.
       in_progress: 當身의 아카이브를 컴파일 中입니다…
       request: 아카이브 要請하기
       size: 크기
@@ -1123,8 +1368,7 @@ ko-Kore:
     add_new: 追加
     errors:
       limit: 이미 推薦 해시태그의 個數가 最大입니다
-    hint_html: <strong>推薦 해시태그가 무엇이죠?</strong> 當身의 公開 프로필 페이지에 눈에 띄게 表現 되며 사람들이 그
-      해시태그를 包含한 當身의 글을 찾아 볼 수 있도록 합니다. 創作活動이나 긴 期間을 가지는 프로젝트를 쭉 따라가기에 좋은 道具입니다.
+    hint_html: <strong>推薦 해시태그가 무엇이죠?</strong> 當身의 公開 프로필 페이지에 눈에 띄게 表現 되며 사람들이 그 해시태그를 包含한 當身의 글을 찾아 볼 수 있도록 합니다. 創作活動이나 긴 期間을 가지는 프로젝트를 쭉 따라가기에 좋은 道具입니다.
   filters:
     contexts:
       account: 프로필
@@ -1136,12 +1380,10 @@ ko-Kore:
       add_keyword: 키워드 追加
       keywords: 키워드
       statuses: 個別 揭示物
-      statuses_hint_html: 이 필터는 아래의 키워드에 매칭되는지 與否와 關係 없이 몇몇個의 揭示物들에 別個로 適用되었습니다. <a
-        href="%{path}">檢討하거나 필터에서 削除하세요</a>
+      statuses_hint_html: 이 필터는 아래의 키워드에 매칭되는지 與否와 關係 없이 몇몇個의 揭示物들에 別個로 適用되었습니다. <a href="%{path}">檢討하거나 필터에서 削除하세요</a>
       title: 필터 編輯
     errors:
-      deprecated_api_multiple_keywords: 이 파라미터들은 하나를 超過하는 필터 키워드에 適用되기 때문에 이 應用프로그램에서
-        修正될 수 없습니다. 더 最新의 應用프로그램이나 웹 인터페이스를 使用하세요.
+      deprecated_api_multiple_keywords: 이 파라미터들은 하나를 超過하는 필터 키워드에 適用되기 때문에 이 應用프로그램에서 修正될 수 없습니다. 더 最新의 應用프로그램이나 웹 인터페이스를 使用하세요.
       invalid_context: 컨텍스트가 없거나 올바르지 않습니다
     index:
       contexts: "%{contexts}에 對한 필터"
@@ -1164,18 +1406,17 @@ ko-Kore:
       batch:
         remove: 필터에서 除去
       index:
-        hint: 이 필터는 다른 基準에 關係 없이 選擇된 個別的인 揭示物들에 適用됩니다. 웹 인터페이스에서 더 많은 揭示物들을 이 필터에 追加할 수
-          있습니다.
+        hint: 이 필터는 다른 基準에 關係 없이 選擇된 個別的인 揭示物들에 適用됩니다. 웹 인터페이스에서 더 많은 揭示物들을 이 필터에 追加할 수 있습니다.
         title: 필터링된 揭示物
-  footer:
-    trending_now: 只今 流行中
   generic:
     all: 모두
     all_items_on_page_selected_html:
       other: 現在 페이지에서 <strong>%{count}</strong>個의 項目이 選擇되었습니다
     all_matching_items_selected_html:
       other: 檢索에 잡힌 <strong>%{count}</strong>個의 항목이 모두 選擇되었습니다
+    cancel: 取消
     changes_saved_msg: 正常的으로 變更되었습니다!
+    confirm: 確認
     copy: 複寫
     delete: 削除
     deselect: 全體 選擇 解除
@@ -1187,23 +1428,74 @@ ko-Kore:
     today: 오늘
     validation_errors:
       other: 誤謬가 發生했습니다. 아래 %{count}個 誤謬를 確認해 주십시오
-  html_validator:
-    invalid_markup: "올바르지 않은 HTML 마크업을 包含하고 있습니다: %{error}"
   imports:
     errors:
+      empty: 빈 CSV 파일
+      incompatible_type: 호환되지 않는 가져오기 類型을 選擇함
+      invalid_csv_file: "올바르지 않은 CSV 파일입니다. 誤謬: %{error}"
       over_rows_processing_limit: "%{count}個 以上의 列을 包含합니다"
+      too_large: 파일이 너무 큼
+    failures: 失敗
+    imported: 가져옴
+    mismatched_types_warning: 가져오기할 때 잘못된 類型을 選擇했을 수 있으니, 꼭 두 番 체크해주세요.
     modes:
       merge: 倂合
       merge_long: 旣存 것을 그대로 둔 채 새로 追加
       overwrite: 덮어쓰기
       overwrite_long: 旣存 것을 모두 지우고 새로 追加
+    overwrite_preambles:
+      blocking_html:
+        other: 나의 <strong>遮斷 目錄</strong>을 <strong>%{filename}</strong>에서 가져온 <strong>%{count} 個의 計定</strong>으로 덮어 씌우려고 합니다.
+      bookmarks_html:
+        other: 나의 <strong>북마크</strong>를 <strong>%{filename}</strong>에서 가져온 <strong>%{count} 個의 揭示物</strong>로 덮어 씌우려고 합니다.
+      domain_blocking_html:
+        other: 나의 <strong>도메인 遮斷 目錄</strong>을 <strong>%{filename}</strong>에서 가져온 <strong>%{count} 個의 도메인</strong>으로 덮어 씌우려고 합니다.
+      following_html:
+        other: <strong>%{filename}</strong>에서 가져온 <strong>%{count} 個의 計定</strong>을 <strong>팔로우</strong>하고 <strong>나머지 計定을 팔로우 解除</strong>하려고 합니다.
+      lists_html:
+        other: 나의 <strong>리스트</strong>를 <strong>%{filename}</strong>에서 가져온 <strong>%{count} 個의 計定</strong>으로 덮어 씌우려고 합니다.
+      muting_html:
+        other: 나의 <strong>뮤트한 計定 目錄</strong>을 <strong>%{filename}</strong>에서 가져온 <strong>%{count} 個의 計定</strong>으로 덮어 씌우려고 합니다.
+    preambles:
+      blocking_html:
+        other: <strong>%{filename}</strong>에서 가져온 <strong>%{count}個의 計定</strong>을 遮斷하려고 합니다.
+      bookmarks_html:
+        other: <strong>%{filename}</strong>에서 가져온 <strong>%{count}個의 揭示物</strong>을 북마크에 추가하려고 합니다.
+      domain_blocking_html:
+        other: <strong>%{filename}</strong>에서 가져온 <strong>%{count}個의 도메인</strong>을 遮斷하려고 합니다.
+      following_html:
+        other: <strong>%{filename}</strong>에서 가져온 <strong>%{count}個의 計定</strong>을 팔로우하려고 합니다.
+      lists_html:
+        other: <strong>%{filename}</strong>에서 가져온 <strong>%{count}個의 計定</strong>을 내 <strong>리스트</strong>에 추가하려고 합니다. 추가할 리스트가 存在하지 않으면 새로 生成될 것입니다.
+      muting_html:
+        other: <strong>%{filename}</strong>에서 가져온 <strong>%{count}個의 計定</strong>을 뮤트하려고 합니다.
     preface: 다른 서버에서 내보내기 한 파일에서 팔로우 / 遮斷 情報를 이 計定으로 불러올 수 있습니다.
+    recent_imports: 最近의 가져오기
+    states:
+      finished: 끝냄
+      in_progress: 進行 中
+      scheduled: 豫約됨
+      unconfirmed: 未確認
+    status: 狀態
     success: 파일이 正常的으로 업로드되었으며, 現在 處理中입니다
+    time_started: 始作 時刻
+    titles:
+      blocking: 遮斷한 計定 가져오는 中
+      bookmarks: 북마크 가져오는 中
+      domain_blocking: 遮斷한 도메인 가져오는 中
+      following: 팔로우한 計定 가져오는 中
+      lists: 리스트 가져오기
+      muting: 뮤트한 計定 가져오는 中
+    type: 가져오기 類型
+    type_groups:
+      constructive: 팔로우 & 북마크
+      destructive: 遮斷 & 뮤트
     types:
       blocking: 遮斷한 計定 目錄
       bookmarks: 保管函
       domain_blocking: 도메인 遮斷 目錄
       following: 팔로우 中인 計定 目錄
+      lists: 리스트
       muting: 뮤트 中인 計定 目錄
     upload: 업로드
   invites:
@@ -1218,6 +1510,7 @@ ko-Kore:
       "604800": 1週日
     expires_in_prompt: 永遠히
     generate: 生成
+    invalid: 이 招待는 올바르지 않습니다
     invited_by: "當身을 招待한 사람:"
     max_uses:
       other: "%{count}회"
@@ -1241,9 +1534,25 @@ ko-Kore:
     failed_sign_in_html: 失敗한 로그인 試圖 %{method} %{ip} (%{browser})
     successful_sign_in_html: 成功한 로그인 試圖 %{method} %{ip} (%{browser})
     title: 認證 履歷
+  mail_subscriptions:
+    unsubscribe:
+      action: 네, 購讀 取消합니다
+      complete: 購讀 取消됨
+      confirmation_html: 正말로 %{domain}에서 %{email}로 보내는 마스토돈의 %{type}에 對한 購讀을 取消하시겠습니까? 언제든지 <a href="%{settings_path}">이메일 알림 設定</a>에서 다시 구독할 수 있습니다.
+      emails:
+        notification_emails:
+          favourite: 좋아요 알림 이메일
+          follow: 팔로우 알림 이메일
+          follow_request: 팔로우 要請 이메일
+          mention: 멘션 알림 이메일
+          reblog: 副스트 알림 이메일
+      resubscribe_html: 萬若 失手로 購讀 取消를 했다면 <a href="%{settings_path}">이메일 알림 設定</a>에서 다시 구독할 수 있습니다.
+      success_html: 이제 더以上 %{domain}의 마스토돈에서 %{email}로 %{type} 알림을 보내지 않습니다.
+      title: 購讀 取消
   media_attachments:
     validations:
       images_and_video: 이미 寫眞이 添附 된 揭示物엔 動映像을 添附 할 수 없습니다
+      not_found: 미디어 %{ids}는 찾을 수 없거나 이미 다른 揭示物에 첨부되었습니다
       not_ready: 處理가 끝나지 않은 파일은 添附할 수 없습니다. 잠시 후에 다시 試圖해 주세요!
       too_many: 最大 4個까지 添附할 수 있습니다
   migrations:
@@ -1320,9 +1629,9 @@ ko-Kore:
     update:
       subject: "%{name} 님이 揭示物을 修正했습니다"
   notifications:
+    administration_emails: 管理字 이메일 알림
     email_events: 이메일 알림에 對한 이벤트
     email_events_hint: "알림 받을 이벤트를 選擇해주세요:"
-    other_settings: 其他 알림 設定
   number:
     human:
       decimal_units:
@@ -1337,8 +1646,7 @@ ko-Kore:
     code_hint: 確認을 爲해 認證 애플리케이션에 生成된 코드를 入力해 주십시오
     description_html: 認證器 앱으로 <strong>2段階 認證</strong>을 活性化 하면 로그인 時 入力할 토큰을 生成해 주는 電話機가 必要합니다.
     enable: 活性化
-    instructions_html: <strong>Google Authenticator, 또는 他 TOTP 애플리케이션에서 이 QR 코드를 스캔해
-      주십시오.</strong> 以後 로그인 時에는 이 애플리케이션에서 生成되는 코드가 必要합니다.
+    instructions_html: <strong>Google Authenticator, 또는 他 TOTP 애플리케이션에서 이 QR 코드를 스캔해 주십시오.</strong> 以後 로그인 時에는 이 애플리케이션에서 生成되는 코드가 必要합니다.
     manual_instructions: "QR 코드를 스캔할 수 없어 手動으로 登錄을 원하시는 경우 이 秘密 코드를 使用해 주십시오:"
     setup: 設定
     wrong_code: 코드가 올바르지 않습니다! 서버와 携帶電話 間의 時刻이 一致하나요?
@@ -1357,21 +1665,38 @@ ko-Kore:
       expired: 投票가 이미 끝났습니다
       invalid_choice: 選擇한 投票 項目이 存在하지 않습니다
       over_character_limit: 各各 %{max} 글字를 넘을 수 없습니다
+      self_vote: 自信이 만든 設問에는 투표할 수 없음
       too_few_options: 한가지 以上의 項目을 包含해야 합니다
       too_many_options: 項目은 %{max}個를 넘을 수 없습니다
   preferences:
     other: 其他
     posting_defaults: 揭示物 基本設定
     public_timelines: 公開 타임라인
+  privacy:
+    hint_html: <strong>내 프로필과 揭示物이 어떻게 발견될지를 制御합니다.</strong> 活性化 하면 마스토돈의 다양한 機能들이 내가 더 많은 사람에게 도달할 수 있도록 도와줍니다. 이 設定이 내 用途에 맞는지 暫時 檢討하세요.
+    privacy: 個人情報
+    privacy_hint_html: 다른 이들을 爲해 노출할 수 있는 情報의 量을 調節합니다. 누군가는 다른 이들의 팔로우를 둘러보고 어떤 앱에서 揭示物을 올렸는지 살피면서 흥미로운 프로필과 멋진 앱을 발견할 수 있지만, 누군가는 이를 숨기고 싶을 수도 있겠죠.
+    reach: 到達
+    reach_hint_html: 새로운 사람들이 나를 발견하고 팔로우하도록 許容할지 與否를 制御합니다. 둘러보기 畵面에 揭示物이 표시되기를 바라나요? 다른 사람들의 팔로우 推薦에 표시되기를 바라나요? 모든 새 팔로워를 自動으로 수락하거나 各 팔로워를 세세하게 제어할까요?
+    search: 檢索
+    search_hint_html: 내가 어떻게 발견될지를 制御합니다. 내가 公開的으로 揭示한 것들로 인해 사람들이 날 발견하길 원하나요? 마스토돈 바깥의 사람들이 웹에서 檢索을 통해 내 프로필을 발견하길 원하나요? 公開的인 情報에 대해서 모든 檢索엔진의 檢索結果에서 제외하는 것은 보장할 수 없다는 點에 注意해주세요.
+    title: 個人情報와 到達
   privacy_policy:
     title: 個人情報 政策
   reactions:
     errors:
       limit_reached: 리액션 個數 制限에 到達했습니다
       unrecognized_emoji: 認識 되지 않은 繪文字입니다
+  redirects:
+    prompt: 이 링크를 믿을 수 있다면, 클릭해서 계속하세요.
+    title: "%{instance}를 떠나려고 합니다."
   relationships:
     activity: 計定 活動
+    confirm_follow_selected_followers: 正말로 選擇된 팔로워들을 팔로우하시겠습니까?
+    confirm_remove_selected_followers: 正말로 選擇된 팔로워들을 削除하시겠습니까?
+    confirm_remove_selected_follows: 正말로 選擇된 팔로우를 끊으시겠습니까?
     dormant: 休眠
+    follow_failure: 選擇한 計定 中 몇몇은 팔로우 할 수 없었습니다.
     follow_selected_followers: 選擇한 팔로워들을 팔로우
     followers: 팔로워
     following: 팔로잉
@@ -1400,6 +1725,9 @@ ko-Kore:
     over_daily_limit: 그 날짜에 對한 %{limit}個의 豫約 揭示物 制限을 超過합니다
     over_total_limit: 豫約 揭示物 制限 %{limit}을 超過합니다
     too_soon: 豫約 날짜는 未來여야 합니다
+  self_destruct:
+    lead_html: 안타깝게도, <strong>%{domain}</strong>은 永久的으로 閉鎖됩니다. 이곳의 計定을 가지고 있었다면, 이제 이용할 수 없지만 백업 데이터는 要請할 수 있습니다.
+    title: 이 서버는 閉鎖中입니다
   sessions:
     activity: 마지막 活動
     browser: 브라우저
@@ -1411,6 +1739,7 @@ ko-Kore:
       electron: 일렉트론
       firefox: 파이어폭스
       generic: 알 수 없는 브라우저
+      huawei_browser: 화웨이 브라우저
       ie: 인터넷 익스플로러
       micro_messenger: 마이크로메신저
       nokia: Nokia S40 Ovi 브라우저
@@ -1420,8 +1749,10 @@ ko-Kore:
       qq: QQ 브라우저
       safari: 사파리
       uc_browser: UC 브라우저
+      unknown_browser: 알 수 없는 브라우저
       weibo: 웨이보
     current_session: 現在 세션
+    date: 날짜
     description: "%{platform}의 %{browser}"
     explanation: 내 마스토돈 計定에 로그인되어 있는 웹 브라우저 目錄입니다.
     ip: IP
@@ -1432,9 +1763,10 @@ ko-Kore:
       chrome_os: 크롬OS
       firefox_os: 파이어폭스OS
       ios: iOS
+      kai_os: KaiOS
       linux: 리눅스
       mac: 맥OS
-      other: 알 수 없는 플랫폼
+      unknown_platform: 알 수 없는 플랫폼
       windows: 윈도우
       windows_mobile: 윈도우 모바일
       windows_phone: 윈도우 폰
@@ -1461,10 +1793,22 @@ ko-Kore:
     preferences: 使用者 設定
     profile: 프로필
     relationships: 팔로잉과 팔로워
+    severed_relationships: 단절된 關係들
     statuses_cleanup: 揭示物 自動 削除
     strikes: 仲裁 記錄
     two_factor_authentication: 2段階 認證
     webauthn_authentication: 保安 키
+  severed_relationships:
+    download: 다운로드 (%{count})
+    event_type:
+      account_suspension: 計定 停止 (%{target_name})
+      domain_block: 서버 停止 (%{target_name})
+      user_domain_block: 내가 %{target_name}을 遮斷했습니다
+    lost_followers: 잃은 팔로워
+    lost_follows: 잃은 팔로우
+    preamble: 내가 도메인을 遮斷하거나 仲裁津이 다른 서버를 停止하기로 決定했다면 내 팔로우와 팔로워를 잃게 됩니다. 그런 일이 일어났다면 그로 인해 단절된 關係들의 目錄을 다운로드 받아 確認하고 다른 서버에서 불러올 수 있습니다.
+    purged: 이 서버에 對한 情報는 管理者에 의해 제거되었습니다.
+    type: 이벤트
   statuses:
     attached:
       audio:
@@ -1482,24 +1826,16 @@ ko-Kore:
     edited_at_html: "%{date}에 編輯됨"
     errors:
       in_reply_not_found: 答狀하려는 揭示物이 存在하지 않습니다.
-    open_in_web: Web으로 열기
     over_character_limit: 最大 %{max}字까지 入力할 수 있습니다
     pin_errors:
       direct: 멘션된 使用者들에게만 보이는 揭示物은 固定될 수 없습니다
       limit: 이미 너무 많은 揭示物을 固定했습니다
       ownership: 다른 사람의 揭示物은 固定될 수 없습니다
       reblog: 부스트는 固定될 수 없습니다
-    poll:
-      total_people:
-        other: "%{count}名"
-      total_votes:
-        other: "%{count}名 投票함"
-      vote: 投票
-    show_more: 더 보기
-    show_newer: 새로운 것 表示
-    show_older: 오래된 것 表示
-    show_thread: 글타래 보기
-    sign_in_to_participate: 로그인 하여 이 對話에 參與하기
+    quote_policies:
+      followers: 팔로워와 멘션된 사람들만
+      nobody: 멘션된 사람들만
+      public: 모두
     title: '%{name}: "%{quote}"'
     visibilities:
       direct: 다이렉트
@@ -1513,8 +1849,7 @@ ko-Kore:
     enabled: 오래된 揭示物 自動 削除
     enabled_hint: 아래의 例外 目錄에 該當하지 않는다면, 明示된 期限 以後 當身의 揭示物을 自動으로 削除합니다
     exceptions: 例外
-    explanation: 揭示物 削除는 많은 性能이 必要하기 때문에, 서버에서 바쁘지 않을 때 時間을 들여서 천천히 進行합니다. 이런 理由로,
-      當身의 揭示物은 아마도 定해진 期間보다 좀 더 時間이 지난 以後에 削除될 것입니다.
+    explanation: 揭示物 削除는 많은 性能이 必要하기 때문에, 서버에서 바쁘지 않을 때 時間을 들여서 천천히 進行합니다. 이런 理由로, 當身의 揭示物은 아마도 定해진 期間보다 좀 더 時間이 지난 以後에 削除될 것입니다.
     ignore_favs: 좋아요 無視
     ignore_reblogs: 부스트 無視
     interaction_exceptions: 相互作用에 基盤한 例外들
@@ -1546,23 +1881,34 @@ ko-Kore:
     min_reblogs: 該當 回數 以上 부스트된 揭示物 維持
     min_reblogs_hint: 이 回數 以上의 부스트가 된 揭示物은 削除하지 않습니다. 부스트 數와 關係없이 揭示物을 지우고 싶다면 空白으로 두세요
   stream_entries:
-    pinned: 固定된 揭示物
-    reblogged: 님이 부스트 했습니다
     sensitive_content: 敏感한 콘텐츠
   strikes:
     errors:
       too_late: 異議를 提起하기에 너무 늦었습니다
   tags:
     does_not_match_previous_name: 以前 이름과 맞지 않습니다
+  terms_of_service:
+    title: 利用 約款
+  terms_of_service_interstitial:
+    future_preamble_html: 利用約款에 몇가지 變更事項이 있으며, <strong>%{date}</strong>부터 效力이 발생합니다. 變更된 約款을 確認하시기 바랍니다.
+    past_preamble_html: 마지막 房門으로부터 利用約款이 變更되었습니다. 變更된 約款을 確認하시기 바랍니다.
+    review_link: 利用 約款 檢討하기
+    title: "%{domain} 도메인의 利用 約款에 變更 있음"
   themes:
     contrast: 마스토돈 (高對比)
     default: 마스토돈 (어두움)
     mastodon-light: 마스토돈 (밝음)
+    system: 自動 (시스템 테마 使用)
   time:
     formats:
       default: "%Y年 %m月 %d日 %H:%M"
       month: "%Y年 %b"
       time: "%H:%M"
+      with_time_zone: "%Y-%m-%d %H:%M %Z"
+  translation:
+    errors:
+      quota_exceeded: 서버 全體의 飜譯 서비스 使用量 制限에 도달했습니다.
+      too_many_requests: 最近 飜譯 서비스에 要請이 너무 많았습니다.
   two_factor_authentication:
     add: 追加
     disable: 非活性化
@@ -1571,30 +1917,40 @@ ko-Kore:
     enabled: 2段階 認證이 活性化 되어 있습니다
     enabled_success: 2段階 認證이 活性化 되었습니다
     generate_recovery_codes: 復舊 코드 生成
-    lost_recovery_codes: 復舊 코드를 使用하면 携帶電話를 紛失한 境遇에도 計定에 接近할 수 있게 됩니다. 復舊 코드를 紛失한
-      境遇에도 여기서 다시 生成할 수 있지만, 예전 復舊 코드는 非活性化 됩니다.
+    lost_recovery_codes: 復舊 코드를 使用하면 携帶電話를 紛失한 境遇에도 計定에 接近할 수 있게 됩니다. 復舊 코드를 紛失한 境遇에도 여기서 다시 生成할 수 있지만, 예전 復舊 코드는 非活性化 됩니다.
     methods: 2段階 認證
     otp: 認證 앱
     recovery_codes: 復舊 코드
     recovery_codes_regenerated: 復舊 코드가 다시 生成되었습니다
-    recovery_instructions_html: 携帶電話를 紛失한 境遇, 아래 復舊 코드 中 하나를 使用해 計定에 接近할 수 있습니다.
-      <strong>復舊 코드는 安全하게 保管해 주십시오.</strong> 이 코드를 印刷해 重要한 書類와 함께 保管하는 것도 좋습니다.
+    recovery_instructions_html: 携帶電話를 紛失한 境遇, 아래 復舊 코드 中 하나를 使用해 計定에 接近할 수 있습니다. <strong>復舊 코드는 安全하게 保管해 주십시오.</strong> 이 코드를 印刷해 重要한 書類와 함께 保管하는 것도 좋습니다.
     webauthn: 保安 키
   user_mailer:
+    announcement_published:
+      description: "%{domain}의 管理字가 公知事項을 揭示했습니다:"
+      subject: 서비스 公知事項
+      title: "%{domain} 서비스 公知事項"
     appeal_approved:
       action: 내 計定으로 가기
-      explanation: "%{strike_date}에 일어난 仲裁決定에 對한 疏明을 %{appeal_date}에 作成했으며 承諾되었습니다.
-        當身의 計定은 正常的인 狀態로 돌아왔습니다."
+      explanation: "%{strike_date}에 일어난 仲裁決定에 對한 疏明을 %{appeal_date}에 作成했으며 承諾되었습니다. 當身의 計定은 正常的인 狀態로 돌아왔습니다."
       subject: "%{date}에 作成한 疏明이 承認되었습니다"
+      subtitle: 計定이 다시 正常的인 狀態입니다.
       title: 疏明이 받아들여짐
     appeal_rejected:
       explanation: "%{strike_date}에 일어난 仲裁決定에 對한 疏明을 %{appeal_date}에 作成했지만 拒絶되었습니다."
       subject: "%{date}에 作成한 疏明이 拒絶되었습니다"
+      subtitle: 疏明이 기각되었습니다.
       title: 異議提起가 拒絶되었습니다
     backup_ready:
       explanation: 當身이 要請한 計定의 풀 백업이 이제 다운로드 可能합니다!
+      extra: 다운로드 할 準備가 되었습니다!
       subject: 當身의 아카이브를 다운로드 可能합니다
       title: 아카이브 테이크 아웃
+    failed_2fa:
+      details: "로그인 試圖에 對한 詳細 情報입니다:"
+      explanation: 누군가가 내 計定에 로그인을 시도했지만 2車認證에 올바른 값을 입력하지 못했습니다.
+      further_actions_html: 萬若 當身이 한 게 아니었다면 流出의 可能性이 있으니 가능한 빨리 %{action} 하시기 바랍니다.
+      subject: 2次 認證 失敗
+      title: 2次 認證에 실패했습니다
     suspicious_sign_in:
       change_password: 暗號 變更
       details: "로그인에 對한 詳細 情報입니다:"
@@ -1602,6 +1958,15 @@ ko-Kore:
       further_actions_html: 直接 로그인한 것이 아니라면, 只今 바로 %{action}과 2段階 認證을 活性化하여 計定을 安全하게 保護하시길 勸해드립니다.
       subject: 計定이 새로운 IP에서 接近됨
       title: 새로운 로그인
+    terms_of_service_changed:
+      agreement: "%{domain}을 繼續 使用하는 것으로 約款에 동의하는 것으로 간주합니다. 約款에 동의하지 않는 境遇 計定을 削除함으로써 언제든 同意를 철회할 수 있습니다."
+      changelog: "이番 變更事項의 主要 內容입니다:"
+      description: "%{domain}의 利用 約款이 變更되었기 때문에 發送된 이메일입니다. 이 變更事項은 %{date}부터 效力을 發揮합니다. 變更된 全體 約款을 確認하시길 권합니다:"
+      description_html: '%{domain}의 利用 約款이 變更되었기 때문에 發送된 이메일입니다. 이 變更事項은 <strong>%{date}</strong>부터 效力을 發揮합니다. <a href="%{path}" target="_blank">變更된 全體 約款</a>을 確認하시길 권합니다.'
+      sign_off: "%{domain} 팀"
+      subject: 變更된 利用 約款
+      subtitle: "%{domain}의 利用 約款이 變更됩니다"
+      title: 重要한 알림
     warning:
       appeal: 異議 提出하기
       appeal_description: 이것이 誤謬라고 생각한다면, %{instance}의 仲裁者에게 異議申請을 할 수 있습니다.
@@ -1609,19 +1974,12 @@ ko-Kore:
         spam: 스팸
         violation: 콘텐츠가 다음의 커뮤니티 規定을 違反합니다
       explanation:
-        delete_statuses: 貴下의 揭示物 中 一部가 하나 以上의 커뮤니티 가이드라인을 違反한 것으로 確認되어 %{instance}의 仲裁者에
-          依해 削除되었습니다.
-        disable: 當身은 더以上 當身의 計定을 使用할 수 없습니다, 하지만 프로필과 다른 데이터들은 如前히 그대로 남아있습니다. 當身의 데이터에
-          對한 백업을 要請하거나, 計定 設定을 變更 또는 計定을 削除할 수 있습니다.
-        mark_statuses_as_sensitive: 當身의 몇몇 揭示物들은 %{instance}의 仲裁者에 依해 敏感함으로 設定되었습니다. 이것은
-          사람들이 미리보기를 보기 前에 미디어를 한番 눌러야 함을 意味합니다. 當身은 스스로도 自身의 揭示物을 作成할 때 미디어를
-          敏感함으로 設定할 수 있습니다.
+        delete_statuses: 貴下의 揭示物 中 一部가 하나 以上의 커뮤니티 가이드라인을 違反한 것으로 確認되어 %{instance}의 仲裁者에 依해 削除되었습니다.
+        disable: 當身은 더以上 當身의 計定을 使用할 수 없습니다, 하지만 프로필과 다른 데이터들은 如前히 그대로 남아있습니다. 當身의 데이터에 對한 백업을 要請하거나, 計定 設定을 變更 또는 計定을 削除할 수 있습니다.
+        mark_statuses_as_sensitive: 當身의 몇몇 揭示物들은 %{instance}의 仲裁者에 依해 敏感함으로 設定되었습니다. 이것은 사람들이 미리보기를 보기 前에 미디어를 한番 눌러야 함을 意味합니다. 當身은 스스로도 自身의 揭示物을 作成할 때 미디어를 敏感함으로 設定할 수 있습니다.
         sensitive: 只今부터는, 當身이 업로드한 미디어 파일들은 敏感함 標示가 뜨게 되고 클릭해야만 볼 수 있다는 警告文 뒤에 가려지게 됩니다.
-        silence: 當身은 如前히 當身의 計定을 使用할 수 있지만 當身을 팔로우 하고 있는 사람들만 當身의 揭示物을 볼 수 있으며, 여러가지 探索
-          機能에서 除外됩니다. 하지만, 如前히 다른 사람들은 手動으로 當身을 팔로우 할 수 있습니다.
-        suspend: 當身은 더以上 當身의 計定을 使用할 수 없으며, 프로필과 데이터는 接近 不可能하게 됩니다. 데이터가 完全히 削除되기 前인
-          30日동안은 如前히 백업을 要請하기 爲해 로그인 할 수 있습니다, 하지만 計定 停止를 回避하는 것을 防止하기 爲하여 몇 가지
-          情報는 維持됩니다.
+        silence: 當身은 如前히 當身의 計定을 使用할 수 있지만 當身을 팔로우 하고 있는 사람들만 當身의 揭示物을 볼 수 있으며, 여러가지 探索 機能에서 除外됩니다. 하지만, 如前히 다른 사람들은 手動으로 當身을 팔로우 할 수 있습니다.
+        suspend: 當身은 더以上 當身의 計定을 使用할 수 없으며, 프로필과 데이터는 接近 不可能하게 됩니다. 데이터가 完全히 削除되기 前인 30日동안은 如前히 백업을 要請하기 爲해 로그인 할 수 있습니다, 하지만 計定 停止를 回避하는 것을 防止하기 爲하여 몇 가지 情報는 維持됩니다.
       reason: "事由:"
       statuses: "引用된 揭示物:"
       subject:
@@ -1641,28 +1999,60 @@ ko-Kore:
         silence: 計定 制限 됨
         suspend: 計定 停止 됨
     welcome:
+      apps_android_action: Google Play에서 다운로드
+      apps_ios_action: App Store에서 다운로드
+      apps_step: 公式 앱을 다운로드해보세요.
+      apps_title: Mastodon 앱
+      checklist_subtitle: "이 새로운 소셜미디어를 始作해봅시다:"
+      checklist_title: 歡迎 체크리스트
       edit_profile_action: 프로필 設定
-      edit_profile_step: 프로필 寫眞을 업로드하고, 사람들에게 表示될 이름을 바꾸는 것 等으로 當身의 프로필을 커스텀 할 수 있습니다.
-        사람들이 當身을 팔로우 하기 前에 리뷰를 거치게 할 수도 있습니다.
+      edit_profile_step: 프로필 寫眞을 업로드하고, 사람들에게 表示될 이름을 바꾸는 것 等으로 當身의 프로필을 커스텀 할 수 있습니다. 사람들이 當身을 팔로우 하기 前에 리뷰를 거치게 할 수도 있습니다.
+      edit_profile_title: 프로필 꾸미기
       explanation: 始作하기 前에 몇가지 팁들을 準備했습니다
-      final_action: 포스팅 始作하기
-      final_step: "揭示物을 올리세요! 팔로워가 없더라도, 公開 揭示物들은 다른 사람에게 보여질 수 있습니다, 例를 들자면 로컬이나 聯合
-        타임라인 等이 있습니다. 사람들에게 自身을 紹介하고 싶다면 #툿친소 해시태그를 利用해보세요."
-      full_handle: 내 全體 핸들
-      full_handle_hint: 이것을 當身의 親舊들에게 알려주면 다른 서버에서 팔로우 하거나 메시지를 보낼 수 있습니다.
+      feature_action: 더 알아보기
+      feature_audience: 마스토돈은 仲介者 없이 聽衆을 管理할 수 있는 특별한 可能性을 제공합니다. 自體 인프라에 배포된 마스토돈을 使用하면 온라인에 있는 다른 마스토돈 서버에도 팔로우하거나 팔로우할 수 있으며, 本人 外에는 누구의 統制도 받지 않습니다.
+      feature_audience_title: 信賴 있는 聽衆 構築
+      feature_control: 내가 홈 피드에서 무엇을 보고 싶은지는 내가 第一 잘 압니다. 알고리즘이나 時間을 낭비하게 만드는 廣告는 없습니다. 計定 하나로 다른 마스토돈 서버에 있는 누구나 팔로우 하여 그들의 揭示物을 時間順으로 받아보고 인터넷의 한 구석을 좀 더 나답게 만들어 보세요.
+      feature_control_title: 내 타임라인에 대해 統制權을 유지하세요
+      feature_creativity: 마스토돈은 오디오, 비디오, 寫眞, 接近性 說明(alt),  投票, 콘텐츠 注意 (블라인드), 움직이는 아바타, 커스텀 이모티콘, 썸네일 자르기, 그리고 더 많은 것들을 當身이 온라인에서 當身을 더 잘 드러낼 수 있도록 돕기爲해 支援합니다. 當身이 그림이나 音樂을 올리던, 팟캐스트 같은것을 진행하던 마스토돈이 함께합니다.
+      feature_creativity_title: 獨步的인 創意性
+      feature_moderation: 마스토돈은 醫師 決定權을 使用者에게 돌려줍니다. 各 서버는 企業 소셜 미디어처럼 下向式이 아닌 로컬에서 시행되는 自體 規則과 規定을 만들 수 있어 다양한 그룹의 要求에 가장 유연하게 대응할 수 있습니다. 동의하는 規則이 있는 서버에 加入하거나 直接 서버를 호스팅하세요.
+      feature_moderation_title: 올바른 仲裁
+      follow_action: 팔로우
+      follow_step: 흥미로운 사람들을 팔로우하는 것이 마스토돈의 全部입니다.
+      follow_title: 내게 맞는 홈 피드 꾸미기
+      follows_subtitle: 잘 알려진 計定들을 팔로우
+      follows_title: 누구를 팔로우 할 지
+      follows_view_more: 팔로우 할 사람들 더 보기
+      hashtags_recent_count:
+        other: 最近 2日동안 %{people} 名
+      hashtags_subtitle: 最近 2日間 무엇이 유행했는지 둘러보기
+      hashtags_title: 유행하는 해시태그
+      hashtags_view_more: 유행하는 해시태그 더 보기
+      post_action: 作成
+      post_step: 글, 寫眞, 映像, 또는 投票로 世上에 인사해보세요.
+      post_title: 첫番째 揭示物 쓰기
+      share_step: 親舊에게 마스토돈에서 나를 찾을 수 있는 方法을 알려주세요.
+      share_title: 마스토돈 프로필을 공유하세요
+      sign_in_action: 로그인
       subject: 마스토돈에 오신 것을 歡迎합니다
       title: 歡迎합니다 %{name} 님!
   users:
     follow_limit_reached: 當身은 %{limit}名의 사람을 넘어서 팔로우 할 수 없습니다
+    go_to_sso_account_settings: ID 供給者의 計定 設定으로 移動
     invalid_otp_token: 2段階 認證 코드가 올바르지 않습니다
     otp_lost_help_html: 만약 兩쪽 모두를 잃어버렸다면 %{email}을 통해 復舊할 수 있습니다
+    rate_limited: 너무 많은 認證 試圖가 있었습니다, 暫時 後에 시도하세요.
     seamless_external_login: 外部 서비스를 利用해 로그인했으므로 이메일과 暗號는 設定할 수 없습니다.
     signed_in_as: "다음과 같이 로그인 中:"
   verification:
-    explanation_html: '當身은 <strong>프로필 메타데이터의 링크 所有者임을 檢證할 수 있습니다</strong>. 이것을 하기
-      爲해서는, 링크 된 웹사이트에서 當身의 마스토돈 프로필을 逆으로 링크해야 합니다. 逆링크는 <strong>반드시</strong>
-      <code>rel="me"</code> 屬性을 가지고 있어야 합니다. 링크의 텍스트는 相關이 없습니다. 여기 例示가 있습니다:'
+    extra_instructions_html: <strong>팁:</strong> 웹사이트에 안 보이는 링크로 삽입할 수 있습니다. 重要한 것은 나를 도용하는 것을 방지하는 <code>rel="me"</code> 部分입니다. 甚至於 <code>a</code> 代身 <code>link</code>태그를 페이지 헤더에 넣는 것으로 대체할 수도 있습니다. 하지만 HTML 코드는 자바스크립트 實行 없이 接近이 가능해야 합니다.
+    here_is_how: 使用方法
+    hint_html: <strong>내 身分을 모두에게 증명하세요.</strong> 영원히 無料로 쓸 수 있는 웹 標準을 基盤으로 합니다. 나를 確認할 수 있는 個人 웹사이트가 필요한 全部입니다. 이 웹사이트 링크를 프로필에 추가하면 우리는 그 웹사이트가 이 計定으로 逆링크를 걸었는지 確認하고 프로필에 잘 보이는 마크를 보여줄 것입니다.
+    instructions_html: 웹사이트에 아래 코드를 복사해 붙여 넣으세요. 그리고 "프로필 修正" 탭에서 그 웹사이트 住所를 프로필의 追加 필드 中 하나에 넣고 變更事項을 貯藏하세요.
     verification: 檢證
+    verified_links: 인증된 링크들
+    website_verification: 웹사이트 認證
   webauthn_credentials:
     add: 保安 키 追加
     create:

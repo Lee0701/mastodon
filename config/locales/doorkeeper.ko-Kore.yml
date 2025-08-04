@@ -59,8 +59,7 @@ ko-Kore:
       error:
         title: 에러가 發生하였습니다
       new:
-        prompt_html: "%{client_name}이 當身의 計定에 對한 接近 權限을 要請합니다. 이것은 弟3者의 應用프로그램입니다.
-          <strong>이것을 信賴하지 않는다면, 權限을 承認하지 말아야 합니다.</strong>"
+        prompt_html: "%{client_name}이 當身의 計定에 對한 接近 權限을 要請합니다. 이것은 弟3者의 應用프로그램입니다. <strong>이것을 信賴하지 않는다면, 權限을 承認하지 말아야 합니다.</strong>"
         review_permissions: 權限 檢討
         title: 承認 必要
       show:
@@ -72,8 +71,7 @@ ko-Kore:
         revoke: 確實합니까?
       index:
         authorized_at: "%{date}에 承認됨"
-        description_html: 當身의 計定에 API를 通해 接近 可能한 應用프로그램의 目錄입니다. 알 수 없는 應用프로그램, 혹은 잘못된
-          行動을 하고 있는 應用프로그램이 있다면, 權限을 取消할 수 있습니다.
+        description_html: 當身의 計定에 API를 通해 接近 可能한 應用프로그램의 目錄입니다. 알 수 없는 應用프로그램, 혹은 잘못된 行動을 하고 있는 應用프로그램이 있다면, 權限을 取消할 수 있습니다.
         last_used_at: "%{date}에 마지막으로 使用됨"
         never_used: 使用되지 않음
         scopes: 權限
@@ -82,12 +80,10 @@ ko-Kore:
     errors:
       messages:
         access_denied: 리소스 所有者 또는 認證 서버가 要請을 拒否했습니다.
-        credential_flow_not_configured: Doorkeeper.configure.resource_owner_from_credentials의
-          設定이 되어있지 않아 리소스 所有者 패스워드 資格證明이 失敗하였습니다.
-        invalid_client: 알 수 없는 클라이언트이기 때문에 클라이언트 認證이 失敗하였습니다, 클라이언트 資格證明이 包含되지 않았거나, 支援
-          되지 않는 메소드입니다.
-        invalid_grant: 提供된 權限 附與가 잘못되거나, 滿了되었거나, 取消되었거나, 權限 附與 要請에 使用된 리디렉션 URI가 一致하지
-          않거나, 다른 클라이언트에 指定되었습니다.
+        credential_flow_not_configured: Doorkeeper.configure.resource_owner_from_credentials의 設定이 되어있지 않아 리소스 所有者 패스워드 資格證明이 失敗하였습니다.
+        invalid_client: 알 수 없는 클라이언트이기 때문에 클라이언트 認證이 失敗하였습니다, 클라이언트 資格證明이 包含되지 않았거나, 支援 되지 않는 메소드입니다.
+        invalid_code_challenge_method: 코드 챌린지는 S256이어야 합니다. 平文은 支援되지 않습니다.
+        invalid_grant: 提供된 權限 附與가 잘못되거나, 滿了되었거나, 取消되었거나, 權限 附與 要請에 使用된 리디렉션 URI가 一致하지 않거나, 다른 클라이언트에 指定되었습니다.
         invalid_redirect_uri: 리디렉션 URI가 올바르지 않습니다
         invalid_request:
           missing_param: "必須 媒介變數 漏落: %{value}."
@@ -99,8 +95,7 @@ ko-Kore:
           expired: 액세스 토큰이 滿了되었습니다.
           revoked: 액세스 토큰이 削除되었습니다.
           unknown: 액세스 토큰이 잘못되었습니다.
-        resource_owner_authenticator_not_configured: Doorkeeper.configure.resource_owner_authenticator가
-          設定되지 않아 리소스 所有者 찾기가 失敗하였습니다.
+        resource_owner_authenticator_not_configured: Doorkeeper.configure.resource_owner_authenticator가 設定되지 않아 리소스 所有者 찾기가 失敗하였습니다.
         server_error: 權限 附與 서버에 豫期치 않은 狀態가 發生하여, 要請을 遂行할 수 없습니다.
         temporarily_unavailable: 權限 附與 서버가 一時的인 過負荷 또는 維持 管理로 인해 要請을 現在 處理할 수 없습니다.
         unauthorized_client: 클라이언트가 이 方法을 使用하여 該當 要請을 實行하도록 許容되지 않았습니다.
@@ -140,6 +135,7 @@ ko-Kore:
         media: 添附된 미디어
         mutes: 뮤트
         notifications: 알림
+        profile: 내 마스토돈 프로필
         push: 푸시 알림
         reports: 申告
         search: 檢索
@@ -154,12 +150,23 @@ ko-Kore:
     scopes:
       admin:read: 서버의 모든 데이터 읽기
       admin:read:accounts: 모든 計定의 敏感한 情報 읽기
+      admin:read:canonical_email_blocks: 正規化된 이메일 遮斷 全部에 對한 敏感한 情報를 읽습니다
+      admin:read:domain_allows: 도메인 許容에 對한 敏感한 情報를 읽습니다
+      admin:read:domain_blocks: 도메인 遮斷에 對한 敏感한 情報를 읽습니다
+      admin:read:email_domain_blocks: 이메일 도메인 遮斷에 對한 敏感한 情報를 읽습니다
+      admin:read:ip_blocks: IP 遮斷에 對한 敏感한 情報를 읽습니다
       admin:read:reports: 申告와 申告 된 計定의 敏感한 情報 읽기
       admin:write: 서버의 모든 데이터 修正
       admin:write:accounts: 計定에 모더레이션 措置 취하기
+      admin:write:canonical_email_blocks: 正規化된 이메일 遮斷에 모더레이션 措置 取하기
+      admin:write:domain_allows: 도메인 許容에 모더레이션 措置 取하기
+      admin:write:domain_blocks: 도메인 遮斷에 모더레이션 措置 取하기
+      admin:write:email_domain_blocks: 이메일 도메인 遮斷에 모더레이션 措置 取하기
+      admin:write:ip_blocks: IP 遮斷에 모더레이션 措置 取하기
       admin:write:reports: 申告에 모더레이션 措置 취하기
       crypto: 終端間 暗號化 使用
       follow: 計定의 關係를 修正
+      profile: 내 計定의 프로필 情報만을 읽습니다
       push: 푸시 알림을 받기
       read: 計定의 모든 데이터를 읽기
       read:accounts: 計定의 情報를 보기

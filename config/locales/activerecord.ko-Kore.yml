@@ -14,9 +14,16 @@ ko-Kore:
       user/invite_request:
         text: 理由
     errors:
+      attributes:
+        domain:
+          invalid: 올바른 도메인 네임이 아닙니다
+      messages:
+        invalid_domain_on_line: "%{value}는 올바른 도메인 네임이 아닙니다"
       models:
         account:
           attributes:
+            fields:
+              fields_with_values_missing_labels: 라벨 없는 값들이 存在합니다
             username:
               invalid: 英文字와 數字, 밑줄만 使用 可能합니다
               reserved: 豫約되어 있습니다
@@ -32,12 +39,23 @@ ko-Kore:
           attributes:
             data:
               malformed: 데이터가 올바르지 않습니다
+        list_account:
+          attributes:
+            account_id:
+              taken: 이미 目錄에 存在합니다
+          must_be_following: 팔로우한 計定이어야 합니다
         status:
           attributes:
             reblog:
               taken: 이미 揭示物이 存在합니다
+        terms_of_service:
+          attributes:
+            effective_date:
+              too_soon: 너무 이릅니다. %{date} 以後로 指定해야 합니다
         user:
           attributes:
+            date_of_birth:
+              below_limit: 나이 制限보다 아래입니다
             email:
               blocked: 許容되지 않은 이메일 提供者입니다
               unreachable: 存在하지 않는 것 같습니다
@@ -52,3 +70,7 @@ ko-Kore:
             position:
               elevated: 當身의 現在 役割보다 높을 수 없습니다
               own_role: 當身의 現在 役割을 變更할 수 없습니다
+        webhook:
+          attributes:
+            events:
+              invalid_permissions: 權限이 없는 이벤트를 包含할 수는 없습니다
