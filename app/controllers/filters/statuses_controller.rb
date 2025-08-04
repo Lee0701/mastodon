@@ -6,7 +6,6 @@ class Filters::StatusesController < ApplicationController
   before_action :authenticate_user!
   before_action :set_filter
   before_action :set_status_filters
-  before_action :set_body_classes
 
   PER_PAGE = 20
 
@@ -34,16 +33,10 @@ class Filters::StatusesController < ApplicationController
   end
 
   def status_filter_batch_action_params
-    params.require(:form_status_filter_batch_action).permit(status_filter_ids: [])
+    params.expect(form_status_filter_batch_action: [status_filter_ids: []])
   end
 
   def action_from_button
-    if params[:remove]
-      'remove'
-    end
-  end
-
-  def set_body_classes
-    @body_classes = 'admin'
+    'remove' if params[:remove]
   end
 end

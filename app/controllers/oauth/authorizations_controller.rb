@@ -1,11 +1,16 @@
 # frozen_string_literal: true
 
-class Oauth::AuthorizationsController < Doorkeeper::AuthorizationsController
+class OAuth::AuthorizationsController < Doorkeeper::AuthorizationsController
   skip_before_action :authenticate_resource_owner!
 
   before_action :store_current_location
   before_action :authenticate_resource_owner!
-  before_action :set_cache_headers
+
+  layout 'modal'
+
+  content_security_policy do |p|
+    p.form_action(false)
+  end
 
   include Localized
 
@@ -27,9 +32,5 @@ class Oauth::AuthorizationsController < Doorkeeper::AuthorizationsController
 
   def truthy_param?(key)
     ActiveModel::Type::Boolean.new.cast(params[key])
-  end
-
-  def set_cache_headers
-    response.headers['Cache-Control'] = 'no-cache, no-store, max-age=0, must-revalidate'
   end
 end

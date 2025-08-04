@@ -12,10 +12,6 @@
       "description": "The secret key base",
       "generator": "secret"
     },
-    "OTP_SECRET": {
-      "description": "One-time password secret",
-      "generator": "secret"
-    },
     "SINGLE_USER_MODE": {
       "description": "Should the instance run in single user mode? (Disable registrations, redirect to front page)",
       "value": "false",
@@ -31,7 +27,7 @@
       "required": false
     },
     "S3_REGION": {
-      "description": "Amazon S3 region that the bucket is located in",
+      "description": "Amazon S3 region that the bucket is located in; see regions list here: http://docs.aws.amazon.com/general/latest/gr/rande.html",
       "required": false
     },
     "AWS_ACCESS_KEY_ID": {

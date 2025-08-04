@@ -16,6 +16,10 @@ module Admin
       @role = UserRole.new
     end
 
+    def edit
+      authorize @role, :update?
+    end
+
     def create
       authorize :user_role, :create?
 
@@ -28,10 +32,6 @@ module Admin
       else
         render :new
       end
-    end
-
-    def edit
-      authorize @role, :update?
     end
 
     def update
@@ -61,7 +61,8 @@ module Admin
     end
 
     def resource_params
-      params.require(:user_role).permit(:name, :color, :highlighted, :position, permissions_as_keys: [])
+      params
+        .expect(user_role: [:name, :color, :highlighted, :position, permissions_as_keys: []])
     end
   end
 end

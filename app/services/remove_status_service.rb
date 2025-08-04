@@ -19,7 +19,7 @@ class RemoveStatusService < BaseService
     @account  = status.account
     @options  = options
 
-    with_lock("distribute:#{@status.id}") do
+    with_redis_lock("distribute:#{@status.id}") do
       @status.discard_with_reblogs
 
       StatusPin.find_by(status: @status)&.destroy
@@ -94,7 +94,7 @@ class RemoveStatusService < BaseService
 
     status_reach_finder = StatusReachFinder.new(@status, unsafe: true)
 
-    ActivityPub::DeliveryWorker.push_bulk(status_reach_finder.inboxes) do |inbox_url|
+    ActivityPub::DeliveryWorker.push_bulk(status_reach_finder.inboxes, limit: 1_000) do |inbox_url|
       [signed_activity_json, @account.id, inbox_url]
     end
   end
@@ -114,8 +114,8 @@ class RemoveStatusService < BaseService
   end
 
   def remove_from_hashtags
-    @account.featured_tags.where(tag_id: @status.tags.map(&:id)).each do |featured_tag|
-      featured_tag.decrement(@status.id)
+    @account.featured_tags.where(tag_id: @status.tags.map(&:id)).find_each do |featured_tag|
+      featured_tag.decrement(@status)
     end
 
     return unless @status.public_visibility?
@@ -123,8 +123,8 @@ class RemoveStatusService < BaseService
     return if skip_streaming?
 
     @status.tags.map(&:name).each do |hashtag|
-      redis.publish("timeline:hashtag:#{hashtag.mb_chars.downcase}", @payload)
-      redis.publish("timeline:hashtag:#{hashtag.mb_chars.downcase}:local", @payload) if @status.local?
+      redis.publish("timeline:hashtag:#{hashtag.downcase}", @payload)
+      redis.publish("timeline:hashtag:#{hashtag.downcase}:local", @payload) if @status.local?
     end
   end
 
@@ -147,9 +147,13 @@ class RemoveStatusService < BaseService
   end
 
   def remove_media
-    return if @options[:redraft] || !permanently?
+    return if @options[:redraft]
 
-    @status.media_attachments.destroy_all
+    if permanently?
+      @status.media_attachments.destroy_all
+    else
+      UpdateMediaAttachmentsPermissionsService.new.call(@status.media_attachments, :private)
+    end
   end
 
   def permanently?

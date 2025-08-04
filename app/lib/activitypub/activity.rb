@@ -20,9 +20,9 @@ class ActivityPub::Activity
   end
 
   class << self
-    def factory(json, account, **options)
+    def factory(json, account, **)
       @json = json
-      klass&.new(json, account, **options)
+      klass&.new(json, account, **)
     end
 
     private
@@ -57,6 +57,8 @@ class ActivityPub::Activity
         ActivityPub::Activity::Remove
       when 'Move'
         ActivityPub::Activity::Move
+      when 'QuoteRequest'
+        ActivityPub::Activity::QuoteRequest
       end
     end
   end
@@ -106,7 +108,8 @@ class ActivityPub::Activity
       actor_id = value_or_id(first_of_value(@object['attributedTo']))
 
       if actor_id == @account.uri
-        return ActivityPub::Activity.factory({ 'type' => 'Create', 'actor' => actor_id, 'object' => @object }, @account).perform
+        virtual_object = { 'type' => 'Create', 'actor' => actor_id, 'object' => @object }
+        return ActivityPub::Activity.factory(virtual_object, @account, request_id: @options[:request_id]).perform
       end
     end
 
@@ -129,12 +132,7 @@ class ActivityPub::Activity
 
   def first_mentioned_local_account
     audience = (as_array(@json['to']) + as_array(@json['cc'])).map { |x| value_or_id(x) }.uniq
-    local_usernames = audience.select { |uri| ActivityPub::TagManager.instance.local_uri?(uri) }
-                              .map { |uri| ActivityPub::TagManager.instance.uri_to_local_id(uri, :username) }
-
-    return if local_usernames.empty?
-
-    Account.local.where(username: local_usernames).first
+    ActivityPub::TagManager.instance.uris_to_local_accounts(audience).first
   end
 
   def first_local_follower
@@ -142,19 +140,20 @@ class ActivityPub::Activity
   end
 
   def follow_request_from_object
-    @follow_request ||= FollowRequest.find_by(target_account: @account, uri: object_uri) unless object_uri.nil?
+    @follow_request_from_object ||= FollowRequest.find_by(target_account: @account, uri: object_uri) unless object_uri.nil?
   end
 
   def follow_from_object
-    @follow ||= ::Follow.find_by(target_account: @account, uri: object_uri) unless object_uri.nil?
+    @follow_from_object ||= ::Follow.find_by(target_account: @account, uri: object_uri) unless object_uri.nil?
   end
 
   def fetch_remote_original_status
     if object_uri.start_with?('http')
       return if ActivityPub::TagManager.instance.local_uri?(object_uri)
-      ActivityPub::FetchRemoteStatusService.new.call(object_uri, id: true, on_behalf_of: @account.followers.local.first)
+
+      ActivityPub::FetchRemoteStatusService.new.call(object_uri, on_behalf_of: @account.followers.local.first, request_id: @options[:request_id])
     elsif @object['url'].present?
-      ::FetchRemoteStatusService.new.call(@object['url'])
+      ::FetchRemoteStatusService.new.call(@object['url'], request_id: @options[:request_id])
     end
   end
 

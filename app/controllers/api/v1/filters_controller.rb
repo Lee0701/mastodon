@@ -1,6 +1,10 @@
 # frozen_string_literal: true
 
 class Api::V1::FiltersController < Api::BaseController
+  include DeprecationConcern
+
+  deprecate_api '2022-11-14'
+
   before_action -> { doorkeeper_authorize! :read, :'read:filters' }, only: [:index, :show]
   before_action -> { doorkeeper_authorize! :write, :'write:filters' }, except: [:index, :show]
   before_action :require_user!
@@ -11,16 +15,16 @@ class Api::V1::FiltersController < Api::BaseController
     render json: @filters, each_serializer: REST::V1::FilterSerializer
   end
 
-  def create
-    ApplicationRecord.transaction do
-      filter_category = current_account.custom_filters.create!(resource_params)
-      @filter = filter_category.keywords.create!(keyword_params)
-    end
-
+  def show
     render json: @filter, serializer: REST::V1::FilterSerializer
   end
 
-  def show
+  def create
+    ApplicationRecord.transaction do
+      filter_category = current_account.custom_filters.create!(filter_params)
+      @filter = filter_category.keywords.create!(keyword_params)
+    end
+
     render json: @filter, serializer: REST::V1::FilterSerializer
   end
 
@@ -28,7 +32,7 @@ class Api::V1::FiltersController < Api::BaseController
     ApplicationRecord.transaction do
       @filter.update!(keyword_params)
       @filter.custom_filter.assign_attributes(filter_params)
-      raise Mastodon::ValidationError, I18n.t('filters.errors.deprecated_api_multiple_keywords') if @filter.custom_filter.changed? && @filter.custom_filter.keywords.count > 1
+      raise Mastodon::ValidationError, I18n.t('filters.errors.deprecated_api_multiple_keywords') if @filter.custom_filter.changed? && @filter.custom_filter.keywords.many?
 
       @filter.custom_filter.save!
     end
@@ -52,11 +56,11 @@ class Api::V1::FiltersController < Api::BaseController
   end
 
   def resource_params
-    params.permit(:phrase, :expires_in, :irreversible, context: [])
+    params.permit(:phrase, :expires_in, :irreversible, :whole_word, context: [])
   end
 
   def filter_params
-    resource_params.slice(:expires_in, :irreversible, :context)
+    resource_params.slice(:phrase, :expires_in, :irreversible, :context)
   end
 
   def keyword_params
